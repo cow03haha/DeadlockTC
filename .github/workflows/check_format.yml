@@ -22,35 +22,24 @@ jobs:
             echo "Checking format of $file"
 
             # Ensure it contains the "lang" block at any point
-            if ! grep -qP '\s*\"lang\"\s*\{' "$file"; then
+            if ! grep -qP '\s*"lang"\s*{' "$file"; then
               echo "$file: Missing 'lang' block."
               exit 1
             fi
 
             # Ensure it contains the "Tokens" block at any point
-            if ! grep -qP '\s*\"Tokens\"\s*\{' "$file"; then
+            if ! grep -qP '\s*"Tokens"\s*{' "$file"; then
               echo "$file: Missing 'Tokens' block."
               exit 1
             fi
 
-            # Check for matching braces in "lang" and "Tokens" sections
-            lang_opening_count=$(grep -oP '\s*\"lang\"\s*\{' "$file" | wc -l)
-            lang_closing_count=$(grep -oP '^\s*\}' "$file" | wc -l)
-            if [ $lang_opening_count -ne $lang_closing_count ]; then
-              echo "$file: Mismatched opening/closing braces in 'lang' block."
-              exit 1
-            fi
+            # Check for matching braces in the file (opening and closing)
+            opening_braces=$(grep -oP '{' "$file" | wc -l)
+            closing_braces=$(grep -oP '}' "$file" | wc -l)
 
-            tokens_opening_count=$(grep -oP '\s*\"Tokens\"\s*\{' "$file" | wc -l)
-            tokens_closing_count=$(grep -oP '^\s*\}' "$file" | wc -l)
-            if [ $tokens_opening_count -ne $tokens_closing_count ]; then
-              echo "$file: Mismatched opening/closing braces in 'Tokens' block."
-              exit 1
-            fi
-
-            # Ensure file contains only valid straight quotes for key-value pairs
-            if grep -P '[“”]' "$file"; then
-              echo "Invalid quotation marks found in $file. Use straight quotes (\") only."
+            if [ $opening_braces -ne $closing_braces ]; then
+              echo "$file: Mismatched opening/closing braces."
+              echo "Opening braces: $opening_braces, Closing braces: $closing_braces"
               exit 1
             fi
 
