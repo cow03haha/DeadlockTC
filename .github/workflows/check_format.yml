@@ -21,15 +21,30 @@ jobs:
           find ./game/citadel/resource/localization -name "*.txt" | while read file; do
             echo "Checking format of $file"
 
-            # Ensure it starts with "lang" block and ends with curly braces
-            if ! grep -qP "^\s*\"lang\"\s*\{\s*$" "$file"; then
-              echo "$file: Missing or incorrect 'lang' block start."
+            # Ensure it contains the "lang" block at any point
+            if ! grep -qP '\s*\"lang\"\s*\{' "$file"; then
+              echo "$file: Missing 'lang' block."
               exit 1
             fi
 
-            # Ensure it has the nested structure with "Tokens"
-            if ! grep -qP "^\s*\"Tokens\"\s*\{\s*$" "$file"; then
-              echo "$file: Missing or incorrect 'Tokens' block."
+            # Ensure it contains the "Tokens" block at any point
+            if ! grep -qP '\s*\"Tokens\"\s*\{' "$file"; then
+              echo "$file: Missing 'Tokens' block."
+              exit 1
+            fi
+
+            # Check for matching braces in "lang" and "Tokens" sections
+            lang_opening_count=$(grep -oP '\s*\"lang\"\s*\{' "$file" | wc -l)
+            lang_closing_count=$(grep -oP '^\s*\}' "$file" | wc -l)
+            if [ $lang_opening_count -ne $lang_closing_count ]; then
+              echo "$file: Mismatched opening/closing braces in 'lang' block."
+              exit 1
+            fi
+
+            tokens_opening_count=$(grep -oP '\s*\"Tokens\"\s*\{' "$file" | wc -l)
+            tokens_closing_count=$(grep -oP '^\s*\}' "$file" | wc -l)
+            if [ $tokens_opening_count -ne $tokens_closing_count ]; then
+              echo "$file: Mismatched opening/closing braces in 'Tokens' block."
               exit 1
             fi
 
@@ -40,10 +55,8 @@ jobs:
             fi
 
             # Ensure all lines inside Tokens follow the "key" "value" structure or are comments
-            if grep -qP '^\s*\"[^\"]+\"\s*\"[^\"]*\"\s*$' "$file"; then
-              echo "Valid key-value structure found."
-            else
-              echo "Invalid key-value structure detected in $file."
+            if ! grep -P "^\s*(//.*|\"[a-zA-Z0-9_]+\"\s*\"[^\"]+\")\s*$" "$file"; then
+              echo "$file is incorrectly formatted. Make sure every line follows \"key\" \"value\" pattern or is a comment starting with //."
               exit 1
             fi
           done
