@@ -15,16 +15,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Find all localization .txt files
+      - name: Find and check all localization .txt files
         run: |
-          # Find all .txt files in the correct localization folder and its subdirectories
-          find ./game/citadel/resource/localization -name "*.txt"
-
-      - name: Check localization format
-        run: |
-          # Check each .txt file found in the localization folder
+          # Find and check each .txt file in the correct localization folder
           find ./game/citadel/resource/localization -name "*.txt" | while read file; do
             echo "Checking format of $file"
+            # Ensure file contains only valid straight quotes for key-value pairs and comments
+            if grep -P '[“”]' "$file"; then
+              echo "Invalid quotation marks found in $file. Use straight quotes (\") only."
+              exit 1
+            fi
+            # Check if any inner quotes within value are not escaped properly
+            if grep -P '"[^"]*".*".*".*' "$file"; then
+              echo "$file contains unescaped or mismatched inner quotes. Please escape or fix them."
+              exit 1
+            fi
             if ! grep -qP "^\s*(//.*|\"[a-zA-Z0-9_]+\"\s*\"[^\"]+\")\s*$" "$file"; then
               echo "$file is incorrectly formatted. Make sure every line follows \"key\" \"value\" pattern or is a comment starting with //."
               exit 1
