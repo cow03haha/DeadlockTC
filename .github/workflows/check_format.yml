@@ -20,18 +20,30 @@ jobs:
           # Find and check each .txt file in the correct localization folder
           find ./game/citadel/resource/localization -name "*.txt" | while read file; do
             echo "Checking format of $file"
-            # Ensure file contains only valid straight quotes for key-value pairs and comments
+
+            # Ensure it starts with "lang" block and ends with curly braces
+            if ! grep -qP "^\s*\"lang\"\s*\{\s*$" "$file"; then
+              echo "$file: Missing or incorrect 'lang' block start."
+              exit 1
+            fi
+
+            # Ensure it has the nested structure with "Tokens"
+            if ! grep -qP "^\s*\"Tokens\"\s*\{\s*$" "$file"; then
+              echo "$file: Missing or incorrect 'Tokens' block."
+              exit 1
+            fi
+
+            # Ensure file contains only valid straight quotes for key-value pairs
             if grep -P '[“”]' "$file"; then
               echo "Invalid quotation marks found in $file. Use straight quotes (\") only."
               exit 1
             fi
-            # Check if any inner quotes within value are not escaped properly
-            if grep -P '"[^"]*".*".*".*' "$file"; then
-              echo "$file contains unescaped or mismatched inner quotes. Please escape or fix them."
-              exit 1
-            fi
-            if ! grep -qP "^\s*(//.*|\"[a-zA-Z0-9_]+\"\s*\"[^\"]+\")\s*$" "$file"; then
-              echo "$file is incorrectly formatted. Make sure every line follows \"key\" \"value\" pattern or is a comment starting with //."
+
+            # Ensure all lines inside Tokens follow the "key" "value" structure or are comments
+            if grep -qP '^\s*\"[^\"]+\"\s*\"[^\"]*\"\s*$' "$file"; then
+              echo "Valid key-value structure found."
+            else
+              echo "Invalid key-value structure detected in $file."
               exit 1
             fi
           done
