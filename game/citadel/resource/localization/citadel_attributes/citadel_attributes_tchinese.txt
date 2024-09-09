@@ -161,7 +161,7 @@
 		"StatDesc_BulletDamagePerLevel"					"每層子彈傷害增加"
 		"StatDesc_WeaponPowerAmp"						"子彈傷害增加"
 		"StatDesc_AirJumps"								"空中跳躍"
-		"StatDesc_ZipLineSpeed"							"纜線速度"
+		"StatDesc_ZipLineSpeed"							"滑索速度"
 		"StatDesc_ProcModifier"							"觸發"
 		"StatDesc_TechCooldown"							"技能冷卻"
 		"StatDesc_TechCooldown_postfix"					"%"
@@ -1013,7 +1013,7 @@
 		"HealthCost_label"							"Health Cost"
 
 		"ZipLineSpeedPercent_prefix"					"{s:sign}"
-		"ZipLineSpeedPercent_label"					"纜線速度"
+		"ZipLineSpeedPercent_label"					"滑索速度"
 		"ZipLineSpeedPercent_postfix"					"%"
 		
 		"ZiplineJumpBonusDuration_label"					"Jump Off Duration"
@@ -1023,7 +1023,7 @@
 		"ZiplineJumpBonusMoveSpeed_postfix"					"m/s"
 
 		"BonusZipLineSpeed_prefix"						"{s:sign}"
-		"BonusZipLineSpeed_label"						"纜線速度"
+		"BonusZipLineSpeed_label"						"滑索速度"
 
 		"MaxProjectiles_label"						"Projectile Count"
 
@@ -1684,8 +1684,8 @@
 		"golden_idol_bonus_01"					"+25% 額外魂靈"
 		"golden_idol_bonus_02"					"+1 技能點"
 
-		"ability_capture_zip_line"				"占領纜線"
-		"modifier_citadel_capture_zipline_timer"	"占領纜線"
+		"ability_capture_zip_line"				"占領滑索"
+		"modifier_citadel_capture_zipline_timer"	"占領滑索"
 
 		"modifier_citadel_containment_victim"	"限制"
 		"modifier_hollow_point_stack"			"中空彈匣"
@@ -1693,7 +1693,7 @@
 		"LifeThreshold_postfix"					"%"
 		"Cloaked"								"隱身"
 
-		"zipline_boost"							"纜線加速"
+		"zipline_boost"							"滑索加速"
 		"ActiveTechPower_label"					"魂力"
 		"ActiveTechPower_prefix"				"+"
 
