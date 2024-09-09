@@ -1293,7 +1293,7 @@
 		"Citadel_HeroBuilds_BuildDescription"			"{s:selected_hero_build_description}"
 		"Citadel_HeroBuilds_Version"					"版本：{i:selected_hero_build_version}"
 		"Citadel_HeroBuilds_LastUpdatedTime"			"上次更新：<span class='Value'>{t:l:t:m:last_updated_time}</span>"
-		"Citadel_HeroBuilds_EditInstructions"			"當商店處於編輯模式時，點擊物品會將其添加到當前選擇的裝備類別中，或者如果該類別中已經存在該物品，則將其移除。你可以新增多個自定義名稱和描述的類別，並根據需要調整其大小。<br/><br/>你也可以右鍵點擊物品，將其從裝備中移除，或添加來自裝備作者的評論"
+		"Citadel_HeroBuilds_EditInstructions"			"當商店處於編輯模式時，點擊物品會將其添加到當前選擇的構築類別中，或者如果該類別中已經存在該物品，則將其移除。你可以新增多個自定義名稱和描述的類別，並根據需要調整其大小。<br/><br/>你也可以右鍵點擊物品，將其從構築中移除，或添加來自構築作者的評論"
 		"Citadel_HeroBuilds_FavoriteButtonTooltip"		"切換收藏的構築"
 		"Citadel_HeroBuilds_AddAnnotation"				"添加注釋"
 		"Citadel_HeroBuilds_UpdateAnnotation"			"更新注釋"
