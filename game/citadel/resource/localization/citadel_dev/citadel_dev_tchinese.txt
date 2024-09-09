@@ -564,8 +564,8 @@
 		"guide_abilities_point1"		"&#8226; 通過收集<span class='yellow'>魂靈</span>獲得<span class='yellow'>技能點數(AP)</span>。"
 		"guide_abilities_point2"		"&#8226; 可以在戰場上使用<span color='white'>[H]</span>鍵升級技能。"
 
-		"guide_controls_zipline_tip1"	"&#9702; 提示 - 從纜線跳躍可以給你額外的距離。"
-		"guide_controls_zipline_tip2"	"&#9702; 提示 - 透過靠近塔樓來占領纜線。"
+		"guide_controls_zipline_tip1"	"&#9702; 提示 - 從滑索跳躍可以給你額外的距離。"
+		"guide_controls_zipline_tip2"	"&#9702; 提示 - 透過靠近塔樓來占領滑索。"
 
 		"guide_controls_ladders"	"&#8226; 樓梯：走進樓梯以向上爬"
 		"guide_controls_sprint"	"&#8226; 疾跑：<span class='keybind'>持續按下 [{s:iv_forward}]</span> 2秒鐘以開始疾跑"
