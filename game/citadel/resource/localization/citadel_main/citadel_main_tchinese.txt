@@ -1419,7 +1419,7 @@
 		"citadel_ability_jump"						"跳躍"
 		"citadel_ability_teleport"					"傳送"
 
-		"citadel_ability_zip_line"					"攬線擊墜"
+		"citadel_ability_zip_line"					"滑索擊墜"
 
 
 		// IN-GAME MODIFIERS
@@ -1429,7 +1429,7 @@
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"捕獲團隊魂靈"
 		"modifier_citadel_holding_golden_idol"                  "將魂甕帶向神廟!"
 		"modifier_citadel_returning_golden_idol"                "存放魂甕中"
-		"modifier_knocked_off_zipline_slow"			            "在攬線上被擊墜"
+		"modifier_knocked_off_zipline_slow"			            "在滑索上被擊墜"
 		"modifier_citadel_respawn_credit" 						"復生晶石"
 
 
