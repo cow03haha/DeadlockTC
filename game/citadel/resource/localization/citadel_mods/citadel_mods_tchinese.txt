@@ -270,7 +270,7 @@
 
 		//Siphon Bullets
 		//"upgrade_siphon_bullets_desc_passive1"	"當目標在你的 <span class=\"highlight\">近距離</span>時，對該目標造成<span class=\"highlight\">額外子彈傷害</span>."
-		"upgrade_siphon_bullets_desc_passive2"	"你的子彈擊中敵人時 <span class=\"highlight\">竊取最大生命值</span> . 減益狀態結束後敵人會恢復被竊取的生命值。"
+		"upgrade_siphon_bullets_desc_passive2"	"你的子彈會暫時從敵人那裡<span class=\"highlight\">竊取最大生命值</span>。當減益效果結束時，敵人會恢復被竊取的生命值。如果被吸取的目標死亡，則永久竊取一層生命值，如果你死亡，則損失 {s:StackLostPerDeath} 層。"
 		"modifier_siphon_bullets_health_gain"		"虹吸彈藥"
 		"modifier_siphon_bullets_health_loss"		"虹吸彈藥"
 		"HealthSteal_label"						"每顆子彈的最大 生命 竊取量"
