@@ -1638,7 +1638,11 @@
 		"viscous_telepunch"								"凝膠衝擊"
 		"viscous_telepunch_desc"						"使用技能後在<span class=\"highlight\">選定的位置釋放出一個凝膠拳頭</span>，將周圍的單位擊飛。<span class=\"highlight\">敵方目標會受到傷害，同時衝刺距離會短暫縮短，同時減少移速。</span>"
 		"viscous_telepunch_quip"						"用巨拳猛擊敵人"
-		"viscous_telepunch_t3_desc"						"增加{s:Damage}傷害和{s:SlowPercent}%移速減速"
+        "viscous_telepunch_t2_desc"						"+{s:Damage}傷害和 +{s:SlowPercent}% 減少移速"
+        "ImpactDuration_label"							"減速持續時間"
+        "ImpactDuration_postfix"						"s"
+        "BonusDamageAmp_label"							"增加傷害"
+        "BonusDamageAmp_postfix"						"%"
 
 		"BonusDamageAmp_label"							"增加傷害"
 		"BonusDamageAmp_postfix"						"%"
