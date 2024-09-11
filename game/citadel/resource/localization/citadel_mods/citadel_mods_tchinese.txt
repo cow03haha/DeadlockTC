@@ -137,7 +137,7 @@
 		"MagicBurstDamage_label"		"額外傷害"
 
 		//Improved Burst
-		"upgrade_magic_shock_desc"	"如果造成的魂力傷害在單次造成{s:MinimumDamage}或更多傷害，則會增加<span class=\"highlight\">額外傷害和減少移速</span>。目標在受到高階迸發傷害後的<span class=\"highlight\">{s:ReProcLockoutTime}s</span>內免疫高階迸發的效果。"
+		"upgrade_magic_shock_desc"	"如果技能在一次攻擊中造成了 {s:MinimumDamage} 或以上的傷害，則會額外造成<span class=\"highlight\">魂力傷害</span>。<br/>目標在受到來自高階迸發的傷害後，會在 <span class=\"highlight\">{s:ReProcLockoutTime} 秒</span>內免疫其效果。"
 		"MagicShockDamage_label"		"最大生命值傷害"
 		"MagicShockDamage_postfix"	"%"
 
