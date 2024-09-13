@@ -1598,6 +1598,9 @@
 		"SlowFireRatePercent_label"			"射速比率"
 		"SlowFireRatePercent_prefix"			"{s:sign}"
 		"SlowFireRatePercent_postfix"			"%"
+		
+        "MaxFireRateSlowPercent_label"			"最大射速減速"
+        "MaxFireRateSlowPercent_postfix"		"%"
 
 		"FireRateScale_label"					"射速比率"
 		"FireRateScale_prefix"				"{s:sign}"
