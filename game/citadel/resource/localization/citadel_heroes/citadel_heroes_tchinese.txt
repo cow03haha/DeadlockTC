@@ -1168,16 +1168,18 @@
 		"BulletVulnerbility_label"				"子彈傷害增幅"
 		"BulletVulnerbility_postfix"				"%"
 
-		"citadel_ability_hornet_snipe"			"暗殺"
-		"citadel_ability_hornet_snipe_quip"		"狙擊受傷目標，造成巨大傷害"
-		"citadel_ability_hornet_snipe_desc"		"使用狙擊步槍進行遠距離強力射擊。在瞄準 1 秒後充能完畢，充能前只能造成部分傷害。對剩餘生命值低於<span class=\"highlight\"> {s:LowHealthEnemyThresholdPct}%</span>的敵人造成<span class=\"highlight\">額外傷害</span>。使用 “刺殺 ”對玩家造成擊殺<span class=\"highlight\">可獲得額外的魂靈</span>。"
-		//"citadel_ability_hornet_snipe_t3_desc"	"暗殺擊殺增加 {s:BonusGoldOnKill} 魂靈"
-		"LowHealthEnemyDamageBonus_label"		"額外傷害"
-		"LowHealthEnemyThresholdPct_label"		"低生命值閾值"
-		"LowHealthEnemyThresholdPct_postfix"	"%"
-		"BonusGoldOnKill_label"					"每次暗殺擊殺額外魂靈"
-		"assassin_modifier"						"+武器傷害"
-		"modifier_citadel_assassinate_target"	"暗殺目標-尋找掩護!"
+        "citadel_ability_hornet_snipe"			"暗殺"
+        "citadel_ability_hornet_snipe_quip"		"狙擊受傷的目標以造成大量傷害"
+        "citadel_ability_hornet_snipe_desc"		"使用你的瞄準步槍進行遠距離的強力射擊。開鏡 1 秒後，只有完全充能才能造成完整傷害。對<span class=\"highlight\">剩餘生命值低於 {s:LowHealthEnemyThresholdPct}%</span> 的敵人造成<span class=\"highlight\">額外傷害</span>。使用暗殺擊殺玩家將<span class=\"highlight\">獲得額外靈魂</span>。"
+        "LowHealthEnemyDamageBonus_label"		"額外傷害"
+        "LowHealthEnemyThresholdPct_label"		"低生命值門檻"
+        "LowHealthEnemyThresholdPct_postfix"	"%"
+        "BonusGoldOnKill_label"					"每次暗殺獲得的額外魂靈"
+        "assassin_modifier"						"+武器傷害"
+        "HeadshotBonus_prefix"					"+"
+        "HeadshotBonus_label"					"爆頭傷害"
+        "HeadshotBonus_postfix"					"%"
+
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
