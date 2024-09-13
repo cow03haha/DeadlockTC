@@ -78,7 +78,7 @@
 		//Inhibitor
 		"upgrade_inhibitor_desc"	"你的子彈擊中敵人時附加 <span class=\"highlight\">減少移速</span> 和減少目標 <span class=\"highlight\">輸出傷害</span> 減益狀態。"
 		"modifier_inhibitor_debuff"	"抑制彈藥"
-		"OutgoingAbilityDamagePenaltyPercent_label"	"傷害懲罰"
+		"OutgoingDamagePenaltyPercent_label"	"傷害懲罰"
 		"OutgoingAbilityDamagePenaltyPercent_postfix"	"%"
 
 		//Armor Piercing Rounds
