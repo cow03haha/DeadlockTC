@@ -680,12 +680,12 @@
 		"modifier_warden_crowd_control_debuff"	"煉金燒瓶"
 
 		"ability_warden_riot_protocol"			"最後一搏"
-		"ability_warden_riot_protocol_quip"		"向正前方一片區域發射脈衝，吸取敵人的生命值"
-		"ability_warden_riot_protocol_desc"		"使用後，短暫充能 {s:AbilityCastDelay}s，對前方一片區域的敵人 <span class=\"highlight\">釋放脈衝</span> ，根據造成的傷害對敵人造成傷害並治療你。"
-		"modifier_warden_riot_protocol"			"最後一搏"
-		"modifier_warden_riot_protocol_enemy_debuff"	"減少移速"
-		"HealthStealPctHero_label"				"英雄單位吸血"
-		"HealthStealPctHero_postfix"				"%"
+        "ability_warden_riot_protocol_quip"		"發出脈衝來竊取敵人的生命值"
+        "ability_warden_riot_protocol_desc"		"在充能 {s:AbilityCastDelay} 秒後，<span class=\"highlight\">釋放脈衝來傷害敵人並根據造成的傷害治癒你</span>。<br>在引導最後防線期間，你的<span class=\"highlight\">子彈抗性</span>將大幅提升。"
+        "modifier_warden_riot_protocol"			"最後防線"
+        "modifier_warden_riot_protocol_enemy_debuff"	"減速"
+        "HealthStealPctHero_label"				"英雄單位吸血"
+        "HealthStealPctHero_postfix"				"%"
 		
 		"HealthStealPct_label"					"非英雄單位吸血"
 		"HealthStealPct_postfix"					"%"
