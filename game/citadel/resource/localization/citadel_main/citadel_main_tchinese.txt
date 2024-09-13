@@ -660,6 +660,16 @@
 		"Citadel_HUD_IdolReturned"									"已送達魂甕!"
 		"Citadel_HUD_DamageSummary_Title"							"傷害 <i>來源</i>"
 		"Citadel_HUD_DamageSummary_Hint"							"按住 <span class=\"keybind\">[{s:key_extra_info}]</span> 來查看詳情"
+		
+		"Citadel_HUD_NextReward_PowerIncrease"						"屬性提升"
+        "Citadel_HUD_TotalPowerIncreasesLabel"						"總計屬性提升"
+        "Citadel_HUD_LevelReward_BulletDamage"						"子彈傷害"
+        "Citadel_HUD_LevelReward_Health"							"生命值"
+        "Citadel_HUD_LevelReward_SpiritDamage"						"靈魂傷害"
+        "Citadel_HUD_LevelReward_BulletResist"						"子彈抗性"
+        "Citadel_HUD_LevelReward_WeaponRange"						"武器射程"
+        "Citadel_HUD_LevelReward_NextRewardsLabel"					"下一個獎勵："
+
 
 		"Citadel_Hud_KillFeedNone"									"<None>"
 		"Citadel_Hud_KillFeedTrooper"								"小兵 #{i:unit_num}"
