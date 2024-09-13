@@ -1499,6 +1499,7 @@
 		"CITADEL_ABILITY_INVALID_NOT_ENOUGH_HEADROOM"	"天花板太低"
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"沒有傷害需要清除"
 
+		"citadel_ability_interrupted"					"被此技能中斷"
 		
 		"citadel_ability_personal_shield" ""
 		"citadel_ability_quick_melee" "近戰"
