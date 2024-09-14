@@ -210,6 +210,23 @@
 		"Citadel_RecommendFriend_Region_SEA"				"亞洲"
 		"Citadel_RecommendFriend_Region_Other"				"其他 (請在評論中註明)"
 		"Citadel_RecommendFriend_LocWarning"				"非官方翻譯"
+		
+		// Report Player
+        "Citadel_ReportPlayer_Result_Success"				"感謝您的！"
+        "Citadel_ReportPlayer_Result_SuccessTitle"			"檢舉成功！"
+        "Citadel_ReportPlayer_Title"						"檢舉玩家"
+        "Citadel_ReportPlayer_Desc"							"檢舉玩家的不當行為。"
+        "Citadel_ReportPlayer_Result_GenericFailure"		"無法提交玩家檢舉，無法連接到 Deadlock 網絡。請稍後再試。"
+        "Citadel_ReportPlayer_Result_AlreadyReported"		"您最近已經檢舉過此玩家。"
+        "Citadel_ReportPlayer_Result_WindowClosed"			"檢舉時間已過。必須在比賽結束後 1 小時內檢舉玩家。"
+        "Citadel_ReportPlayer_Reason_Title"					"原因："
+        "Citadel_ReportPlayer_Reason_VoiceTextAbuse"		"語音/文字濫用"
+        "Citadel_ReportPlayer_Reason_Abandon"				"離開比賽"
+        "Citadel_ReportPlayer_Reason_Griefing"				"故意擾亂遊戲"
+        "Citadel_ReportPlayer_Reason_MatchmakingIssue"		"配對問題"
+        "Citadel_ReportPlayer_Reason_Comments"				"說明："
+        "Citadel_ReportPlayer_CommentPlaceholder"			"描述您對此玩家的問題"
+
 
 		// Report Player
 		"Citadel_ReportPlayer_Result_Success"				"感謝你的檢舉!"
