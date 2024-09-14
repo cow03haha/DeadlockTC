@@ -2191,13 +2191,13 @@
 		"LeaveMatchPrompt_Cancel"					"回到比賽"
 
 		"SafeToAbandon_Text"						"現在可以安全地放棄這場比賽，不會受到懲罰。"
-
-		"ModIconTooltip_UnlockTier2"				"首次摧毀敵方步行者後解鎖"
-		"ModIconTooltip_UnlockGuardians"			"摧毀一組敵方基地守護神後解鎖"	
-		"ModIconTooltip_UnlockGenerators"			"首次摧毀敵方神龕後解鎖"	
-		//"ModIconTooltip_UnlockTier3"				"摧毀敵方守護神的第一形態後解鎖"
-		"ModIconTooltip_UnlockAllTier2"				"摧毀敵方所有步行者後解鎖"
-		"ModIconTooltip_UnlockAllTier1"				"摧毀敵方所有守護者後解鎖"
+		
+        "ModIconTooltip_UnlockTier2"				"摧毀兩組敵方步行者後解鎖"
+        "ModIconTooltip_UnlockGuardians"			"摧毀一組敵方基地守護神後解鎖"	
+        "ModIconTooltip_UnlockGenerators"			"首次摧毀敵方神龕後解鎖"	
+        //"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
+        "ModIconTooltip_UnlockAllTier1"				"摧毀敵方所有守護者後解鎖"
+        "ModIconTooltip_UnlockAllTier2"				"摧毀敵方所有步行者後解鎖"
 
 		"HeroesPageTitle"							"英雄"
 		"HeroesPageActionText"						"選擇英雄查看詳情"
