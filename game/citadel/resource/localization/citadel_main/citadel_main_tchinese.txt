@@ -196,6 +196,7 @@
 		"Citadel_RecommendFriend_Title"						"推薦好友"
 		"Citadel_RecommendFriend_desc"						"想要與好友一起參加我們的遊戲測試？<br>在下方點擊其帳戶，通過 Steam 發送邀請吧！"
 		"Citadel_RecommendFriend_Timing_desc"				"邀請通常在 1-2 天內發出，但有時可能需要更長時間。"
+		"Citadel_RecommendFriend_PopupButton"				"提交"
 		"Citadel_RecommendFriend_SelectTitle"				"從steam選擇好友："
 		"Citadel_RecommendFriend_ErrorMsg"					"必須從列表中選擇一位好友"
 		"Citadel_RecommendFriend_Email"						"信箱："
