@@ -2580,6 +2580,7 @@
 		"citadel_chatwheel_message_Defend_Purple"				"防守 紫路"
 		"citadel_chatwheel_message_HeadedToYellow"				"正在前往 黃路"
 		"citadel_chatwheel_message_HeadedToBlue"				"正在前往 藍路"
+		"citadel_chatwheel_message_HeadedToGreen"				"正在前往 綠路"
 		"citadel_chatwheel_message_HeadedToOrange"				"正在前往 橙路"
 		"citadel_chatwheel_message_HeadedToPurple"				"正在前往 紫路"
 		"citadel_chatwheel_label_HeadedTo"						"馬上回來"
