@@ -2453,7 +2453,7 @@
 		"AbilityButtonHint_SelectThenSelfCastButton" "對自己施法"
 		"AbilityButtonHint_Deselect"				"取消選擇"
 		"AbilityButtonHint_CastOnTarget"			"對目標施法"
-		"AbilityButtonHint_ZipLineBoost"			"<span class=\"AbilityName\">線纜加速</span> <span class=\"Countdown\">{s:ability_cooldown}</span>"
+		"AbilityButtonHint_ZipLineBoost"			"<span class=\"AbilityName\">滑索加速</span> <span class=\"Countdown\">{s:ability_cooldown}</span>"
 		"AbilityButtonHint_LightningCrashDive"		"提前降落"
 		"AbilityButtonHint_CancelIceDome"			"解除"
 		"AbilityButtonHint_GrabTarget"				"抓住目標"
