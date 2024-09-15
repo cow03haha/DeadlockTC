@@ -2266,7 +2266,7 @@
 		"HeroTesting_OrbsSecured"					"獲得寶珠: {i:orbsSecured}"
 		"HeroTesting_OrbsDenied"					"反補: {i:orbsDenied}"
 		"HeroTesting_TestTools"						"測試工具"
-		"HeroTesting_HoldAlt"						"按住 Alt"
+		"HeroTesting_HoldAlt"						"按住 Tab"
 		"HeroTesting_LaneChallenge"					"對線挑戰"
 		"HeroTesting_HeroTools"						"測試工具"
 		"HeroTesting_ChangeHero"					"更換英雄"
