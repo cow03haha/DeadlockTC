@@ -748,6 +748,10 @@
 		"Objective_Team1_Final"							"琥珀守護神（虛弱）"
 		"Objective_Team2_Final"							"藍晶守護神（虛弱）"
 
+        "Objective_Message_Patron_Transforming" 		"守護神正在變形中..."
+        "Objective_Message_MidBoss_OutOfRange"			"超出範圍"
+
+
 		"Citadel_Team1_Name"							"琥珀之手"
 		"Citadel_Team2_Name"							"藍晶之焰"
 
