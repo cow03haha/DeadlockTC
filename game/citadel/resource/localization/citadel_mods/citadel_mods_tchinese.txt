@@ -364,7 +364,7 @@
 		"CritDamagePercent_postfix"			"%"
 
 		//Veil Walker
-		"upgrade_veil_walker_desc"			"穿過宇宙之紗可<span class=\"highlight\">回復子彈護盾和魂力護盾</span>，並且<span class=\"highlight\">，獲得短暫的移動<span class=\"highlight\">速度提升和隱身</span>效果，並為下一個彈匣提供額外的<span class=\"highlight\">射速</span>。"
+		"upgrade_veil_walker_desc"			"穿過宇宙面紗可<span class=\"highlight\">回復子彈護盾和魂力護盾</span>，並且<span class=\"highlight\">，獲得短暫的移動<span class=\"highlight\">速度提升和隱身</span>效果，並為下一個彈匣提供額外的<span class=\"highlight\">射速</span>。"
 		"VeilWalker_MoveSpeed_label"			"隱身移速"
 		"VeilWalker_MoveSpeed_postfix"		"m/s"
 
