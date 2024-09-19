@@ -136,7 +136,10 @@ def update_version_status():
     if last_update == "尚未使用過更新器":
         version_status.set("版本狀態: 尚未使用過更新器")
         version_status_label.config(fg="black")
-    elif latest_commit != "無法獲取":
+    elif latest_commit == "無法獲取":
+        version_status.set("版本狀態: 無法獲取最新版本信息")
+        version_status_label.config(fg="black")
+    else:
         last_update_dt = datetime.strptime(last_update, "%Y/%m/%d %H:%M")
         latest_commit_dt = datetime.strptime(latest_commit, "%Y/%m/%d %H:%M")
 
@@ -145,10 +148,7 @@ def update_version_status():
             version_status_label.config(fg="red")
         else:
             version_status.set("版本狀態: 已經安裝最新版本漢化")
-            version_status_label.config(fg="green")
-    else:
-        version_status.set("版本狀態: 無法獲取最新版本信息")
-        version_status_label.config(fg="black")
+            version_status_label.config(fg="green")        
 
 def check_update():
     latest_commit_time.set(fetch_latest_commit_time())
