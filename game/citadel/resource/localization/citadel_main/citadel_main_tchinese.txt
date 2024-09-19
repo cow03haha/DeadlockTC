@@ -2130,7 +2130,7 @@
 		"menu_clear_ready_up"						"清除就緒"
 		"menu_roster_detail2"						"編輯陣容"
 		"menu_roster_edit"							"編輯"
-		"menu_leave_queue"							"取消搜索比賽"
+		"menu_leave_queue"							"取消配對"
 		"menu_clear_party_mode"						"改變模式"
 		"menu_leave_testing"						"離開沙盒"
 		"menu_resume"								"回到遊戲"
