@@ -1576,7 +1576,7 @@
 
 		"citadel_ability_flying_strike"			"踏空刺"
 		"citadel_ability_flying_strike_quip"	"高速飛向敵方目標。"
-		"citadel_ability_flying_strike_desc"	"選定一個敵方目標，使用後對目標單位拋出抓鉤，抓住目標並且<span class=\"highlight\">將自己高速卷向敵人，到達時對目標造成傷害並施加減少移速</span>。."
+		"citadel_ability_flying_strike_desc"	"選定一個敵方目標，使用後對目標單位拋出抓鉤，抓住目標並且<span class=\"highlight\">將自己高速捲向敵人，到達時對目標造成傷害並施加減少移速</span>。."
 		"citadel_ability_flying_strike/slow" "踏空刺減少移速"
 		"citadel_ability_flying_strike/weapon_buff" "+子彈傷害"
 		"citadel_ability_flying_strike_t3_desc" "到達目標身上並且擊中目標後為自己施加<span class=\"highlight\">增加{s:WeaponDamageBonus}</span>子彈傷害持續<span class=\"highlight\">{s:WeaponPowerIncreaseDuration}秒</span>。"
