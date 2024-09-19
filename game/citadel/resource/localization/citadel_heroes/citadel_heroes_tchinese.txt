@@ -1302,7 +1302,8 @@
 		"citadel_ability_shiv_killing_blow"		"乘勝追擊"
 		"citadel_ability_shiv_killing_blow_quip"	"來到一個低生命值英雄前，立即將其擊殺"
 		"citadel_ability_shiv_killing_blow_active_desc"	"啟用後，跳向敵方英雄，如果對方生命值<span class=\"highlight\">低於擊殺閾值</span>，則<span class=\"highlight\">立即將其擊殺</span>，否則對其造成 {s:Damage} 傷害。"
-		"citadel_ability_shiv_killing_blow_passive_desc" "被動：對敵人造成傷害會累積怒氣值。怒氣值滿時，shiv獲得傷害增加，其他技能也會獲得<span class=\"highlight\">特殊效果</span>。"
+		"citadel_ability_shiv_killing_blow_t2_desc"		"<span class=\"highlight\">+{s:EnemyHealthPercent}%</span> 敵人生命值門檻，並提供<span class=\"highlight\">+{s:BuffDamage}%</span> 滿怒氣的額外傷害"
+		"citadel_ability_shiv_killing_blow_passive_desc" "被動：對敵人造成傷害會讓你獲得怒氣。當怒氣滿時，Shiv 的傷害增加，並且他的其他技能將獲得<span class=\"highlight\">特殊效果</span>。" 
 		"citadel_ability_shiv_killing_blow/active_buff"		"怒氣衝天"
 		"citadel_ability_shiv_killing_blow_while_full_rage" "怒氣值滿時"
 		"citadel_ability_shiv_killing_blow_ui_meter" 		"怒氣值"
@@ -1663,6 +1664,57 @@
 		"RollingTime_postfix"							"秒"
 		"CubeHealth_label"								"凝膠立方生命值"
 		"viscous_gootapult_hint"						"發射!"
+		
+        //-----------------------------------------------------------------------------
+        // Kali
+        //-----------------------------------------------------------------------------
+        //"citadel_ability_kali_spinning_blade"			"Occilioblade"
+        //"citadel_ability_kali_spinning_blade_quip"		"Launch a boomerang that flies back"
+        //"citadel_ability_kali_spinning_blade_desc"		"Throw a spinning blade that <span class=\"highlight\">deals damage</span> and <span class=\"highlight\">returns</span> to you."
+        //"citadel_ability_kali_spinning_blade_t1_desc"		"<span class=\"highlight\">{s:SlowPercent}% slow</span> for <span class=\"highlight\">{s:SlowDuration}s</span> on enemies hit"
+        //"citadel_ability_kali_spinning_blade_t2_desc"		"<span class=\"highlight\">+{s:Damage} Damage</span> and Occilioblade gains <span class=\"highlight\">+100% more damage</span> from spirit"
+        //"citadel_ability_kali_spinning_blade_t3_desc"		"<span class=\"highlight\">{s:CooldownReductionOnHit}s Cooldown</span> for each enemy hit by Occilioblade"
+
+        //"CooldownReductionOnCatch_label"				"Cooldown on Catch"
+        //"CooldownReductionOnCatch_postfix"				"s"
+        "CooldownReductionOnHit_label"					"擊中後減少冷卻"
+        "CooldownReductionOnHit_postfix"				"秒"
+
+
+        //"ability_kali_dust_storm"							"Dust Storm"
+        //"ability_kali_dust_storm_quip"						"Send out a tornado that slows enemies"
+        //"ability_kali_dust_storm_desc"						"Send out a tornado that <span class=\"highlight\">damages enemies</span> it touches, as well as applying a lingering <span class=\"highlight\">movement and fire rate slow</span>."
+        //"EnemyBulletDamageReduction_label"					"Enemy Weapon Damage"
+        "EnemyBulletDamageReduction_postfix"					"%"
+        //"modifier_dust_storm_debuff"						"Slow Firerate & Movement"
+        //"ability_kali_dust_storm_t3_desc"					"<span class=\"highlight\">{s:AbilityCooldown} Cooldown</span> and <span class=\"highlight\">+{s:AbilityDuration}s Duration</span>"
+
+        //"citadel_ability_kali_disruptive_charge"		"Pack Hunter"
+        //"citadel_ability_kali_disruptive_charge_quip"	"You and nearby allies move much faster"
+        //"citadel_ability_kali_disruptive_charge_desc"	"Provides a <span class=\"highlight\">large speed bonus</span> to you and nearby allies. The speed bonus decays over time."
+        //"citadel_ability_kali_disruptive_charge_t2_desc"  "<span class=\"highlight\">{s:LifestealPercent}% Damage Lifesteal</span> for the duration of Pack Hunter"
+
+        //"modifier_citadel_disruptive_charge"				"Pack Hunter"
+        //"MoveSpeedBonusPercentStart_label"				"Speed Bonus"
+        "MoveSpeedBonusPercentStart_prefix"				"+"
+        "MoveSpeedBonusPercentStart_postfix"				"%"
+
+        //"ability_kali_tornado_blade"			"Whirling Blade"
+        //"ability_kali_tornado_blade_desc"		"Throw a blade that deals damage to everything around it.  <span class=\"highlight\">Press the skill's Ability key</span> to <span class=\"highlight\">stop</span> Whirling Blade in place and to <span class=\"highlight\">expand its size</span>.  Deals additional damage on expansion."
+
+        //"ability_kali_trappers_bolo"			"Trapper's Delight"
+        //"ability_kali_trappers_bolo_quip"		"Immobilize nearby enemies"
+        //"ability_kali_trappers_bolo_desc"		"Throw a bolo that bounces between enemy heroes before returning to you. Victims will <span class=\"highlight\">slow down over {s:DebuffDelay}s</span> and then become <span class=\"highlight\">immobilized for {s:ImmobilizeDuration}s</span>. Bounces once per hero."
+        //"ability_kali_trappers_bolo_t1_desc"	"Enemies hit by the bolo give <span class=\"highlight\">{s:ReverseLifeLeech}% Lifesteal</span> for <span class=\"highlight\">{s:ReverseLifeLeechDuration}s</span>"
+        //"ability_kali_trappers_bolo_t3_desc"	"<span class=\"highlight\">Stun</span> enemies that are immobilized"
+        //"BoloBounceCount_label"					"Max Bounces"
+
+        //"BoloProcDamage_label"					"Damage on Immobilize"
+        //"BoloHitDamage_label"						"Damage on Hit"
+
+        //"modifier_citadel_bolo"					"Immobilizing..."
+        "modifier_bolo_immobilized"				"Immobilized"
+        //"modifier_bolo_leech"					"Leeching..."
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
 		//-----------------------------------------------------------------------------
