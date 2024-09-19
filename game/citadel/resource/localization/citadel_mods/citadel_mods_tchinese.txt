@@ -108,7 +108,7 @@
 
 		//Heroic Aura
 		"upgrade_dps_aura_active_desc"	"使用後在持續時間內為你和的附近友軍增加<span class=\"highlight\">額外移動速度</span> 和 <span class=\"highlight\">射速</span> 。"
-		"upgrade_dps_aura_desc"			"被動為範圍內的召喚物增加額外<span class=\"highlight\">射速</span> 。"
+		"upgrade_dps_aura_desc"			"範圍內的召喚物增加額外<span class=\"highlight\">射速</span> 。"
 		"modifier_dps_aura_active"		"英雄光環開啟"
 		"modifier_dps_aura_player"		"英雄光環射速"
 
