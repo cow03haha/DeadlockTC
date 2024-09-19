@@ -17,6 +17,7 @@ GITHUB_REPO_API_URL = "https://api.github.com/repos/cycleapple/DeadlockTC/commit
 GITHUB_REPO_ZIP_URL = "https://github.com/cycleapple/DeadlockTC/archive/refs/heads/main.zip"
 STEAM_APP_ID = 1422450
 LAST_UPDATE_FILE = "last_update_time.txt"
+CONFIG_FILE = "updater.config"
 
 def find_steam_install_path():
     try:
@@ -163,7 +164,7 @@ def check_update():
 def select_directory():
     directory = filedialog.askdirectory(title="選擇遊戲安裝路徑")
     if directory:
-        target_directory.set(directory)
+        set_game_directory(directory)
 
 def run_updater():
     if not target_directory.get():
@@ -176,13 +177,33 @@ def run_updater():
     last_update_label.config(text=f"上一次安裝/更新時間: {last_update_time.get()}")
     update_version_status()
 
-def auto_detect_game_directory():
+def auto_detect_game_directory(silent):
+    error = True
     game_dir = find_game_directory_by_appid(STEAM_APP_ID)
     if game_dir:
-        target_directory.set(game_dir)
-        messagebox.showinfo("偵測完成", f"偵測到的遊戲目錄: {game_dir}")
-    else:
+        set_game_directory(game_dir)
+        error = False
+
+    if silent:
+        return
+
+    if error:
         messagebox.showwarning("未找到", "無法自動偵測遊戲路徑。請手動選擇。")
+    else:
+        messagebox.showinfo("偵測完成", f"偵測到的遊戲目錄: {game_dir}")
+
+# record the game path
+def set_game_directory(game_dir):
+    target_directory.set(game_dir)
+    with open(CONFIG_FILE, 'w') as f:
+        f.write(game_dir)
+
+def load_config():
+    if os.path.exists(CONFIG_FILE):
+        with open(CONFIG_FILE, 'r') as f:
+            target_directory.set(f.read().strip())
+    else: # auto detect game path on first time start up
+        auto_detect_game_directory(True)
 
 # GUI Setup
 root = tk.Tk()
@@ -233,6 +254,9 @@ latest_commit_label.grid(row=6, column=0, columnspan=2, padx=5, pady=5, sticky="
 
 version_status_label = tk.Label(frame, textvariable=version_status, anchor="w", justify=tk.LEFT)
 version_status_label.grid(row=7, column=0, columnspan=2, padx=5, pady=5, sticky="w")
+
+# load game path
+load_config()
 
 # Execute initial version check and update status on launch
 check_update()
