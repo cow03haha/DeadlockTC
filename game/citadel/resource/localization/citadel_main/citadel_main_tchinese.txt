@@ -1610,8 +1610,11 @@
 
 		"citadel_east_team_name"						"琥珀"
 		"citadel_west_team_name"						"藍晶"
-
-
+        "citadel_ability_upgrade_tab_desc"				"{s:show_scoreboard}+[技能鍵] 將升級你的技能。這些是額外的按鍵綁定。"
+        "citadel_settings_per_unit_hotkeys"				"單位專用快捷鍵"
+        "citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"啟用/禁用單位專用按鍵綁定"
+        "citadel_settings_defaultkeybinds"				"預設"
+        "citadel_ClearHeroHotkeyBindings"				"重置為預設"
 		"citadel_settings_options"						"選項"
 		"citadel_settings_video"						"影像"
 		"citadel_settings_audio"						"音訊"
@@ -1681,6 +1684,13 @@
         "citadel_settings_alt_cast_press_and_hold_tooltip"		"按住技能按鈕一段時間以進行智能施法"
         "citadel_settings_alt_cast_double_tap_window"		"智能施法雙擊間隔"
         "citadel_settings_alt_cast_hold_time"			"智能施法所需按住時間"
+        "citadel_settings_cancel_ability_mode"			"更改取消技能模式："
+        "citadel_settings_cancel_ability_mode_cancel_key"	"取消鍵"
+        "citadel_settings_cancel_ability_mode_ability_key"	"技能鍵"
+        "citadel_settings_cancel_ability_mode_either"		"取消鍵或技能鍵"
+        "citadel_settings_cancel_ability_mode_cancel_key_tooltip"	"按下取消鍵以取消正在使用的技能"
+        "citadel_settings_cancel_ability_mode_ability_key_tooltip"	"再次按下技能鍵以取消正在使用的技能"
+        "citadel_settings_cancel_ability_mode_either_tooltip"	"按下取消鍵或再次按下技能鍵以取消正在使用的技能"
 		"citadel_settings_resolution_size"				"解析度"
 		"citadel_settings_resolution_display_mode"		"視窗模式"
 		"citadel_settings_window"						"視窗"
