@@ -45,7 +45,8 @@ def find_game_directory_by_appid(steam_app_id):
 
     library_folders_vdf = os.path.join(steam_install_path, "steamapps", "libraryfolders.vdf")
     if os.path.exists(library_folders_vdf):
-        with open(library_folders_vdf, 'r') as file:
+        # Open with UTF-8 encoding to avoid encoding issues
+        with open(library_folders_vdf, 'r', encoding='utf-8') as file:
             for line in file:
                 match = re.search(r'"path"\s+"([^"]+)"', line)
                 if match:
@@ -57,6 +58,7 @@ def find_game_directory_by_appid(steam_app_id):
                         return game_path
 
     return None
+
 
 def download_and_extract_zip(url, extract_to):
     try:
