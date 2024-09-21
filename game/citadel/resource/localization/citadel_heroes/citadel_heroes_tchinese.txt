@@ -564,7 +564,7 @@
 
 		"ability_bullet_flurry"			"子彈之舞"
 		"ability_bullet_flurry_quip"	"向周圍發射大量子彈"
-		"ability_bullet_flurry_desc"	"使用後進入連射狀態，<span class=\"highlight\">以完美的精確度向附近的敵人發射子彈</span>在連射期間，{s:hero_name}會獲得射速加成，並會衝刺一些射向她的子彈。"
+		"ability_bullet_flurry_desc"	"使用後進入連射狀態，<span class=\"highlight\">以完美的精確度向附近的敵人發射子彈</span>在連射期間，{s:hero_name}會獲得射速加成，並會閃避一些射向她的子彈。"
 		"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"子彈之舞"
 		"BonusWeaponDamage_label"				"子彈傷害"	
 

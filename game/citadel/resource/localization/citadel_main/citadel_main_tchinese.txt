@@ -296,6 +296,8 @@
 		"Citadel_Hud_RespawnIn"										"復活時間:"
 		"Citadel_Hud_RideZipLine"									"按住[ {s:jump_key} ]使用"
 		"Citadel_Hud_CaptureZipLine"								"按住{s:use_key}"
+		"Citadel_Hud_RideZipLineOnCooldownValue"					"{f:1:cooldown_seconds}s"
+		"Citadel_Hud_RideZipLineOnCooldown"							"受到傷害後不可用"
 		"Citadel_Hud_OpenShop"										"按下[ {s:upgrade_key} ]購買"
 		"Citadel_Hud_LoadingDeathReplay"							"載入死亡重播中"
 		"Citadel_Hud_DebugStats"									"MATCH: {s:match_id}\nCLIENT FPS:{i:client_framerate}   PING: {i:ping}ms\nSERVER CPU: {i:server_frametime_avg_pct}% (peak: {i:server_frametime_max_pct}%)"
