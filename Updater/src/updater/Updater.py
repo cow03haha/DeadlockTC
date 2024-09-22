@@ -11,6 +11,7 @@ from datetime import datetime
 import sys
 import pytz
 from tzlocal import get_localzone
+import certifi
 
 # Configuration
 GITHUB_REPO_API_URL = "https://api.github.com/repos/cycleapple/DeadlockTC/commits/main"
@@ -65,7 +66,7 @@ def download_and_extract_zip(url, extract_to):
         with tempfile.TemporaryDirectory() as tmpdirname:
             zip_path = os.path.join(tmpdirname, "repo.zip")
 
-            with requests.get(url, stream=True) as r:
+            with requests.get(url, stream=True, verify=certifi.where()) as r:  # Use certifi for SSL verification
                 r.raise_for_status()
                 with open(zip_path, 'wb') as f:
                     for chunk in r.iter_content(chunk_size=8192):
@@ -112,7 +113,7 @@ def download_and_extract_zip(url, extract_to):
 
 def fetch_latest_commit_time():
     try:
-        response = requests.get(GITHUB_REPO_API_URL)
+        response = requests.get(GITHUB_REPO_API_URL, verify=certifi.where())  # Use certifi for SSL verification
         response.raise_for_status()
         commit_data = response.json()
         commit_time_utc = datetime.strptime(commit_data['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")
