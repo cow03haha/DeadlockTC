@@ -11,7 +11,7 @@
 ## 使用方法
 
 ### Windows
-1. [點此下載](https://github.com/cycleapple/DeadlockTC/releases/download/v1.4.0/Deadlock.v1.4.0.zip)
+1. [點此下載](https://github.com/cycleapple/DeadlockTC/releases/download/v1.5.0/Deadlock.v1.5.0.zip)
 2. 解壓縮 `Deadlock繁體漢化更新器` 資料夾 (建議要有資料夾包起來，因為會產生其他檔案)
 3. 打開 `Deadlock繁體漢化更新器.exe`
 4. 點擊 `自動偵測路徑`
