@@ -295,9 +295,9 @@
 
 		"citadel_ability_chrono_pulse_grenade"			"脈衝手榴彈"
 		"citadel_ability_chrono_pulse_grenade_quip"	"投擲脈衝手榴彈，造成傷害並減少移速"
-		"citadel_ability_chrono_pulse_grenade_desc"		"使用後投擲一枚手榴彈，手榴彈落地後會開始間隔放出衝擊波，每次衝擊波都會對敵方目標施加<span class=\"highlight\">傷害、減少移速</span> 併疊加 {s:hero_name} 的傷害增幅效果。"		
+		"citadel_ability_chrono_pulse_grenade_desc"		"使用後投擲一枚手榴彈，手榴彈落地後會開始間隔放出衝擊波，每次衝擊波都會對敵方目標施加<span class=\"highlight\">傷害、減少移速</span> 並疊加 {s:hero_name} 的傷害增幅效果。"		
 
-		"Pulses_label"			 "脈沖次數"
+		"Pulses_label"			 "脈衝次數"
 		"InitialDamage_label"								"初始傷害"
 		"PulseDamage_label"								"脈衝傷害"
 		"MovementSpeedSlow_label"							"減少移速"
