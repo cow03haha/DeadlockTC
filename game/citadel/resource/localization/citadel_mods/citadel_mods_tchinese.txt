@@ -594,7 +594,7 @@
 		"modifier_acolytes_glove_triggered"		"魂力猛擊"
 
 		//Melee Charge
-        "upgrade_melee_charge_desc"				"你的下一次對敵人的<span class=\"highlight\">重型近戰</span>攻擊將<span class=\"highlight\">造成額外傷害</span>並<span class=\"highlight\">立即重新裝填武器</span>。"
+        "upgrade_melee_charge_desc"				"你對敵人的下一次 <span class=\"highlight\">重型近戰</span> 攻擊將造成 <span class=\"highlight\">額外傷害</span>，並可以 <span class=\"highlight\">立即重裝武器</span> 或提供最多 <span class=\"highlight\">+100% 額外彈藥</span>。<br>僅在額外彈藥未滿時啟用。"
         "MeleeDistanceScale_label"				"重型近戰距離"
         "MeleeDistanceScale_postfix"			"%"
         "BonusHeavyMeleeDamage_prefix"			"+"
@@ -619,7 +619,7 @@
 		"suppressor_debuff"						"射速減緩"
 
 		//Quicksilver Reload
-		"upgrade_quick_silver_desc"				"標記一個技能，該技能擊中敵人第一次時獲得 <span class=\"highlight\">額外傷害</span>並且 當技能使用的時候你的彈匣立即<span class=\"highlight\">重新裝填</span> ，並為該彈匣帶來<span class=\"highlight\">射擊速度</span>獎勵。"
+		"upgrade_quick_silver_desc"				"標記一個技能，該技能擊中敵人第一次時獲得 <span class=\"highlight\">額外傷害</span>並且 當技能使用的時候你的彈匣立即<span class=\"highlight\">重新裝填</span> ，並為該彈匣帶來<span class=\"highlight\">射擊速度</span>加成。<br>僅在彈藥未滿時啟用"
 		"modifier_quick_silver_buff"				"額外射速"
 
 		// Magic carpet
@@ -748,8 +748,10 @@
 		
 		//Rebirth
 		"upgrade_personal_rejuvenator_desc"		"Respawns the hero at the spot they died."
-		"RespawnDelay_label"							"Respawn Delay"
 		"RespawnDelay_postfix"						"秒"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"增加重生時間"
+		"SpawnTimePenalty_postfix"				"秒"
 
 		//Phantom Strike
 		"upgrade_phantom_strike_desc"			"選定一個敵方英雄目標，使用後<span class=\"highlight\">傳送</span>敵人目標跟前，造成 <span class=\"highlight\">魂力傷害</span>並且施加<span class=\"highlight\">減少移速和繳械</span>。"
@@ -760,7 +762,7 @@
 		"modifier_phantom_strike_bulletshield"		"子彈護盾"
 
 		//Soul Rebirth
-		"upgrade_rebirth_passive"				"如果持有者死亡，在 {s:RespawnDelay}s 延遲後，將<span class=\"highlight\">以部分生命值狀態在死亡地點重生</span>。"
+		"upgrade_rebirth_passive"				"如果持有者死亡，在 {s:RespawnDelay}秒 延遲後，將<span class=\"highlight\">以部分生命值狀態在死亡地點重生</span>。"
 		
 		//Shield Rush
 		"upgrade_active_bullet_shield_desc"				 "Give temporary <span class=\"highlight\">bullet shield</span> for you and nearby allied Heros and their minions."
