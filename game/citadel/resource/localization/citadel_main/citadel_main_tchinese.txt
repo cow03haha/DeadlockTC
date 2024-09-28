@@ -342,6 +342,9 @@
 		"Citadel_Hero_Stats_Tooltip_Shards"							"用於購買模組的可用貨幣"
 		"Citadel_Hero_Stats_Souls"									"魂靈"
 		"Citadel_Hero_Stats_Unsecured"								"未保護"
+        "Citadel_Shop_Destroy_Item"									"摧毀物品？"
+        "Citadel_Shop_Destroy_Item_Confirm"							"您確定要以 {i:item_sell_amount} 靈魂（購買價格的一半）出售物品 {s:item_name} 嗎？"
+
 
 		"Citadel_Shop_Purchased"									"已購買"
 		"Citadel_Shop_HoldAlt"										"按住alt <span class=\"keybind\">[{s:key_extra_info}]</span>"
