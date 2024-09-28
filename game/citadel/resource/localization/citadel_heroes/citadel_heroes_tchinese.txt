@@ -1638,6 +1638,7 @@
 		"viscous_restorative_goo_desc"					"選定一名友方英雄目標將目標包裹在一個<span class=\"highlight\">恢復生命的凝膠立方中，該凝膠立方可以清除減益狀態，保護目標免受傷害，並增加生命恢復速度</span>。目標在立方體中無法採取任何新行動。可用於自身。按下<span class=\"highlight\">[{s:in_mantle}]</span>可以提前脫離。"
 		"viscous_restorative_goo_quip"					"凝膠立方是一個安全的地方"
 		"viscous_restorative_goo_t1_desc"				"獲得額外速度與生命恢復"
+		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">移除所有減益效果</span>並<span class=\"highlight\">{s:AbilityCooldown}秒</span>技能冷卻時間"
 		"viscous_restorative_goo_buff_desc"				"技能效果結束後，目標在短時間內獲得<span class=\"highlight\">額外移動速度和生命恢復。</span>"
 		"PostCubeBuffDuration_label"					"持續"
 		"PostCubeBuffDuration_postfix"					"秒"
