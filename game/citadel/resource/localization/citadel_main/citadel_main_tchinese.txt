@@ -518,7 +518,7 @@
         "Citadel_PrivateLobby_Region_Russia"						"俄羅斯"
         "Citadel_PrivateLobby_Region_Oceania"						"大洋洲"
         "Citadel_PrivateLobby_Ready"								"準備就緒"
-        "Citadel_PrivateLobby_Unready"								"未準備"
+        "Citadel_PrivateLobby_Unready"								"取消準備"
         "Citadel_PrivateLobby_Difficulty_None"						"無BOT"
         "Citadel_PrivateLobby_Difficulty_Easy"						"簡單BOT"
         "Citadel_PrivateLobby_Difficulty_Medium"					"中等BOT"
