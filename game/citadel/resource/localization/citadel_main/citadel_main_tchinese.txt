@@ -373,6 +373,8 @@
 		"Citadel_Shop_SellMaxItems_Title"							"所有欄位已滿！"	
 		"Citadel_Shop_SellMaxItems_Desc"							"要完成此次購買，選擇一個道具<span class='highlight'>以半價出售並替換為新道具</span>"	
 		"Citadel_Shop_SellMaxItems_SellButton"						"出售"
+		
+        "Citadel_Shop_AbilityisImbued"								"技能已強化"
 
 		"Citadel_Spectate_Connecting_Title"							"正在連接至比賽"
 		"Citadel_Spectate_Connecting_Buffering"						"已連接至比賽，正在緩衝，請稍候。"
