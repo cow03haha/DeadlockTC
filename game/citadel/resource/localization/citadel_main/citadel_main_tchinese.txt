@@ -225,6 +225,7 @@
         "Citadel_ReportPlayer_Reason_Abandon"				"離開比賽"
         "Citadel_ReportPlayer_Reason_Griefing"				"故意擾亂遊戲"
         "Citadel_ReportPlayer_Reason_MatchmakingIssue"		"配對問題"
+        "Citadel_ReportPlayer_Reason_CheatingIssue"			"作弊"
         "Citadel_ReportPlayer_Reason_Comments"				"說明："
         "Citadel_ReportPlayer_CommentPlaceholder"			"描述您對此玩家的問題"
 
