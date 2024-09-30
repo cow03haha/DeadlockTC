@@ -965,6 +965,9 @@
         "Citadel_Party_Leave"										"離開隊伍"
         "Citadel_Party_Report"										"檢舉"
         "Citadel_Party_Reported"									"已檢舉"
+        
+        "Citadel_PlayerList_Teammates"								"友方隊伍"
+        "Citadel_PlayerList_Enemy"									"敵方隊伍"
 
 		"Citadel_Main_EarlyDevBuild"								"早期測試版"
 		"Citadel_Main_ViewProfile"									"查看檔案"
