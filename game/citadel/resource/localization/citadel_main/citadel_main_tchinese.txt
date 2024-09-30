@@ -2422,6 +2422,8 @@
 		"HeroTesting_NoCooldown"					"無 冷卻"
 		"HeroTesting_UnlockFlex"					"解鎖額外槽位"
 		"HeroTesting_FastStamina"					"快速耐力"
+        "HeroTesting_UnlimitedAmmo"					"無 重新裝填"
+				
 		"HeroTesting_SpeedDown"						"遊戲速度減少"
 		"HeroTesting_SpeedNormal"					"遊戲速度重設"
 		"HeroTesting_SpeedUp"						"遊戲速度增加"
