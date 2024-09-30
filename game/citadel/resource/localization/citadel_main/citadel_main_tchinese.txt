@@ -303,6 +303,12 @@
 		"Citadel_Hud_LoadingDeathReplay"							"載入死亡重播中"
 		"Citadel_Hud_DebugStats"									"MATCH: {s:match_id}\nCLIENT FPS:{i:client_framerate}   PING: {i:ping}ms\nSERVER CPU: {i:server_frametime_avg_pct}% (peak: {i:server_frametime_max_pct}%)"
 		"Citadel_Hud_DeathCam"										"死亡視角"
+        "Citadel_Hud_CheaterVoteCaption"							"{s:cheater_name}"
+        "Citadel_Hud_CheaterVoteAlert"								"你的比賽中有人被抓到作弊..."
+        "Citadel_Hud_CheaterVoteAlert_Action"						"按住 <span class=\"keybind\">[{s:show_scoreboard}]</span> 來決定他的命運"
+        "Citadel_Hud_CheaterVote_Option_Play"						"現在變成青蛙，稍後禁賽"
+        "Citadel_Hud_CheaterVote_Option_Ban"						"禁賽並離開比賽"
+
 
 		"Citadel_InvalidCast_NoFullClips"							"無需重新裝滿彈夾"
 
