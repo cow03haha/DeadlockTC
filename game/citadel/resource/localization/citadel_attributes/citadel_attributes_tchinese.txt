@@ -590,7 +590,7 @@
 		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
 		"BonusSuperSprintSpeedPercent_postfix"			"%"
 
-		"TotalHealthRegen_label"						"最多可以恢復"
+		"TotalHealthRegen_label"						"總生命回復"
 
 		"StatusResistancePercent_postfix"				"%"
 		"StatusResistancePercent_label"				"減益狀態抗性"
