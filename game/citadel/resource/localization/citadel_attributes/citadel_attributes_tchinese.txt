@@ -1522,6 +1522,9 @@
 		"DamageReflectedFrequencyPct_label"				"觸發機率"
 		"DamageReflectedFrequencyPct_postfix"			"%"
 		"modifier_armor_reactive_armor"					"歸還火力"
+        "ReturnFireBulletResist_prefix"					"+"
+        "ReturnFireBulletResist_label"					"子彈抗性"
+        "ReturnFireBulletResist_postfix"					"%"
 
 		"RespawnBonusHealth_label"							"重生額外生命值"
 		"RespawnBonusHealthDuration_label"					"重生額外生命值持續"
