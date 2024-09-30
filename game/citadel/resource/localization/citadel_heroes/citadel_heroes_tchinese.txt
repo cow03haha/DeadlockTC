@@ -1405,6 +1405,7 @@
         "mirage_sand_phantom_passive_desc" "被動：你的攻擊<span class=\"highlight\">對目標施加逐步增強的乘數</span>。當目標上的乘數過期或達到最大值時，將消耗並對目標造成<span class=\"highlight\">靈魂傷害</span>，並暫時<span class=\"highlight\">在地圖上顯示</span>。最終傷害為基礎傷害乘以乘數。"
         "mirage_sand_phantom_t1_desc"     "每次增強乘數時施加{s:MovementSpeedSlow}%減速，持續{s:SlowDuration}秒"
         "mirage_sand_phantom_t2_desc"     "+{s:VictimStackDuration}秒乘數持續時間及+{s:ProcDamageBase}基礎傷害"
+        "mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown}秒 乘數冷卻時間 以及 +{s:MirageDjinnsMarkMaxStacks} 最大乘數"
         "modifier_mirage_sand_phantom_passive_victim" "沙精印記乘數"
         "ProcDamageBase_label"            "基礎傷害"
         "VictimStackDuration_label"       "乘數持續時間"
