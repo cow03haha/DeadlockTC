@@ -847,7 +847,7 @@
 		"upgrade_cardio_calibrator_desc"			"降低敵人移動減少移速的效果。"
 
 		//Health Nova
-		"upgrade_health_nova_desc"					"使用後<span class=\"highlight\">治療</span> 自身和附近的友軍。在持續時間內治療每個友軍最大生命值的 {s:HeroTargetBonus}% "
+		"upgrade_health_nova_desc"					"<span class=\"highlight\">治療</span>自己和附近的盟友。每位盟友額外治療 {s:HeroTargetBonus}% 。"
 		"modifier_health_nova"					"療癒新星"
 
 		//Fast Reload
