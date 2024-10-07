@@ -1356,9 +1356,9 @@
 		"Citadel_LaneStats_LastHits"					"補刀"
 		"Citadel_LaneStats_Denies"						"反補"
 		"Citadel_LaneStats_PlayerDamage"				"玩家傷害"
-		"Citadel_LaneStats_Tier1"						"守護者摧毀時間"
-		"Citadel_LaneStats_Tier2"						"步行者摧毀時間"
-		"Citadel_LaneStats_Guardians"					"基地守護者摧毀時間"
+		"Citadel_LaneStats_Tier1"						"守護者被摧毀時間"
+		"Citadel_LaneStats_Tier2"						"步行者被摧毀時間"
+		"Citadel_LaneStats_Guardians"					"基地守護者被摧毀時間"
 
 		"Citadel_WatchPage_FilterByHeroDefault"			"按英雄篩選"
 		"Citadel_WatchPage_SearchMatchID"				"使用比賽 ID 搜索"
