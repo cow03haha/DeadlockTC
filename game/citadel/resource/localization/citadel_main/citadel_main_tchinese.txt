@@ -1290,7 +1290,7 @@
 		"Citadel_MatchDetails_ViewAsPct"						"%"
 		"Citadel_MatchDetails_GraphType"						"圖表類型:"
 		"Citadel_MatchDetails_StatsAt"							"對線結束在{s:sample_time}"
-		"Citadel_MatchDetails_Objectives"						"目標"
+		"Citadel_MatchDetails_Objectives"						"地圖物件"
 
 		"Citadel_GraphGroup_General"							"通用"
 		"Citadel_GraphGroup_Player"								"玩家 - 專用"
