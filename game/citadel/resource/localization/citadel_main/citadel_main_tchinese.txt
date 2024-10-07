@@ -2749,6 +2749,7 @@
 		"ping_headed_yellow"									"正在前往 黃路"
 		"ping_headed_blue"										"正在前往 藍路"
 		"ping_headed_orange"									"正在前往 橙路"
+        "ping_headed_green"										"正在前往 綠路"
 		"ping_headed_purple"									"正在前往 紫路"
 		"headed_this_way"										"正在前往這裡"
 		"ping_defend"											"摧毀了"
