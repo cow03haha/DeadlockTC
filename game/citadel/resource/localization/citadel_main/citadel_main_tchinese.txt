@@ -1006,6 +1006,16 @@
 		"Citadel_Playtest_JoinedForum"								"已加入論壇"
 		"Citadel_Playtest_JoinDiscord"								"加入 Discord"
 		"Citadel_Playtest_JoinedDiscord"							"已加入 Discord"
+		"Citadel_Playtest_GoToForum"								"前往論壇"
+        
+        "Citadel_RankedSchedule_1"									"美西"
+        "Citadel_RankedSchedule_2"									"美東"
+        "Citadel_RankedSchedule_10"									"歐西"
+        "Citadel_RankedSchedule_11"									"歐東"
+        "Citadel_RankedSchedule_13"									"俄羅斯中部"
+        "Citadel_RankedSchedule_20"									"中國"
+        "Citadel_RankedSchedule_21"									"日本/韓國"
+        "Citadel_RankedSchedule_22"									"澳洲東部"
 
 		"Citadel_StartMatchmaking_ErrorTitle"						"錯誤"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"無法進入配隊，你已經在嘗試尋找比賽。"
