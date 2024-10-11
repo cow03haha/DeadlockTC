@@ -1745,6 +1745,69 @@
 		// END HERO ABILITIES
 		//-----------------------------------------------------------------------------
 
+	    //-----------------------------------------------------------------------------
+		// Slork
+		//-----------------------------------------------------------------------------
+
+		//"modifier_slork_gun_poison"		"Slork Poison Sprayer"
+		//"modifier_slork_scald"			"Slork Scalding Spray"
+
+		//"citadel_weapon_hero_slork_set"		"Poison Sprayer"
+		//"citadel_weapon_hero_slork_set_desc"	"Spews a short range toxic cloud that deals double damage to non-hero targets. When aimed, shoots a long range dart that poisons enemies."
+
+		//"slork_scald"			"Scald"
+		//"slork_scald_desc"		"Spray out an arc of superheated water that <span class=\"highlight\">damages enemies over time</span>."
+		//"slork_scald_t1_desc"	"Spray in a wide arc"
+		//"slork_scald_t3_desc"	"+{s:DPS} DPS and +{s:ImpactDamage} Impact damage"
+		"DOTDuration_Label"		"持續時間"
+		"DOTDuration_postfix"		"秒"
+
+		//"slork_riptide"				"Riptide"
+		//"slork_riptide_desc"		"Summon a churning vortex of superheated water that <span class=\"highlight\">burns enemies</span> and <span class=\"highlight\">lauches them towards Slork</span>."
+        //		"slork_scald_t1_desc"		"Spray in a wide arc"
+		//"slork_riptide_t3_desc"		"+{s:DPS} DPS and +{s:ImpactDamage} Impact damage"
+		//"modifier_slork_riptide"	"Burned by Riptide"
+
+		//"slork_raging_current"		"Torrent Storm"
+		//"slork_raging_current_desc"	"Call water from deep underground, saturating an area. Every {s:TargetAcquireTime}s a torrent will well up, tossing enemies into the air after a {s:TorrentDelay}s delay. Enemies will be stunned and their bullet armor reduced."
+		//"TorrentDelay_Label"		"Torrent Delay"
+		//"TorrentDuration_Label"		"Torrent Duration"
+		//"TorrentRadius_Label"		"Torrent Radius"
+		"TorrentRadius_postfix"		"m"
+
+		//"slork_chomp"				"Chomp"
+		//"slork_chomp_desc"			"<span class=\"highlight\">Dash forward and grab onto an enemy</span>, biting them repeatedly. The enemy is slowed, disarmed, and silenced while grappled. When the target is <span class=\"highlight\">below half health</span>, deal an additional <span class=\"highlight_tech\">{s:DamagePercentHealth}%</span> of their max health in damage."
+		"HobbledMovementSlow_Label" "Movement Slow"
+		"HobbledMovementSlow_postfix" "%"
+		//"slork_chomp_t2_desc"		"+{s:ChompHealPercent}% Lifesteal from Chomp damage"
+        //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
+		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
+		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+
+		//"slork_ability_4"		"Torrent"
+		//"slork_ability_4_desc"	"Slork creates a Jet of water that errupts from the ground damaging all nearby enemies and knocking them into the air."
+
+		//"slork_ability_invis"			"Ambush Predator"
+		//"slork_ability_invis_desc"		"<span class=\"highlight\">Fade from view</span> when not shooting or using abilities. When fully invisible, can be cast to deal <span class=\"highlight_tech\">{s:AmbushDamage}</span> damage and <span class=\"highlight\">+{s:StaminaDamage}</span> stamina damage to enemies in front of Slork."
+		//"InvisReapplyDelay_Label"		"Delay before fading"
+		//"InvisRegen_Label"				"Invis Max Health Regen"
+		"InvisRegen_postfix"			"%"
+		//"AmbushDamage_Label"			"Ambush Damage"
+		//"StaminaDamage_Label"			"Stamina Damage"
+        //		"slork_ability_invis_t2_desc"	"-{s:InvisReapplyDelay}s Delay before fading"
+
+		//"slork_last_breath"				"Deep's Embrace"
+		//"slork_last_breath_desc"		"Encase yourself in a sphere of water that can absorb up to <span class=\"highlight_tech\">{s:DamageAbsorb}</span> damage before bursting. When the sphere disipates for any reason enemies in range take <span class=\"highlight_tech\">{s:BurstDamage}</span> damage."
+		//"DamageAbsorb_Label"			"Damage Absorbed"
+		//"HitsToRelease_Label"			"Hits to Release"
+
+
+		//"modifier_slork_invis"		"Invisible"
+		//"modifier_slork_ambush"		"Ambush Damage"
+		//"modifier_slork_visible"	"Can't hide"
+		//"modifier_slork_lastbreath"	"Last Breath"
+		//"modifier_slork_lastbreath_damage_amp" "Baited"
 
 		// Weapon names
 		"citadel_gun_damage"						"槍械傷害"
