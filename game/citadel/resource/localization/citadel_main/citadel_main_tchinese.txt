@@ -532,16 +532,16 @@
         "Citadel_PrivateLobby_Difficulty_Hard"						"困難BOT"
         "Citadel_PrivateLobby_RandomLanes_Off"						"指定路線分配"
         "Citadel_PrivateLobby_RandomLanes_On"						"預設路線分配"
-        "Citadel_PrivateLobby_Duplicate_Heroes_Off": "重複英雄已禁用",
-        "Citadel_PrivateLobby_Duplicate_Heroes_On": "重複英雄已啟用",
-        "Citadel_PrivateLobby_Cheats_Off": "作弊功能已禁用",
-        "Citadel_PrivateLobby_Cheats_On": "作弊功能已啟用",
-        "Citadel_PrivateLobby_SwapTeams": "交換隊伍",
-        "Citadel_PrivateLobby_SwapTeamsTooltip": "在保持相同路線的情況下，交換兩隊成員",
-        "Citadel_PrivateLobby_RandomizeTeams": "隨機分配所有玩家",
-        "Citadel_PrivateLobby_ShuffleTeamsTooltip": "隨機分配大廳中的玩家至兩個不同隊伍",
-        "Citadel_PrivateLobby_ShuffleTeams": "隊內重組",
-        "Citadel_PrivateLobby_ShuffleLanesTooltip": "隨機分配隊伍內的玩家至不同路線"
+        "Citadel_PrivateLobby_Duplicate_Heroes_Off"                 "重複英雄已禁用"
+        "Citadel_PrivateLobby_Duplicate_Heroes_On"                  "重複英雄已啟用"
+        "Citadel_PrivateLobby_Cheats_Off"                           "作弊功能已禁用"
+        "Citadel_PrivateLobby_Cheats_On"                            "作弊功能已啟用"
+        "Citadel_PrivateLobby_SwapTeams"                            "交換隊伍",
+        "Citadel_PrivateLobby_SwapTeamsTooltip"                     "在保持相同路線的情況下，交換兩隊成員"
+        "Citadel_PrivateLobby_RandomizeTeams"                       "隨機分配所有玩家",
+        "Citadel_PrivateLobby_ShuffleTeamsTooltip"                  "隨機分配大廳中的玩家至兩個不同隊伍"
+        "Citadel_PrivateLobby_ShuffleTeams"                         "隊內重組"
+        "Citadel_PrivateLobby_ShuffleLanesTooltip"                  "隨機分配隊伍內的玩家至不同路線"
         
         "Citadel_ServerRegion_0"									"自動選擇區域"
         "Citadel_ServerRegion_7"									"澳大利亞"
