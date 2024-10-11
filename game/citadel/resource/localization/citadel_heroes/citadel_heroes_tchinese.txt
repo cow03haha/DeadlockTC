@@ -1061,7 +1061,7 @@
 
 		"ability_life_drain"				"吸魂巫術"
 		"ability_life_drain_quip"			"汲取敵人的生命值"
-		"ability_life_drain_desc"			"選定一個敵方目標，使用後創造一個連結，持續<span class=\“highlight\”>吸取敵人的生命值</span>，目標必須在視線範圍內，並且在最大射程內才能消耗生命值。消耗期間，你可以射擊和使用其他技能，但是減半移速。按下 [{s:in_ability2}] 提前取消吸取。"
+		"ability_life_drain_desc"			"建立一條連結以<span class=\"highlight\">持續吸取敵人的生命值</span>並<span class=\"highlight\">治癒自己</span>。目標必須在視線範圍內且位於最大距離內才能進行吸取。吸取期間可以射擊或使用其他技能，但移動速度會減半。<br><span class=\"highlight\">[Alt-Cast] 對友方英雄進行生命恢復</span>。<br><span class=\"highlight\">按下 [{s:in_ability2}]</span> 以取消技能。" 
 		"ability_life_drain/modifier_life_drain" "生命吸取"
 		"ability_life_drain/modifier_life_drain_caster" "生命吸取"
 		"modifier_life_drain_silence"		"沉默"
