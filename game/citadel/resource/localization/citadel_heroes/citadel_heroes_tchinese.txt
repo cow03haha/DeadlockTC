@@ -181,8 +181,8 @@
 
 		"citadel_ability_shieldedsentry"		"迷你炮台"
 		"citadel_ability_shieldedsentry_quip"	"部署一個迷你炮台"
-		"citadel_ability_shieldedsentry_desc"	"使用後，部署一個迷你炮台會<span class=\"highlight\">自動攻擊敵方目標</span>。當持續時間結束就會消失。<br>炮塔會繼承{s:hero_name}的{s:TurretHealthScaling}%最大生命值和{s:TechResist}%魂力抗性。並且對非玩家單位的傷害帶有抗性"
-		"citadel_ability_shieldedsentry_t1_desc"	"增加<span class=\"highlight\">{s:AbilityCharges}</span>點技能充能，並且炮台攻擊會對目標施加減少移速<span class=\"highlight\">{s:MoveSlowPercent}%</span>"
+		"citadel_ability_shieldedsentry_desc"	"部署一個<span class=\"highlight\">自動射擊敵人</span>的小型炮台。炮台會在有限的存續時間後消失。<br>炮台的生命值為 {s:hero_name} 最大生命值的 {s:TurretHealthScaling}% ，並且擁有 {s:TechResist}% 的魂力抗性。對士兵和目標造成的傷害減少。"
+		"citadel_ability_shieldedsentry_t1_desc"	"炮台攻擊會對敵人施加<span class=\"highlight\">+{s:MoveSlowPercent}%</span>的移動減速效果"
 		"citadel_ability_shieldedsentry_t2_desc"	"增加<span class=\"highlight\">{s:TurretAttackRange}m</span>攻擊距離和<span class=\"highlight\">{s:AttackSpeedMult}%</span>射速"
 		
 		"citadel_ability_shieldedsentry/modifier_bullet_resist_reduction_stack"		"炮台子彈抗性削弱"
