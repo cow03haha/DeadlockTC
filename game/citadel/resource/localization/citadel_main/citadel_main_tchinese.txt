@@ -532,6 +532,8 @@
         "Citadel_PrivateLobby_Difficulty_Hard"						"困難BOT"
         "Citadel_PrivateLobby_RandomLanes_Off"						"指定路線分配"
         "Citadel_PrivateLobby_RandomLanes_On"						"預設路線分配"
+        "Citadel_PrivateLobby_PubliclyVisible_Off"					"僅對玩家可見"
+        "Citadel_PrivateLobby_PubliclyVisible_On"					"對所有人可見"
         "Citadel_PrivateLobby_Duplicate_Heroes_Off"					"重複英雄已禁用"
         "Citadel_PrivateLobby_Duplicate_Heroes_On"					"重複英雄已啟用"
         "Citadel_PrivateLobby_Cheats_Off"						    "作弊功能已禁用"
