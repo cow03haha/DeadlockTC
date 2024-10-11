@@ -575,7 +575,7 @@
 		"citadel_ability_stomp_quip"			"施放地能量脈衝，將敵人擊飛到空中"
 		"citadel_ability_stomp_desc"			"使用後釋放能量脈衝，將敵人擊飛至空中。"
 		"citadel_ability_stomp_t1_desc"			"被擊中的敵人<span class=\"highlight\">減少射速和移速</span>，持續<span class=\"highlight\">{s:SlowDuration}秒</span>。"
-		"citadel_ability_stomp_t2_desc"			"{s:hero_name}對命中的敵人增加<span class=\"highlight\">{s:BulletArmorReduction}%子彈傷害</span>持續 <span class=\"highlight\">{s:BulletArmorReductionDuration}秒</span>"
+		"citadel_ability_stomp_t2_desc"			"{s:hero_name}對命中的敵人造成<span class=\"highlight\">額外 {s:BulletArmorReduction}% 子彈傷害</span>，持續 <span class=\"highlight\">{s:BulletArmorReductionDuration} 秒</span>"
 		"StompRange_label"						"踩踏範圍"
 		"StompRange_postfix"					"公尺"
 		"stomp_buff_modifier"						"+射速"
