@@ -1238,6 +1238,7 @@
 		"ability_ult_combo"				"連打"
 		"ability_ult_combo_quip"		"控制住敵方英雄並進行雙人連打"
 		"ability_ult_combo_desc"		"選定一個敵方近距離英雄目標，使用後將目標控制在原地, <span class=\"highlight\">在持續施法技能時眩暈他並持續造成傷害</span> 。如果目標單位在連打過程中死亡，你將永久獲得最大生命值。"
+		"ability_ult_combo_t1_desc"		"連打期間獲得<span class=\"highlight\">+{s:ComboBulletResist}%</span>的子彈抗性"
 		"ability_ult_combo_t2_desc"		"連打持續時間增加 <span class=\"highlight\">+{s:AbilityChannelTime}s</span>"
 		"ability_ult_combo_t3_desc"		"增加<span class=\"highlight\">+{s:DPS}</span> 傷害和 <span class=\"highlight\">{s:LifeStealPercentOnHit}% 吸血</span>"
 		"LifestealPercentOnHit_label"		"吸血"
