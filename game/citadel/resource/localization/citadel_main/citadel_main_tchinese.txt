@@ -532,10 +532,16 @@
         "Citadel_PrivateLobby_Difficulty_Hard"						"困難BOT"
         "Citadel_PrivateLobby_RandomLanes_Off"						"指定路線分配"
         "Citadel_PrivateLobby_RandomLanes_On"						"預設路線分配"
-        "Citadel_PrivateLobby_PubliclyVisible_Off"					"僅對玩家可見"
-        "Citadel_PrivateLobby_PubliclyVisible_On"					"對所有人可見"
-        "Citadel_PrivateLobby_Cheats_Off"							"作弊已禁用"
-        "Citadel_PrivateLobby_Cheats_On"							"作弊已啟用"
+        "Citadel_PrivateLobby_Duplicate_Heroes_Off": "重複英雄已禁用",
+        "Citadel_PrivateLobby_Duplicate_Heroes_On": "重複英雄已啟用",
+        "Citadel_PrivateLobby_Cheats_Off": "作弊功能已禁用",
+        "Citadel_PrivateLobby_Cheats_On": "作弊功能已啟用",
+        "Citadel_PrivateLobby_SwapTeams": "交換隊伍",
+        "Citadel_PrivateLobby_SwapTeamsTooltip": "在保持相同路線的情況下，交換兩隊成員",
+        "Citadel_PrivateLobby_RandomizeTeams": "隨機分配所有玩家",
+        "Citadel_PrivateLobby_ShuffleTeamsTooltip": "隨機分配大廳中的玩家至兩個不同隊伍",
+        "Citadel_PrivateLobby_ShuffleTeams": "隊內重組",
+        "Citadel_PrivateLobby_ShuffleLanesTooltip": "隨機分配隊伍內的玩家至不同路線"
         
         "Citadel_ServerRegion_0"									"自動選擇區域"
         "Citadel_ServerRegion_7"									"澳大利亞"
@@ -593,6 +599,8 @@
 		"Citadel_Party_LeavePartyText"								"請等待"
 		"Citadel_Party_PartyRoleTitle"								"正在修改職位"
 		"Citadel_Party_PartyRoleText"								"請等待"
+        "Citadel_Party_PartySlotTitle"								"改變位置"
+        "Citadel_Party_PartySlotText"								"請等待"
 		"Citadel_Party_KickPlayerTitle"								"正在踢出玩家"
 		"Citadel_Party_KickPlayerText"								"請等待"
 		"Citadel_Party_CancelInviteTitle"							"正在取消邀請"
@@ -1801,6 +1809,11 @@
         "citadel_settings_quickcast_item_default"		"物品預設"
         "citadel_settings_quickcast_enabled"			"已啟用快速施放"
         "citadel_settings_quickcast_disabled"			"已禁用快速施放"
+        "citadel_settings_quickcast_default_tooltip"		"使用技能的預設快速施放模式"
+        "citadel_settings_quickcast_confirm_cast_tooltip"	"按下技能鍵選擇技能，再按下開火鍵來施放。"
+        "citadel_settings_quickcast_enabled_tooltip"		"按下技能鍵時立即施放技能。"
+        "citadel_settings_quickcast_disabled_tooltip"		"按住技能鍵來選擇技能，釋放技能鍵時施放技能。"
+        "citadel_settings_quickcast_confirm_cast"			"確認施放"
 		"citadel_settings_streamer_mode"				"實況主模式"
         "citadel_settings_streamer_mode_tooltip"		"開啟此選項以隱藏遊戲內及儀表板上的玩家名稱。此模式不會隱藏個人檔案卡上的玩家名稱。"
 		"citadel_camera_pitch_inverted"					"反轉滑鼠游標"
@@ -1838,7 +1851,8 @@
 		"citadel_settings_pingwheeldefaults"			"恢復信號輪盤預設設定"
 		"citadel_settings_abilitieskeybinds"			"技能按鍵綁定"
 		"citadel_settings_itemkeybinds"					"物品按鍵綁定"
-		"citadel_settings_movementkeybinds"				"動作按鍵綁定"
+		"citadel_settings_movementkeybinds"				"移動按鍵綁定"
+		"citadel_settings_actionkeybinds"				"動作按鍵綁定"
 		"citadel_settings_misckeybinds"					"其他按鍵綁定"
 		"citadel_settings_communicationkeybinds"		"溝通按鍵綁定"
 		"citadel_settings_spectatorkeybinds"			"觀眾按鍵綁定"
@@ -2282,6 +2296,7 @@
 		"menu_resume"								"回到遊戲"
 		"menu_abandon"								"放棄比賽"
 		"menu_leave"								"離開比賽"
+        "menu_disconnect"							"斷開連線"
 		"menu_leave_spectate"						"離開觀賽"
 		"menu_rejoin"								"重新加入"
 		"menu_watch"								"觀看比賽"
@@ -2343,6 +2358,38 @@
 		"menu_play_matchmaking"						"加入到配隊隊列當中來和其他玩家進行一場標準的休閒比賽。"
 		"menu_learn_incomplete"						"未完成"
 		"menu_learn_completed"						"已完成"
+
+        "menu_play_ranked"							"進行排名賽"
+        "menu_play_ranked_desc"						"與實力相近的玩家進行更具競爭性的比賽。"
+        "menu_ranked_title"							"排名賽："
+        "menu_ranked_schedule_title"				"開放時間："
+        "menu_ranked_unavailable"					"未解鎖"
+        "menu_ranked_unavailable_desc"				"你必須完成 50 場標準比賽才能進行排名賽。"
+        "menu_ranked_schedule_weekdays"				"週一 - 週四："
+        "menu_ranked_schedule_weekends"				"週五 - 週日："
+        "menu_ranked_schedule_alldays"				"每日時間表："
+        "menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
+        "menu_ranked_select_schedule"				"選擇時間表"
+        "menu_ranked_view_schedules"				"查看所有時間表"
+        "menu_ranked_set_schedule"					"設定時間表"
+        "menu_ranked_explainer_button"				"什麼是排名賽？"
+        "Citadel_SetSchedule_Failed"				"設定時間表錯誤"
+        "Citadel_SetSchedule_FailedToSetSchedule"	"無法設定時間表。請稍後再試。"
+        "Citadel_SetSchedule_AlreadySet"			"無法設定時間表，因為您的時間表已設定。"
+        "Citadel_SetSchedule_Success"				"成功"
+        "Citadel_SetSchedule_LocalTimes"			"時間表以本地時間顯示"
+        "Citadel_SetSchedule_Selected"				"已選擇"
+        "Citadel_SetSchedule_SetSuccessfully"		"時間表設定成功"
+        "Citadel_ranked_scheduleModal_title"		"排名賽時間表"
+        "Citadel_ranked_scheduleModal_desc"			"選擇最符合您偏好遊玩時間的排名賽時段。<br><br>無論選擇的時間段為何，您將始終在距離最近的伺服器上進行比賽。"
+        "Citadel_ranked_scheduleModal_warning"		"注意：選擇此排名賽時段後，直到下次賽季開始前，您將無法更改設定。"
+        "Citadel_ranked_open"						"現正開放"
+        "Citadel_ranked_closed"						"已關閉"
+        "Citadel_ranked_comingsoon"					"首次排名賽將於 10 月 15 日週二 GMT 時間晚上 8 點開放"
+        "Citadel_ranked_schedule_explainer"			"排名賽僅在特定時間段內開放，開始遊玩前，請選擇最符合您時間的設定。"
+        
+        "Citadel_ranks_rank0"						"無位階"
+
 
 		"item_info_abilities"						"技能"
 		"item_info_flex_slots"						"額外槽位"
