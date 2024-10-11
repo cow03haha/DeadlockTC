@@ -1597,7 +1597,7 @@
 		"MediumChargeDamagePct_postfix"			"%"
 		"FullChargeDamage_label"				"完全蓄力傷害"
 		"citadel_ability_power_slash_t1_desc"	"蓄力時增加 <span class=\"highlight\">{s:BulletResist}%子彈抗性</span> "
-		"citadel_ability_power_slash_t2_desc"	"施加<span class=\"highlight\">{s:SlowPercent}%減少移速</span>持續<span class=\"highlight\">{s:SlowDuration}秒</span>"
+		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> 技能冷卻時間，並對敵人施加<span class=\"highlight\">{s:SlowPercent}%</span>移動減速效果，持續<span class=\"highlight\">{s:SlowDuration}s</span>。"
 		"StaminaToRemove_label"				"狀態持續"
 
 		"citadel_ability_flying_strike"			"踏空刺"
@@ -1610,7 +1610,7 @@
 
 		"citadel_ability_infinity_slash"		"影之道"
 		"citadel_ability_infinity_slash_quip"	"化身為無敵、更加強大的存在。"
-		"citadel_ability_infinity_slash_desc"	"Yamato 與暗影靈魂融合，進入一段 <span class=\"highlight\">無敵</span> 的變身後，您的 <span class=\"highlight\">技能將被刷新並加速冷卻 60%</span>，同時獲得 <span class=\"highlight\">傷害抗性</span> 和 <span class=\"highlight\">對負面狀態的免疫</span>。在此狀態下，您無法死亡。" 
+		"citadel_ability_infinity_slash_desc"	"融入 Yamato 的暗影之魂中。初始會進行一次<span class=\"highlight\">無敵</span>變身，你的<span class=\"highlight\">技能冷卻重置且施放速度提升 60%</span>，並獲得<span class=\"highlight\">負面狀態免疫</span>。在此模式下，你無法死亡。" 
 		"citadel_ability_infinity_slash_buff_header" "每次英雄命中"	
 		"ShadowDuration_label"					"爆炸延遲"
 		"ShadowDuration_postfix"				"秒"
