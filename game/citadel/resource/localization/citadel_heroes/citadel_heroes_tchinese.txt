@@ -588,7 +588,7 @@
 		"citadel_ability_void_sphere"				"量子糾纏"
 		"citadel_ability_void_sphere_quip"		"閃爍一段距離並且無敵"
 		"citadel_ability_void_sphere_desc"		"使用後{s:hero_name} <span class=\"highlight\">短暫消失在虛空中</span>，然後在選定的位置再次出現。再次出現時，你的武器會<span class=\"highlight\">重新裝彈</span>，並在下一個彈匣中獲得射速加成。可按下 [{s:key_alt_cast}] 使附近的友方英雄也加入進來並獲得一半的射速加成。"
-		"citadel_ability_void_sphere_t3_desc"		"再次出現後持續時間內<span class=\"highlight\">增加{s:BonusClipSizePercent}%</span>基礎彈匣容量。"
+		"citadel_ability_void_sphere_t3_desc"		"重新出現時獲得<span class=\"highlight\">{s:AbilityCooldown} 秒</span>技能冷卻時間與<span class=\"highlight\">+{s:BonusClipSizePercent}%</span>基礎彈藥"
 		"modifier_void_sphere"					"量子糾纏"
 		"modifier_voidsphere_buff"				"量子糾纏 額外射速"
 		"AllyDistance_label"						"友方進入範圍"
