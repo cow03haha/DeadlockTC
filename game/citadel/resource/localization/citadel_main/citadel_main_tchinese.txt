@@ -2284,8 +2284,13 @@
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"敵方守護神"
 		"Citadel_TeamMsg_TitanKilledTitle"				"友方守護神"
 
+        "Citadel_FlexSlot_Title"						"額外槽位已解鎖"
+		"Citadel_FlexSlotUnlockedAllTier1"				"你已啟用一個額外槽位，摧毀3名 <span class=\"FlexSlotObjectiveName\">敵方守護者</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"你已啟用一個額外槽位，首次摧毀 <span class=\"FlexSlotObjectiveName\">敵方神龕</span>"
+		"Citadel_FlexSlotUnlockedAllTier2"				"你已啟用一個額外槽位，摧毀全部<span class=\"FlexSlotObjectiveName\">敵方步行者</span>"
+		"Citadel_FlexSlotUnlockedKill2Tier2"			"你已啟用一個額外槽位，摧毀3座<span class=\"FlexSlotObjectiveName\">敵方步行者</span>"
 
-		"Citadel_FlexSlot_Title"						"額外槽位已解鎖"
+		"Citadel_FlexSlot_Title"						"額外槽位已解鎖"   
 		"Citadel_FlexSlotUnlockedAllTier1"				"你已啟用一個額外槽位，摧毀全部"
 		"Citadel_FlexSlotUnlockedLane"					"你已啟用一個額外槽位，摧毀"
 		"Citadel_FlexSlotUnlockedGenerator"				"你已啟用一個額外槽位，首次摧毀"
@@ -2468,7 +2473,7 @@
         "ModIconTooltip_UnlockGuardians"			"摧毀一組敵方基地守護神後解鎖"	
         "ModIconTooltip_UnlockGenerators"			"首次摧毀敵方神龕後解鎖"	
         //"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-        "ModIconTooltip_UnlockAllTier1"				"摧毀敵方所有守護者後解鎖"
+        "ModIconTooltip_UnlockAllTier1"				"摧毀敵方3名守護者後解鎖"
         "ModIconTooltip_UnlockAllTier2"				"摧毀敵方所有步行者後解鎖"
 
 		"HeroesPageTitle"							"英雄"
@@ -2601,7 +2606,7 @@
 		"ReportCard_PowerUp"						"強化你的英雄"
 		"ReportCard_PowerUp_Desc"					"乘坐移動滑索回到基地，花費所有的魂靈和技能點數"
 
-		"ReportCard_KillGuardian"					"擊敗敵方守護神"
+		"ReportCard_KillGuardian"					"擊敗敵方守護者"
 		"ReportCard_KillGuardian_Desc"				"消滅阻擋你取得勝利的任何人!"
 
 		"NewPlayer_NewPlayerFlow"					"學習如何玩"				
