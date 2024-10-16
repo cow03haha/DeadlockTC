@@ -950,7 +950,7 @@
 
 		"Citadel_PrivilegedFeatures_ReportingDisabled_Title"		"檢舉禁用"
 		"Citadel_PrivilegedFeatures_ReportingDisabled_InactiveTitle" "檢舉"
-		"Citadel_PrivilegedFeatures_ReportingDisabled_Active"		"您帳號上的遊戲內檢舉功能已被禁用，直到 {t:l:t:m:reporting_ban_end_time}。"
+		"Citadel_PrivilegedFeatures_ReportingDisabled_Active"		"您帳號上的遊戲內檢舉功能已被禁用，直到 {t:l:t:m:report_ban_end_time}。"
 		"Citadel_PrivilegedFeatures_ReportingDisabled_Inactive"		"不準確的玩家檢舉將導致您的檢舉功能被禁用，如果問題持續，可能會導致永久帳號禁用。"
 
 		"Citadel_PrivilegedFeatures_PausingDisabled_Title"			"暫停禁用"
