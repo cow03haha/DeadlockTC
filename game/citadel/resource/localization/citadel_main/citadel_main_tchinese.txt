@@ -2286,16 +2286,10 @@
 
         "Citadel_FlexSlot_Title"						"額外槽位已解鎖"
 		"Citadel_FlexSlotUnlockedAllTier1"				"你已啟用一個額外槽位，摧毀3名 <span class=\"FlexSlotObjectiveName\">敵方守護者</span>"
-		"Citadel_FlexSlotUnlockedGenerator"				"你已啟用一個額外槽位，首次摧毀 <span class=\"FlexSlotObjectiveName\">敵方神龕</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"你已啟用一個額外槽位，首次摧毀 <span class=\"FlexSlotObjectiveName\">神龕</span>"
 		"Citadel_FlexSlotUnlockedAllTier2"				"你已啟用一個額外槽位，摧毀全部<span class=\"FlexSlotObjectiveName\">敵方步行者</span>"
-		"Citadel_FlexSlotUnlockedKill2Tier2"			"你已啟用一個額外槽位，摧毀3座<span class=\"FlexSlotObjectiveName\">敵方步行者</span>"
+		"Citadel_FlexSlotUnlockedKill2Tier2"			"你已啟用一個額外槽位，摧毀2組<span class=\"FlexSlotObjectiveName\">敵方步行者</span>"
 
-		"Citadel_FlexSlot_Title"						"額外槽位已解鎖"   
-		"Citadel_FlexSlotUnlockedAllTier1"				"你已啟用一個額外槽位，摧毀全部"
-		"Citadel_FlexSlotUnlockedLane"					"你已啟用一個額外槽位，摧毀"
-		"Citadel_FlexSlotUnlockedGenerator"				"你已啟用一個額外槽位，首次摧毀"
-		//"Citadel_FlexSlotUnlockedTier3"				"你已啟用一個額外槽位，摧毀"
-		"Citadel_FlexSlotUnlockedAllTier2"				"你已啟用一個額外槽位，摧毀全部"
 
 		"team_msg_TitanDefeated_Title"		"守護神已摧毀"
 		"team_msg_YourTitanDefeated_Desc"	"你的守護神已經被摧毀"
