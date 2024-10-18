@@ -2503,7 +2503,8 @@
 		"MyRosterWaitForParty"						"等待隊伍成員..。"
 		"MyRosterExit"								"退出陣容"
 		"MyRosterExitRosterConfirm"					"你確定要退出陣容嗎？這將退出整個隊伍的陣容。"
-		"MyRosterPartyHighSkillRange"				"你的隊伍中的玩家水平差距過大。這將使你的隊伍在配隊時更加困難。"
+        "MyRosterPartyHighSkillRange"               "你隊伍裡的玩家實力差距過大，這會讓你的隊伍在配對時變得更困難。"
+
 
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} 就緒"
 		"MyRosterPartyMemberRoster"					"隊伍中已有人選擇此英雄:"
