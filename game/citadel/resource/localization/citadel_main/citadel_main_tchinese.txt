@@ -2424,6 +2424,12 @@
         
         "Citadel_ranked_explainer_note"              "徽章設計將在10月22日星期二首次發放等級時公開。"
         
+        "Citadel_ranked_result_title"				"排位報告"
+        "Citadel_ranked_result_rankup"				"排位提升！"
+        "Citadel_ranked_result_adjustment"			"排位調整"
+        "Citadel_ranked_numGamesPlayed"				"{s:games_played} 場已完成的對戰"
+        "Citadel_ranked_match_history"				"對戰歷史："
+        "Citadel_ClickToViewReport"					"點擊查看排位報告摘要"
         
         "Citadel_ranks_rank0"						"隱密"
         "Citadel_ranks_rank1"						"啟蒙"
