@@ -312,6 +312,11 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"無需重新裝滿彈夾"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"排位
+		"Citadel_MatchInfo_Mode_Standard"							"一般"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"英雄實驗室"
+		"Citadel_MatchInfo_Mode_CoopBot"							"合作"
+		"Citadel_MatchInfo_Mode_Private"							"私人"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"不相容的版本"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"你的用戶端不再是連接該伺服器的有效版本"
@@ -1258,7 +1263,9 @@
 		"Citadel_SpectateUser_InvalidRegion"					"此比賽在另一地區進行，當前無法觀看。"
 
 		"Citadel_Profile_Title"									"個人資料"
-		"Citadel_Profile_MatchHistory"							"比賽紀錄"
+		"Citadel_Profile_MatchHistory"							"對戰紀錄"
+        "Citadel_Profile_MatchHistory_ViewAll"					"查看所有對戰紀錄"
+        "Citadel_Profile_MatchHistory_ViewDetails"				"查看細項"
 		"Citadel_Profile_Loading"								"載入中..。"
 		"Citadel_Profile_MostPlayed"							"最多使用的英雄"
         "Citadel_Profile_Win"									"勝利"
@@ -1276,7 +1283,8 @@
         "Citadel_Profile_Stats_ObjDamage"						"建築傷害"		
         "Citadel_Profile_Stats_LastHits"						"補刀"		
         "Citadel_Profile_Stats_Denies"							"反補"		
-        "Citadel_Profile_Stats_Healing"							"治療"		
+        "Citadel_Profile_Stats_Healing"							"治療"	
+        "Citadel_Profile_Stats_Commends"						"表揚"	
         "Citadel_Profile_Stats_Networth"						"收集魂靈"
         
         "Citadel_MatchPage_Prev"								"上一頁"
@@ -1298,6 +1306,7 @@
 		"Citadel_MatchDetails_Report"							"檢舉"
 		"Citadel_MatchDetails_ReportTooltip"					"點擊檢舉玩家"
 		"Citadel_MatchDetails_Reported"							"玩家已被檢舉！"
+        "Citadel_MatchDetails_CommendTooltip"					"點擊表揚玩家"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}k"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}k"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}k"
@@ -1311,8 +1320,8 @@
 		"Citadel_MatchDetails_Healing"							"玩家治療"
 		"Citadel_MatchDetails_Victory"							"獲勝"
 		"Citadel_MatchDetails_Defeat"							"失敗"
-		"Citadel_MatchDetails_Loading"							"載入比賽數據"
-		"Citadel_MatchDetails_MatchID"							"比賽ID：{s:match_id}"
+		"Citadel_MatchDetails_Loading"							"載入對戰數據"
+		"Citadel_MatchDetails_MatchID"							"對戰ID：{s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"查看計分板"
 		"Citadel_MatchDetails_ShowDataBy"						"顯示數據的方式:"
 		"Citadel_MatchDetails_ShowDataByPlayer"					"玩家"
@@ -1342,7 +1351,7 @@
 
 		"Citadel_ProfileCard_StatTitle_Wins"					"獲勝"
 		"Citadel_ProfileCard_StatTitle_Kills"					"擊殺"
-		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"比賽"
+		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"對戰"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1393,15 +1402,15 @@
 		"Citadel_LaneStats_Guardians"					"基地守護者被摧毀時間"
 
 		"Citadel_WatchPage_FilterByHeroDefault"			"按英雄篩選"
-		"Citadel_WatchPage_SearchMatchID"				"使用比賽 ID 搜索"
+		"Citadel_WatchPage_SearchMatchID"				"使用對戰 ID 搜索"
 		"Citadel_WatchPage_NextPage"					"下一頁"
 		"Citadel_WatchPage_PrevPage"					"上一頁"
 		"Citadel_Watch_Page_LiveNow"					"正在直播"
-		"Citadel_Watch_Page_Loading"					"載入比賽中..。"
+		"Citadel_Watch_Page_Loading"					"載入對戰中..。"
 		"Citadel_Watch_Page_SpectateFull"				"觀眾已滿"
-		"Citadel_Watch_Page_ViewAllMatches"				"查看所有比賽"
-		"Citadel_Watch_Page_ViewFeaturedMatches"		"查看精選比賽"
-		"Citadel_WatchPage_ActiveMatches"				"{d:ActiveMatchCount}正在比賽"
+		"Citadel_Watch_Page_ViewAllMatches"				"查看所有對戰"
+		"Citadel_Watch_Page_ViewFeaturedMatches"		"查看精選對戰"
+		"Citadel_WatchPage_ActiveMatches"				"{d:ActiveMatchCount}正在對戰"
 
 		// Post Game
 		"Citadel_Post_Game_MostKills"					"最多擊殺"
@@ -1633,7 +1642,7 @@
 		"CITADEL_ABILITY_INVALID_CANT_CAST_IN_CHARGE_DELAY"	"充能延遲"
 		"CITADEL_ABILITY_INVALID_BUSY_WITH_ACTION"		"你現在還很忙"
 		"CITADEL_ABILITY_INVALID_MUTED"					"被閉鎖，無法使用模組"
-		"CITADEL_ABILITY_INVALID_PREMATCH"				"比賽尚未開始"
+		"CITADEL_ABILITY_INVALID_PREMATCH"				"對戰尚未開始"
 		"CITADEL_ABILITY_INVALID_SILENCED"				"被沉默時無法使用技能"
 		"CITADEL_ABILITY_INVALID_SILENCED_IDOL"			"持有魂甕時無法使用技能"
 		"CITADEL_ABILITY_INVALID_SILENCE_MOVEMENT_ABILITIES"		"位移技能已禁用"
@@ -1874,6 +1883,7 @@
 		"citadel_settings_streamlined_mic"				"流線型麥克風"
 		"citadel_settings_chat_invert_ping"				"反轉信號"
 		"citadel_settings_mousesensitivity"				"滑鼠靈敏度"
+        "citadel_settings_mousesensitivity_y_scale"		"滑鼠靈敏度: 垂直縮放"
 		"citadel_settings_mousezoomsensitivity"			"縮放靈敏度比例"
 		"citadel_settings_keybinddefaults"				"恢復所有按鍵綁定預設設定"
 		"citadel_settings_pingwheeldefaults"			"恢復信號輪盤預設設定"
@@ -2169,7 +2179,7 @@
 		"guide_the_map_troopers_desc"				"蠟燭兵隊伍會定期在基地內出現，然後沿著一條小道奔跑，與遇到的任何敵人作戰。"
 
 		"guide_the_map_core_header"					"核心"
-		"guide_the_map_core_desc"					"每隊基地後面都有一個神龕。摧毀敵方神龕即可贏得比賽。"
+		"guide_the_map_core_desc"					"每隊基地後面都有一個神龕。摧毀敵方神龕即可贏得對戰。"
 
 		"guide_the_map_core_alt_header"				"守護神"
 		"guide_the_map_core_alt_desc"				"你的目標是圍攻敵人的基地，摧毀他們的防禦工事，揭示他們隊伍的守護神。然後摧毀守護神，勝利就是你的了。"
@@ -2302,7 +2312,7 @@
 
 		"citadel_survey_fun_hero"							"你今天玩的英雄有趣嗎？"
 		"citadel_survey_least_fun_hero_to_play_against"		"哪個英雄最不好玩？"
-		"citadel_survey_match_fun"							"比賽有趣嗎？"
+		"citadel_survey_match_fun"							"對戰有趣嗎？"
 
 		"ability_upgrade_description"		"你已解鎖 {s:upgradeTier} 技能升級。從以下列表中選擇一項升級。"
 		"ability_upgrade_extra_info"		"每當你在任何模式層（武器、裝甲、技術或實用工具）中購買兩種升級時，技能升級就會解鎖。"
@@ -2321,12 +2331,12 @@
 		"menu_clear_party_mode"						"改變模式"
 		"menu_leave_testing"						"離開沙盒"
 		"menu_resume"								"回到遊戲"
-		"menu_abandon"								"放棄比賽"
-		"menu_leave"								"離開比賽"
+		"menu_abandon"								"放棄對戰"
+		"menu_leave"								"離開對戰"
         "menu_disconnect"							"斷開連線"
 		"menu_leave_spectate"						"離開觀賽"
 		"menu_rejoin"								"重新加入"
-		"menu_watch"								"觀看比賽"
+		"menu_watch"								"觀看對戰"
 		"menu_heroes"								"英雄們"
 		"menu_submit_feedback"						"提交回饋"
 		"menu_control_zoo"							"控制動物園"
@@ -2362,7 +2372,7 @@
 		"menu_bots_hard"							"困難"
 		"menu_bots_medium"							"中等"
 		"citadel_bot_name"							"Bot"
-		"menu_watch_live_games"						"{d:live_matches} 場比賽進行中"
+		"menu_watch_live_games"						"{d:live_matches} 場對戰進行中"
 		"menu_botmatchmaking"						"公開BOT對戰"
 		"menu_botmatchmaking_count"					"{s:mm_coopbot_count} 正在隊列中"
 		"menu_changehero"							"更換英雄"
@@ -2373,6 +2383,9 @@
 		"menu_play_bots_easy_desc"					"單人或組隊進行私人BOT對戰。"
         "menu_play_custom_game_desc"				"建立或加入最多 12 位玩家的自訂對戰"
 		"menu_play_bots_hard_desc"					"遊玩一場困難難度下的BOT對戰. 支持單人或組隊配隊。"
+        "menu_play_hero_labs_desc"					"協助測試全新的實驗英雄"
+        "menu_play_hero_labs_locked_desc"			"協助測試全新的實驗英雄。需完成 50 場遊戲後解鎖"
+		
 		"menu_play_get_started_time_est"			"4 分鐘"
 		"menu_play_sandbox_time_est"				"5 分鐘"
 		"menu_play_lane_training_time_est"			"8 分鐘"
@@ -2382,18 +2395,20 @@
 		"menu_play_botmatchmaking_desc"				"與其他玩家一起參與BOT對戰。"
 		"menu_play_browse_shop_desc"				"瀏覽商店中的所有模組來為你的下一場戰鬥做好準備!"
 		"menu_play_learn_to_play_desc"				"先觀看教學，然後進行英雄沙盒訓練和兵線訓練。"
-		"menu_play_matchmaking"						"加入到配隊隊列當中來和其他玩家進行一場標準的休閒比賽。"
+		"menu_play_matchmaking"						"加入到配隊隊列當中來和其他玩家進行一場標準的休閒對戰。"
 		"menu_learn_incomplete"						"未完成"
 		"menu_learn_completed"						"已完成"
-
+		
+		"menu_hero_labs_unavailable"				"鎖定中"
+		"menu_hero_labs_schedule_title"				"開放時間:"
         "menu_play_ranked"							"進行排位賽"
-        "menu_play_ranked_desc"						"與實力相近的玩家進行更具競爭性的比賽。"
+        "menu_play_ranked_desc"						"與實力相近的玩家進行更具競爭性的對戰。"
         "menu_ranked_title"							"排位賽："
         "menu_ranked_schedule_title"				"開放時間："
         "menu_ranked_unavailable"					"未解鎖"
-        "menu_ranked_unavailable_desc"				"你必須完成 50 場標準比賽才能進行排位賽。"
-        "menu_ranked_schedule_weekdays"				"週一 - 週四："
-        "menu_ranked_schedule_weekends"				"週五 - 週日："
+        "menu_ranked_unavailable_desc"				"你必須完成 50 場標準對戰才能進行排位賽。"
+        "menu_ranked_schedule_weekdays_monfri"		"週一 - 週五："
+        "menu_ranked_schedule_weekends_satsun"		"週六 - 週日："
         "menu_ranked_schedule_alldays"				"每日時間表："
         "menu_ranked_schedule_timeplaceholder"		"{t:t:start_time} - {t:t:end_time}"
         "menu_ranked_select_schedule"				"選擇時間表"
@@ -2408,7 +2423,7 @@
         "Citadel_SetSchedule_Selected"				"已選擇"
         "Citadel_SetSchedule_SetSuccessfully"		"時間表設定成功"
         "Citadel_ranked_scheduleModal_title"		"排位賽時間表"
-        "Citadel_ranked_scheduleModal_desc"			"選擇最符合您偏好遊玩時間的排位賽時段。<br><br>無論選擇的時間段為何，您將始終在距離最近的伺服器上進行比賽。"
+        "Citadel_ranked_scheduleModal_desc"			"選擇最符合您偏好遊玩時間的排位賽時段。<br><br>無論選擇的時間段為何，您將始終在距離最近的伺服器上進行對戰。"
         "Citadel_ranked_scheduleModal_warning"		"注意：選擇此排位賽時段後，直到下次賽季開始前，您將無法更改設定。"
         "Citadel_ranked_open"						"現正開放"
         "Citadel_ranked_closed"						"已關閉"
@@ -2417,7 +2432,7 @@
         
         "Citadel_ranked_explainer_button"            "什麼是排位賽？"
         "Citadel_ranked_explainer_title"             "排位賽對戰"
-        "Citadel_ranked_explainer_desc"              "排位賽是一種挑戰模式，提供更具競爭性的 Deadlock 體驗，玩家將與技術相近的對手配對，來確定你的全球技能排名。<br><br>每週，玩家可以選擇在他們區域的開放時段內參加排位賽，通過比賽展示個人技能。"
+        "Citadel_ranked_explainer_desc"              "排位賽是一種挑戰模式，提供更具競爭性的 Deadlock 體驗，玩家將與技術相近的對手配對，來確定你的全球技能排名。<br><br>每週，玩家可以選擇在他們區域的開放時段內參加排位賽，通過對戰展示個人技能。"
         "Citadel_ranked_howitworks_title"            "這是如何運作的？"
         "Citadel_ranked_howitworks_desc"             "所有玩家都從臨時等級「隱密」開始，每週必須完成七場排位賽，才能取得該週的排名。到該週結束時，你將獲得顯示在個人資料上的徽章等級。<br><br>如果在一週結束時你未完成七場排位賽，你的可見等級將退回「隱密」，並保持隱藏狀態，直到你在未來週完成所需條件。儘管如此，基礎技能數據仍將保留並用於未來的排位賽，但不會顯示徽章。<br><br>排位賽共有十一個等級，每個等級內還有 I 到 VI 的子等級，用於更細緻區分你在該等級中的排名。"
         "Citadel_ranked_rankedmedals"                "排位等級："
@@ -2461,17 +2476,17 @@
 		"item_info_cant_afford"						"支付不起"
 		"item_info_actives_full"					"主動模組已滿"
 
-		"AbandonMatchPrompt_Title"					"放棄這場比賽？"
+		"AbandonMatchPrompt_Title"					"放棄這場對戰？"
 		"AbandonMatchPrompt_Text"					"你將無法重新加入，而你的隊伍也將減少一名隊員。並將受到配隊懲罰。"
 		"AbandonMatchPrompt_Confirm"				"拋棄我的朋友"
-		"AbandonMatchPrompt_Cancel"					"繼續比賽"
+		"AbandonMatchPrompt_Cancel"					"繼續對戰"
 
-		"LeaveMatchPrompt_Title"					"離開這場比賽？"
+		"LeaveMatchPrompt_Title"					"離開這場對戰？"
 		"LeaveMatchPrompt_Text"						"一旦離開，你將無法重新加入。"
-		"LeaveMatchPrompt_Confirm"					"離開比賽"
-		"LeaveMatchPrompt_Cancel"					"回到比賽"
+		"LeaveMatchPrompt_Confirm"					"離開對戰"
+		"LeaveMatchPrompt_Cancel"					"回到對戰"
 
-		"SafeToAbandon_Text"						"現在可以安全地放棄這場比賽，不會受到懲罰。"
+		"SafeToAbandon_Text"						"現在可以安全地放棄這場對戰，不會受到懲罰。"
 		
         "ModIconTooltip_UnlockTier2"				"摧毀兩組敵方步行者後解鎖"
         "ModIconTooltip_UnlockGuardians"			"摧毀一組敵方基地守護神後解鎖"	
@@ -2482,8 +2497,8 @@
 
 		"HeroesPageTitle"							"英雄"
 		"HeroesPageActionText"						"選擇英雄查看詳情"
-		"SoloBotMatchPageTitle"						"BOT比賽 - 選擇英雄"
-		"SoloBotMatchActionText"					"選擇參加BOT比賽的英雄"
+		"SoloBotMatchPageTitle"						"BOT對戰 - 選擇英雄"
+		"SoloBotMatchActionText"					"選擇參加BOT對戰的英雄"
 		"HeroTestPageTitle"							"英雄沙盒"
 		"HeroTestActionText"						"選擇要測試的英雄"
 
@@ -2499,8 +2514,8 @@
 		"MyRosterSaveAndBack"						"儲存並返回"
 		"MyRosterCancelForEveryone"					"取消配隊"
 		"MyRosterRosterEmpty"						"陣容為空"
-		"MyRosterRosterDesc"						"為了進入比賽配隊隊列,你需要添加至少三名英雄到你的陣容裡。"
-		"MyRosterNoHeroDesc"						"當你進入比賽時，你將被分配到其中一個英雄進行比賽。"
+		"MyRosterRosterDesc"						"為了進入對戰配隊隊列,你需要添加至少三名英雄到你的陣容裡。"
+		"MyRosterNoHeroDesc"						"當你進入對戰時，你將被分配到其中一個英雄進行對戰。"
 		"MyRosterNumHeroesInRoster"					"{i:num_heroes_in_roster} 名英雄在陣容內"
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster} 名英雄在陣容內"
 		"MyRosterGreatForNewPlayers"				"非常適合新手玩家"
@@ -2623,7 +2638,7 @@
 		"NewPlayer_HeroSandbox_Time"				"5 分鐘"
 		"NewPlayer_LaneTraining"					"學習前期遊戲，請查看<span class='TaskHighlight'>對線訓練</span>"
 		"NewPlayer_LaneTraining_Time"				"8 分鐘"
-		"NewPlayer_YouAreFinished"					"你準備好了！在練習或進行第一場比賽中嘗試BOT比賽！"
+		"NewPlayer_YouAreFinished"					"你準備好了！在練習或進行第一場對戰中嘗試BOT對戰！"
 		"NewPlayer_Finish"							"結束訓練"				
 
 		"HeroTraining_Intro_Title"					"歡迎來到 <b>英雄訓練</b>"
@@ -2684,7 +2699,7 @@
 		"Sandbox_Tutorial_Completed_desc"			"請自由的在這裡遊玩. 如果你準備好了就可以退出沙盒模式開始對線訓練。"
 
 		"BrowseItems_Title"							"瀏覽模組"
-		"BrowseItems_Desc"							"瀏覽商品目錄，為下一次比賽做好準備!"
+		"BrowseItems_Desc"							"瀏覽商品目錄，為下一次對戰做好準備!"
 		
 		"CreateBuilds_Title"						"為 {s:hero_name} 建立一套模組構築"
 		"CreateBuilds_Desc"							"在商店中選擇項目，將其添加到推薦的構築列表中"
@@ -2737,7 +2752,7 @@
 		//-----------------------------------------------------------------------------
 		"GuidedBotMatch_KeepPlaying"				"繼續遊玩"
 		"GuidedBotMatch_Finish"						"結束"
-		"GuidedBotMatch_Concluded"					"你已經掌握了這個遊戲的基本內容，去配隊一場比賽或者在沙盒模式下測試英雄吧。"
+		"GuidedBotMatch_Concluded"					"你已經掌握了這個遊戲的基本內容，去配隊一場對戰或者在沙盒模式下測試英雄吧。"
 		"GuidedBotMatch_Start"						"開始"
 
 
