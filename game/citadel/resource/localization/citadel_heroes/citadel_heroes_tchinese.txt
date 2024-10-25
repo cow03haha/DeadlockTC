@@ -2015,6 +2015,11 @@
 		"hero_tengu_role"				"與幸運盟友組成強力二人組"
 		"hero_synth_role"				"滲透並擾亂後防線"
         "hero_mirage_role"                "把握時機射擊，捕捉逃跑的目標"
+        "hero_slork_role"				"潛入戰鬥後隱藏以恢復"
+        "hero_synth_role"				"滲透並擾亂後排"
+        "hero_viper_role"				"潛入並刺殺敵人"
+        "hero_magician_role"			"迷惑並詛咒敵人"
+
 
 
         "hero_akimbo_playstyle"         "Akimbo 擅長近距離作戰，他依靠速度、錐形攻擊和大量子彈盡可能多地擊中目標。"
