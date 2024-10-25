@@ -1860,12 +1860,35 @@
 
 		//"slork_chomp"				"Chomp"
 		//"slork_chomp_desc"			"<span class=\"highlight\">Dash forward and grab onto an enemy</span>, biting them repeatedly. The enemy is slowed, disarmed, and silenced while grappled. When the target is <span class=\"highlight\">below half health</span>, deal an additional <span class=\"highlight_tech\">{s:DamagePercentHealth}%</span> of their max health in damage."
-		"HobbledMovementSlow_Label" "Movement Slow"
-		"HobbledMovementSlow_postfix" "%"
+        "HobbledMovementSlow_Label" "移動減速"
+        "HobbledMovementSlow_postfix" "%"
 		//"slork_chomp_t2_desc"		"+{s:ChompHealPercent}% Lifesteal from Chomp damage"
         //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+        "fathom_scalding_spray"			"灼熱噴霧"
+        "fathom_scalding_spray_quip"	"向前方呈錐形噴灑灼熱的水。"
+        "fathom_scalding_spray_desc"	"向前方呈錐形噴灑灼熱的水。隨著噴霧對敵方英雄造成傷害，你會累積額外的武器傷害。"
+        "WeaponDamageBonusPerSec_label"		"每秒武器傷害增益"
+        "WeaponDamageBonusPerSec_postfix"	"%"
+
+        "fathom_breach"				"突破"
+        "fathom_breach_quip"		"向敵人衝刺"
+        "fathom_breach_desc"		"向前衝刺，對著陸點附近的所有敵人造成傷害，並將他們擊飛。"
+
+        "fathom_defer_damage"		"放血"
+        "fathom_defer_damage_quip"	"延緩受到的部分傷害"
+        
+        "fathom_reefdweller_harpoon"		"礁居者魚叉"
+        "fathom_reefdweller_harpoon_quip"	"投擲魚叉拉向一個表面。"
+        "fathom_reefdweller_harpoon_desc"	"投擲魚叉並固定在表面上，將自己拉向該處。掛在魚叉表面時，你會處於<span class=\"highlight\">隱身和無敵</span>狀態。敵人直視Fathom會揭示隱身狀態。"
+        "fathom_reefdweller_harpoon_passive_desc" "被動：脫離戰鬥並在小地圖上隱藏時，每秒<span class=\"highlight\">恢復一部分最大生命值</span>。"
+        "modifier_fathom_reefdweller_harpoon_latched"	"礁居者魚叉"
+        "fathom_reefdweller_harpoon/regen"	"脫戰恢復"
+        "fathom_reefdweller_harpoon/latched"	"附著於牆壁"
+        "OutOfCombatRegen_label"			"最大生命值恢復"
+        "OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
