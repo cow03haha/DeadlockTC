@@ -1069,8 +1069,8 @@
 
 		"ConvertedHealth_label"						"Trooper Health"
 
-		"SilenceDuration_label"							"Silence Duration"
-		"SilenceDuration_postfix"						" seconds"
+		"SilenceDuration_label"							"沉默持續時間"
+		"SilenceDuration_postfix"						" 秒"
 
 		"Range_postfix"									"公尺"
 		"Range_label"									"Range"
@@ -1080,8 +1080,8 @@
 
 		"ConeRadius_label"							"Lightning Distance"
 		"ConeRadius_postfix"							"公尺"
-		"ConeAngle_label"						"Cone Angle"
-		"ConeAngle_postfix"						" deg"
+		"ConeAngle_label"						"錐形角度"
+		"ConeAngle_postfix"						" 度"
 
 		"ShockRadius_label"							"範圍"
 		"ShockRadius_postfix"						"公尺"
