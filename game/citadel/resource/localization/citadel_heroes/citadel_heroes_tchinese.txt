@@ -690,6 +690,7 @@
 		"ability_warden_riot_protocol"			"最後防線"
         "ability_warden_riot_protocol_quip"		"發出脈衝來竊取敵人的生命值"
         "ability_warden_riot_protocol_desc"		"在充能 {s:AbilityCastDelay} 秒後，<span class=\"highlight\">釋放脈衝來傷害敵人並根據造成的傷害治癒你</span>。<br>在引導最後防線期間，你的<span class=\"highlight\">子彈抗性</span>將大幅提升。"
+        "ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}秒</span>冷卻時間，並在引導時獲得<span class=\"highlight\">勢不可擋效果</span>。" 
         "modifier_warden_riot_protocol"			"最後防線"
         "modifier_warden_riot_protocol_enemy_debuff"	"減速"
         "HealthStealPctHero_label"				"英雄單位吸血"
