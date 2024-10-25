@@ -1923,44 +1923,45 @@
         // Hero Magician
         //-----------------------------------------------------------------------------
         
-        "ability_magician_magicbolt" "Vexing Bolt"
-        "ability_magician_magicbolt_desc" "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fading Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs."
-        "ProjectileRedirectCount_label" "Max Redirects"
-        "ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} Max Redirects and +{s:Damage} Damage"
-        "ability_magician_magicbolt_quip" "Launch a guided bolt of magic"
-
-        "citadel_ability_magewalk" "Misdirection"
-        "citadel_ability_magewalkk_desc" "Briefly become <span class=\"highlight\">Untargetable</span> before appearing at your destination. Your first <span class=\"highlight\">{s:EmpoweredAttackCount} attacks</span> deal bonus <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br><span class=\"highlight\">[Cast]</span> Appear at the target location.<br><span class=\"highlight\">[Alt-Cast]</span> Appear in place.</span><br><span class=\"diminish\">Enemies will not know which cast you performed.</span>"
-        "MageTime_label" "Untargetable Duration"
-        "MageTime_postfix" "s"
-        "modifier_magewalk_empoweredattacks" "Lucky Card"
-
-        "ability_magician_cloneturret" "Spectral Assistant"
-        "ability_magician_cloneturret_desc" "Summon an <span class=\"highlight\">Assistant</span> at the target location. They mimic your attacks, throwing cards that deal <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your Assistant."
-        "ability_magician_cloneturret_t3_desc" "The Assistant also mimics Vexing Bolt"
-        "ability_magician_cloneturret_quip" "Summon your faithful assistant"
-
-        "ability_magician_animalcurse" "Rabbit Hex"
-        "ability_magician_animalcurse_desc" "Hex a target, transforming them into a <span class=\"highlight\">Rabbit</span>. Rabbits are smaller and move faster, but receive a Damage Amp and cannot perform most actions.<br><span class=\"highlight\">[Cast]</span> Hex target hero.<br><span class=\"highlight\">[Alt-Cast]</span> Hex yourself.<br><span class=\"diminish\">Hex does not interrupt abilities.</span>"
-        "ability_magician_animalcurse/animalhex_curse_modifier" "Hexed!"
-        "ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Hex</span> nearby enemies for <span class=\"highlight\">half duration</span>."
-        "DamageAmpPercentage_label" "Damage Amp"
-        "DamageAmpPercentage_postfix" "%"
-        "ability_magician_animalcurse_quip" "Transform your enemy into a rabbit"
+        "ability_magician_magicbolt" "煩擾箭"
+        "ability_magician_magicbolt_desc" "發射一支魔法箭，造成<span class=\"highlight_spirit\">靈魂傷害</span>並施加<span class=\"highlight\">逐漸減速</span>。<br><br>按<span class=\"highlight\">[{s:in_ability1}]</span>將魔法箭<span class=\"highlight\">重定向</span>至你的準星方向。"
+        "ProjectileRedirectCount_label" "最大重定向次數"
+        "ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} 最大重定向次數和 +{s:Damage} 傷害"
+        "ability_magician_magicbolt_quip" "發射一支可控制方向的魔法箭"
         
+        "citadel_ability_magewalk" "誤導"
+        "citadel_ability_magewalk_desc" "短暫<span class=\"highlight\">無法被選取</span>後出現在目的地。你的前<span class=\"highlight\">{s:EmpoweredAttackCount}次攻擊</span>會造成額外的<span class=\"highlight_spirit\">靈魂傷害</span>。<br><br><span class=\"highlight\">[施放]</span> 出現在目標位置。<br><span class=\"highlight\">[Alt-施放]</span> 原地出現。<br><span class=\"diminish\">敵人無法知道你使用了哪種施放方式。</span>"
+        "MageTime_label" "無法被選取的持續時間"
+        "MageTime_postfix" "秒"
+        "modifier_magewalk_empoweredattacks" "幸運卡牌"
 
-        "ability_magician_stage" "Captive Audience"
-        "ability_magician_stage_desc" "Target an enemy. You and the target enemy are bound on Stage, unable to leave. All other characters are pushed out of the radius."
 
-        "ability_magician_shadowclone" "The Great Homonculus!"
-        "ability_magician_shadowclone_desc" "Create a <span class=\"highlight\">Copy</span> of yourself with reduced health and damage. When the clone dies or expires it explodes, dealing Spirit Damage.<br><br><span class=\"diminish\">The Copy cannot use their Ultimate ability.</span>"
-        "CloneHealthPercentage_label" "Copy Health"
+        "ability_magician_cloneturret" "靈幻助手"
+        "ability_magician_cloneturret_desc" "在目標位置召喚一名<span class=\"highlight\">助手</span>。助手會模仿你的攻擊，投擲造成<span class=\"highlight_spirit\">靈魂傷害</span>的牌。<br><br>按下<span class=\"highlight\">[{s:in_ability2}]</span>與助手交換位置。"
+        "ability_magician_cloneturret_t3_desc" "助手還會模仿煩擾箭。"
+        "ability_magician_cloneturret_quip" "召喚你忠誠的助手"
+        
+        "ability_magician_animalcurse" "兔子詛咒"
+        "ability_magician_animalcurse_desc" "對目標施加詛咒，將其變成一隻<span class=\"highlight\">兔子</span>。兔子體型較小，移動速度更快，但會受到額外傷害並無法執行大部分動作。<br><span class=\"highlight\">[施放]</span> 詛咒目標英雄。<br><span class=\"highlight\">[Alt-施放]</span> 詛咒你自己。<br><span class=\"diminish\">詛咒不會中斷技能。</span>"
+        "ability_magician_animalcurse/animalhex_curse_modifier" "被詛咒了！"
+        "ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">詛咒</span>附近敵人，持續<span class=\"highlight\">一半時間</span>。"
+        "DamageAmpPercentage_label" "額外傷害"
+        "DamageAmpPercentage_postfix" "%"
+        "ability_magician_animalcurse_quip" "將你的敵人變成兔子"
+
+        "ability_magician_stage" "囚禁觀眾"
+        "ability_magician_stage_desc" "選定一名敵人。你與目標敵人將被束縛在舞台上，無法離開。所有其他角色將被推離該範圍。"
+        
+        "ability_magician_shadowclone" "偉大的人造人！"
+        "ability_magician_shadowclone_desc" "創造一個<span class=\"highlight\">分身</span>，擁有減少的生命與傷害。當分身死亡或消失時，它會爆炸，對敵人造成靈魂傷害。<br><br><span class=\"diminish\">分身無法使用終極技能。</span>"
+        "CloneHealthPercentage_label" "分身生命值"
         "CloneHealthPercentage_postfix" "%"
-        "CloneDamagePercentage_label" "Copy Damage"
+        "CloneDamagePercentage_label" "分身傷害"
         "CloneDamagePercentage_postfix" "%"
-        "CloneLifetime_label" "Copy Duration"
-        "CloneLifetime_postfix" "s" 
-        "ability_magician_shadowclone_t3_desc"	"Copy can cast their <span class=\"highlight\">Ultimate Ability</span>."
+        "CloneLifetime_label" "分身持續時間"
+        "CloneLifetime_postfix" "秒"
+        "ability_magician_shadowclone_t3_desc" "分身可以施放他們的<span class=\"highlight\">終極技能</span>。"
+
 
         //-----------------------------------------------------------------------------
         // END HERO ABILITIES
