@@ -1872,6 +1872,102 @@
 		//"modifier_slork_visible"	"Can't hide"
 		//"modifier_slork_lastbreath"	"Last Breath"
 		//"modifier_slork_lastbreath_damage_amp" "Baited"
+		
+		
+        //-----------------------------------------------------------------------------
+        // Hero Viper
+        //-----------------------------------------------------------------------------
+        "ability_viper_hookdagger" "勾刃"
+        "ability_viper_hookdagger_desc" "投擲一把匕首，造成<span class=\"highlight_spirit\">靈魂傷害</span>。匕首會回勾，再次造成<span class=\"highlight_spirit\">靈魂傷害</span>並施加<span class=\"highlight\">減速</span>效果。"
+        "ability_viper_hookdagger_t3_desc"	"投擲額外的<span class=\"highlight\">2把匕首</span>"
+        "ability_viper_hookdagger_quip" "投擲一把會回勾的匕首"
+        
+        "ability_viper_snakedash" "滑行"
+        "ability_viper_snakedash_desc" "滑行距離增加，能在坡地上滑行，並能在滑行時轉彎更快。</span>"
+        "ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% 子彈閃避</span>滑行時"
+        "ability_viper_snakedash_quip" "提升滑行的敏捷性"
+
+
+        "modifier_snakedash" "蛇形態"
+        "OutgoingDamage_label" "初始傷害"
+        "ReturnDamage_label" "回勾傷害"
+        "OutgoingProjectileLifetime_label" "回勾延遲"
+        "OutgoingProjectileLifetime_postfix" "秒"
+        
+        "ability_viper_venom" "致命毒液"
+        "ability_viper_venom_desc" "向目標注射致命毒液。經過一段延遲後，毒液觸發，造成<span class=\"highlight_spirit\">魂力傷害</span>。傷害隨目標的缺失生命值增加。<br><br><span class=\"diminish\">重新施加毒液會刷新持續時間。</span>"
+        "VenomMinDamage_label" "最低毒液傷害"
+        "VenomMaxDamage_label" "最高毒液傷害"
+        "VenomDuration_label" "毒液積累時間"
+        "VenomDuration_postfix" "秒"
+        "VenomMaxDamageHealthPercentage_label" "達到最大傷害的生命值百分比"
+        "VenomMaxDamageHealthPercentage_postfix" "%"
+        "ability_viper_venom_t3_desc" "+<span class=\"highlight\">{s:VenomMissingHealthDamagePercentage}% 缺失生命值傷害</span>"
+        "VenomMissingHealthDamagePercentage_label" "缺失生命值傷害"
+        "VenomMissingHealthDamagePercentage_postfix" "%"
+        "ability_viper_venom_quip" "向敵人注入致命毒液"
+
+
+        
+        "ability_viper_ult" "石化"
+        "ability_viper_ult_desc" "在地面上創建一個被詛咒的區域。延遲後，圓柱形區域內的所有單位將被<span class=\"highlight\">石化</span>，敵人還會承受<span class=\"highlight_spirit\">靈魂傷害</span>。<br><br><span class=\"diminish\">石化單位將無法行動並阻擋所有傷害，但在阻擋足夠傷害後會解除石化狀態。</span>"
+        "PetrifyDuration_label" "石化持續時間"
+        "PetrifyDuration_postfix" "秒"
+        "PetrifyDamageBreakThreshold_label" "石化最大阻擋傷害"
+        "ability_viper_ult/viper_ult_petrify" "石化"
+        "ability_viper_ult_quip" "將盟友和敵人都變成石頭"
+        "HalfHeight_postfix" "公尺"
+
+
+        //-----------------------------------------------------------------------------
+        // Hero Magician
+        //-----------------------------------------------------------------------------
+        
+        "ability_magician_magicbolt" "Vexing Bolt"
+        "ability_magician_magicbolt_desc" "Fire a bolt of magic that deals <span class=\"highlight_spirit\">Spirit Damage</span> and applies a <span class=\"highlight\">Fading Slow</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability1}]</span> to <span class=\"highlight\">redirect</span> the bolt towards your crosshairs."
+        "ProjectileRedirectCount_label" "Max Redirects"
+        "ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} Max Redirects and +{s:Damage} Damage"
+        "ability_magician_magicbolt_quip" "Launch a guided bolt of magic"
+
+        "citadel_ability_magewalk" "Misdirection"
+        "citadel_ability_magewalkk_desc" "Briefly become <span class=\"highlight\">Untargetable</span> before appearing at your destination. Your first <span class=\"highlight\">{s:EmpoweredAttackCount} attacks</span> deal bonus <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br><span class=\"highlight\">[Cast]</span> Appear at the target location.<br><span class=\"highlight\">[Alt-Cast]</span> Appear in place.</span><br><span class=\"diminish\">Enemies will not know which cast you performed.</span>"
+        "MageTime_label" "Untargetable Duration"
+        "MageTime_postfix" "s"
+        "modifier_magewalk_empoweredattacks" "Lucky Card"
+
+        "ability_magician_cloneturret" "Spectral Assistant"
+        "ability_magician_cloneturret_desc" "Summon an <span class=\"highlight\">Assistant</span> at the target location. They mimic your attacks, throwing cards that deal <span class=\"highlight_spirit\">Spirit Damage</span>. <br><br>Press <span class=\"highlight\">[{s:in_ability2}]</span> to swap positions with your Assistant."
+        "ability_magician_cloneturret_t3_desc" "The Assistant also mimics Vexing Bolt"
+        "ability_magician_cloneturret_quip" "Summon your faithful assistant"
+
+        "ability_magician_animalcurse" "Rabbit Hex"
+        "ability_magician_animalcurse_desc" "Hex a target, transforming them into a <span class=\"highlight\">Rabbit</span>. Rabbits are smaller and move faster, but receive a Damage Amp and cannot perform most actions.<br><span class=\"highlight\">[Cast]</span> Hex target hero.<br><span class=\"highlight\">[Alt-Cast]</span> Hex yourself.<br><span class=\"diminish\">Hex does not interrupt abilities.</span>"
+        "ability_magician_animalcurse/animalhex_curse_modifier" "Hexed!"
+        "ability_magician_animalcurse_t3_desc" "<span class=\"highlight\">Hex</span> nearby enemies for <span class=\"highlight\">half duration</span>."
+        "DamageAmpPercentage_label" "Damage Amp"
+        "DamageAmpPercentage_postfix" "%"
+        "ability_magician_animalcurse_quip" "Transform your enemy into a rabbit"
+        
+
+        "ability_magician_stage" "Captive Audience"
+        "ability_magician_stage_desc" "Target an enemy. You and the target enemy are bound on Stage, unable to leave. All other characters are pushed out of the radius."
+
+        "ability_magician_shadowclone" "The Great Homonculus!"
+        "ability_magician_shadowclone_desc" "Create a <span class=\"highlight\">Copy</span> of yourself with reduced health and damage. When the clone dies or expires it explodes, dealing Spirit Damage.<br><br><span class=\"diminish\">The Copy cannot use their Ultimate ability.</span>"
+        "CloneHealthPercentage_label" "Copy Health"
+        "CloneHealthPercentage_postfix" "%"
+        "CloneDamagePercentage_label" "Copy Damage"
+        "CloneDamagePercentage_postfix" "%"
+        "CloneLifetime_label" "Copy Duration"
+        "CloneLifetime_postfix" "s" 
+        "ability_magician_shadowclone_t3_desc"	"Copy can cast their <span class=\"highlight\">Ultimate Ability</span>."
+
+        //-----------------------------------------------------------------------------
+        // END HERO ABILITIES
+        //-----------------------------------------------------------------------------
+		
+		
+		
 
 		// Weapon names
 		"citadel_gun_damage"						"槍械傷害"
