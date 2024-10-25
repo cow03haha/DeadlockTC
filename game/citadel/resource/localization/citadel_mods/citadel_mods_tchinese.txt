@@ -611,7 +611,7 @@
 		"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"選定一個技能，增加該技能<span class=\"highlight\">額外魂力</span>並且當技能施放時獲得 <span class=\"highlight\">額外移動速度</span> 。"
+		"upgrade_magic_storm_desc"				"將一個技能賦予<span class=\"highlight\">永久魂力</span>。使用該技能時，獲得額外的<span class=\"highlight\">移動速度</span>，並在攻擊時保持全速。" 
 		"modifier_upgrade_magic_storm"			"澎湃動力"
 
 		//Suppressor
