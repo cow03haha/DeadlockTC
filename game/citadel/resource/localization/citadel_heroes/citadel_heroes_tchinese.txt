@@ -2183,9 +2183,9 @@
 		"hero_rutger_playstyle"		"Rocket Launcher能讓他擁有火箭跳躍技能，力場能讓他關閉移動選項，“欺騙死亡 ”能讓他扭轉戰局，而在團戰中釋放的 “脈衝 ”則能決定勝負。"
 		"hero_synth_playstyle"		"Pocket 擁有一把威力強大的霰彈槍和瘦小的身軀，他們依靠短暫遁入神秘手提箱和透過飛行斗篷瞬移的技能，在近距離遭遇戰中生存下來。"
 		"hero_mirage_playstyle"		"Mirage 能夠將自己包裹在猛烈的龍捲風中追趕敵人並將其舉起。他的聖甲蟲能幫助他在面對多名敵人時保持生存，並隨時準備支援盟友或懲罰敵人。"
-		"hero_slork_playstyle"		"Slork的武器會讓所有擊中的人中毒。初級射擊會擊中錐形範圍內的所有目標，瞄準射擊會射出飛鏢，飛鏢擊中中毒目標時會命中目標。"
-		"hero_tengu_playstyle"		"Ivy擁有破壞性的戰鬥技巧，可以施加減少移速和眩暈。她與盟友聯手時效果最佳，能增強她和盟友的槍枝威力，還能共享治療效果。"
-		"hero_viper_playstyle"		"憑藉強大的武器（和致命的毒液），Viper 可以潛入敵方後方，並在子彈風暴中暗殺高優先級目標。"
+        "hero_slork_playstyle"		"Fathom是一位近距離刺客，擅長快速進出戰場，並在持久戰中取勝。"
+        "hero_tengu_playstyle"		"Ivy擅長運用干擾戰術，能夠減速並暈眩敵人。當她與隊友連結時，能有效提升雙方的火力並共享治療效果，發揮最大效益。"
+		"hero_viper_playstyle"		"憑藉強大的武器與致命的毒液，Viper 可以潛入敵方後方，並在混亂的彈雨中暗殺高優先級目標。"
         "hero_magician_playstyle"	"在不情願的助手幫助下，Magician 能用曲折的詛咒和迅捷的卡片迷惑敵人。"
 
 
