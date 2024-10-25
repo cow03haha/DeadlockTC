@@ -1050,8 +1050,8 @@
         "StatueLifestealNonHero_postfix"        "%"
         "StatueActivateRange_label"             "偵測範圍"
         "StatueActivateRange_postfix"           "公尺"
-        "StatueHealth_label"                    "艾娃（標準化）"
-        "StatueHealth_postfix"                  "HP"
+        "StatueHealth_label"                    "艾娃生命值"
+        "StatueHealth_postfix"                  "生命"
         "StatueVictimDamageReduction_label"     "傷害減免"
         "StatueVictimDamageReduction_postfix"   "%"
 
