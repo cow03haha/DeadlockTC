@@ -312,7 +312,7 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"無需重新裝滿彈夾"
 
-		"Citadel_MatchInfo_Mode_Ranked"								"排位
+		"Citadel_MatchInfo_Mode_Ranked"								"排位"
 		"Citadel_MatchInfo_Mode_Standard"							"一般"
 		"Citadel_MatchInfo_Mode_HeroLabs"							"英雄實驗室"
 		"Citadel_MatchInfo_Mode_CoopBot"							"合作"
@@ -1884,7 +1884,7 @@
 		"citadel_settings_chat_invert_ping"				"反轉信號"
 		"citadel_settings_mousesensitivity"				"滑鼠靈敏度"
         "citadel_settings_mousesensitivity_y_scale"		"滑鼠靈敏度: 垂直縮放"
-		"citadel_settings_mousezoomsensitivity"			"縮放靈敏度比例"
+        "citadel_settings_mousezoomsensitivity"			"縮放靈敏度比例"
 		"citadel_settings_keybinddefaults"				"恢復所有按鍵綁定預設設定"
 		"citadel_settings_pingwheeldefaults"			"恢復信號輪盤預設設定"
 		"citadel_settings_abilitieskeybinds"			"技能按鍵綁定"
