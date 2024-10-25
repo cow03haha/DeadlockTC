@@ -1008,6 +1008,89 @@
         "modifier_lasso_enemy"					"Being dragged"
         "modifier_lasso_self"					"Dragging someone"
 
+        //-----------------------------------------------------------------------------
+		// Hero Nano // Calico
+		//-----------------------------------------------------------------------------
+
+        "ability_perched_predator"              "賽赫邁特之靈"
+        "ability_perched_predator_desc"         "向前派出靈魂貓，它會抓住路徑上的目標。抓住英雄後會在短時間內引發爆炸。<br>按 [{s:in_ability1}] 可手動引爆。"
+        "ability_perched_predator_quip"         "派出靈魂貓抓住敵人"
+        //"CatExplosionCount_label"             "爆炸次數"
+        //"CatMaxSpeed_label"                   "靈魂貓最大速度"
+        "CatMaxSpeed_postfix"                   "公尺/秒"
+        //"CatLifetime_label"                   "靈魂貓存活時間"
+        "CatLifetime_postfix"                   "秒"
+		
+        "ability_nano_pounce"                   "撲擊"
+        "ability_nano_pounce_quip"              "向你的敵人撲去"
+        "ability_nano_pounce_desc"              "<span class=\"highlight\">撲擊</span>目標，對附近的敵人造成<span class=\"highlight\">輕型近戰傷害</span>並<span class=\"highlight\">減速</span>。<br>如果在<span class=\"highlight\">{s:DoublePounceTime}秒</span>內使用，您可以對<span class=\"highlight\">第二個目標</span>使用撲擊。"
+        "ability_nano_pounce_t1_desc"           "<span class=\"highlight\">+{s:SlowDuration}秒</span> 減速持續時間"
+        "ability_nano_pounce_t2_desc"           "裝填最多<span class=\"highlight\">{s:ActiveReloadPercent}%</span>的彈藥並應用<span class=\"highlight\">+{s:FireRateSlow}%</span>射速減慢效果。"
+        "ability_nano_pounce_t3_desc"           "<span class=\"highlight\">+{s:Damage}</span> 傷害和<span class=\"highlight\">+{s:AbilityCharges}</span>技能次數。"
+        "PounceDebuffRadius_label"              "減速範圍"
+        "PounceDebuffRadius_postfix"            "公尺"
+
+		
+        "PounceFriendlyRechargeTime_label"      "友軍充能時間"
+        "PounceFriendlyRechargeTime_postfix"    "秒"
+        "PounceFriendlyTargetCD_label"          "友軍冷卻時間"
+        "PounceFriendlyTargetCD_postfix"        "秒"
+        "pounce_double_notify"                  "雙重撲擊"
+
+
+        "ability_nano_proximity_ritual"         "貓又守護"
+        "ability_nano_proximity_ritual_quip"    "部署雕像以監控區域"
+        "ability_nano_proximity_ritual_desc"    "部署一個<span class=\"highlight\">雕像</span>來追蹤區域內的敵人。守護將攻擊最近被{s:hero_name}傷害的敵人。被標記的敵人治療量降低，當受傷時會<span class=\"highlight\">治療{s:hero_name}</span>。"
+        "StatueLifetime_label"                  "自動召回時間"
+        "StatueLifetime_postfix"                "秒"
+        "StatueHeldRegen_label"                 "召回時再生"
+        "StatueLifesteal_label"                 "吸血"
+        "StatueLifesteal_postfix"               "%"
+        "StatueLifestealNonHero_label"          "非英雄吸血"
+        "StatueLifestealNonHero_postfix"        "%"
+        "StatueActivateRange_label"             "偵測範圍"
+        "StatueActivateRange_postfix"           "公尺"
+        "StatueHealth_label"                    "艾娃（標準化）"
+        "StatueHealth_postfix"                  "HP"
+        "StatueVictimDamageReduction_label"     "傷害減免"
+        "StatueVictimDamageReduction_postfix"   "%"
+
+
+        "ability_nano_proximity_ritual_t1_desc"  "雕像在不攻擊時獲得<span class=\"highlight\">隱身</span>效果。"
+        "ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> 能力充能次數，並提升<span class=\"highlight\">+{s:DPS}</span> 每秒傷害。"
+        "ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> 傷害減免，並對目標造成 {s:HealAmpReceivePenaltyPercent}% 治療減少效果。"
+        "ability_nano_proximity_ritual_trigger"  "召回艾娃"
+        
+        "AvaRecallCooldown_label"                "召回冷卻時間"
+        "AvaRecallCooldown_postfix"              "秒"
+        "AbilityButtonHint_AvaRecall"            "召回艾娃"
+        "AbilityButtonHint_AvaWarp"              "傳送至艾娃"
+        "CITADEL_ABILITY_NO_HEALTH_RESOURCE"     "無法使用"
+
+
+        "ability_nano_shadow_step"				"暗影女王"
+        "ability_nano_shadow_step_desc"			"標記你的敵人，將自己沐浴在暗影中以強化你的攻擊並使自己<span class=\"highlight\">隱身</span>。攻擊只會暫時暴露你。對敵人造成<span class=\"highlight\">近戰傷害</span>將降低他們的子彈抗性（可堆疊）"
+        "ability_nano_shadow_step_quip"			"進入暗影，對敵人獲得優勢"
+        "modifier_nano_shadow_step"				"暗影步"
+        "NanoShadowBulletArmorReductionLight_prefix"	"-"
+        "NanoShadowBulletArmorReductionLight_label"	"子彈抗性（輕）"
+        "NanoShadowBulletArmorReductionHeavy_prefix"	"-"
+        "NanoShadowBulletArmorReductionHeavy_label"	"子彈抗性（重）"
+        "NanoShadowBulletArmorReductionDuration_label" "子彈抗性持續時間"
+        "NanoShadowBulletArmorReductionDuration_postfix" "秒"
+        "NanoShadowMeleeAttackSpeedBonus_prefix"	"+"	
+        "NanoShadowMeleeAttackSpeedBonus_label"		"近戰攻擊速度"
+        "NanoShadowMeleeAttackSpeedBonus_postfix"		"%"
+        "SilenceOnHeavyDuration_label"				"沉默持續時間"
+        "SilenceOnHeavyDuration_postfix"			"秒"
+        
+        "modifier_nano_shadow_debuff"			"-子彈抗性"
+        
+        "ability_nano_shadow_step_t2_desc"		"<span class=\"highlight\">+{s:SlowResistancePercent}%</span> 當前活動中的減速抗性"
+        "ability_nano_shadow_step_t3_desc"		"重型近戰攻擊造成<span class=\"highlight\">沉默</span>，持續 {s:SilenceOnHeavyDuration} 秒"
+
+
+
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
 		// hero_archer
