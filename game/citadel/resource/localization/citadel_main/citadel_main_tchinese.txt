@@ -723,6 +723,10 @@
 		"Citadel_Roster_Instructions_Desc"							"選擇至少三名英雄，比賽開始時你將會自動分配到其中一名。<br><br>你可以將英雄標記為<span class='selected'><b>“已選”</b></span>、<span class='priority'><b>“優先”</b></span>，或者<span class='high_priority'><b>“高優先”</b></span>，以提高分配到該英雄的機率。"
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> 以將一名英雄標記為“已選擇”"
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> 以在<b>“優先”</b>與<b>“高優先”</b>之間切換"
+		
+		"Citadel_Roster_Instructions_Title_HeroLabs"              "英雄實驗室"
+        "Citadel_Roster_Instructions_Desc_HeroLabs"               "排隊體驗或對抗新的實驗性英雄。<br><br>選擇至少三位英雄，其中<b>至少兩位必須是標準的、非測試的英雄。</b>根據玩家上次使用任何實驗性英雄的時間長短，他們將更有可能從名單中獲得一位實驗性英雄。"
+
 
 		"Citadel_ViewMatchID_Title"									"查看比賽 ID"
 		"Citadel_ViewMatchID_Desc"									"輸入比賽ID來查看比賽資訊"
@@ -1108,6 +1112,13 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"顯示公告"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"關閉公告"
 		"Citadel_Dashboard_ViewLibrary"								"查看圖書館"
+        "Citadel_Dashboard_Status_Mode_Unranked"					"一般對戰"
+        "Citadel_Dashboard_Status_Mode_Ranked"						"排位對戰"
+        "Citadel_Dashboard_Status_Mode_HeroLabs"					"英雄實驗室對戰"
+        "Citadel_Dashboard_Status_Mode_Private"						"私人對戰"
+        "Citadel_Dashboard_Status_Mode_Coop"						"合作Bot對戰"
+        
+        "Citadel_Dashboard_ShowHeroLabHeroes"						"顯示實驗英雄"
 
 		"Citadel_Watch_Title"										"觀看比賽"
 		"Citadel_Watch_Featured"									"精選比賽"
@@ -2519,6 +2530,7 @@
 		"MyRosterNumHeroesInRoster"					"{i:num_heroes_in_roster} 名英雄在陣容內"
 		"MyRosterNumHeroesInRosterSingular"			"{i:num_heroes_in_roster} 名英雄在陣容內"
 		"MyRosterGreatForNewPlayers"				"非常適合新手玩家"
+        "MyRosterHeroLabsHero"						"英雄實驗室"
 		"MyRosterAssignedTesting"					"指定測試"
 		"MyRosterAssignedOpenTesting"				"開放測試"
 		"MyRosterChangeHero"						"更換英雄"
