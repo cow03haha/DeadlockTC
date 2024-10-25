@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" "無法移動"
 		"Citadel_StatusEffectDisarmed"	"繳械"
 		"Citadel_StatusEffectInvisible"	"隱形"
+        "Citadel_StatusEffectPetrify"	"石化"
 		"Citadel_StatusEffectStacks"	"層 "
 		"Citadel_StatusEffectInfiniteClip"	"無限彈匣"
 		"Citadel_StatusEffectBulletDebuff"	"子彈弱化"
@@ -1099,7 +1100,7 @@
 		"TechLifesteal_postfix"						"%"
 		"TechRange_postfix"							"%"
 
-		"HealingPercent_label"						"Heal Percent"
+		"HealingPercent_label"						"治療百分比"
 		"HealingPercent_postfix"						"%"
 
 		"AbilityCooldownBetweenCharge_label"			"Charge Delay"
@@ -1124,7 +1125,7 @@
 		"AbilityChannelTime_label"					"持續施法時間"
 
 		"AbilityCastDelay_postfix"					"秒"
-		"AbilityCastDelay_label"					"Cast Delay"
+		"AbilityCastDelay_label"					"施放延遲"
 
 		"AbilityCharges_label"						"充能"
 		
@@ -1285,7 +1286,7 @@
 		"ImmobilizeDuration_label"					"束縛持續"
 		"ImmobilizeDuration_postfix"					"秒"
 
-		"AirControlPercent_label"					"Air Control"
+		"AirControlPercent_label"					"空中控制"
 		"AirControlPercent_prefix"							"{s:sign}"
 		"AirControlPercent_postfix"							"%"
 
