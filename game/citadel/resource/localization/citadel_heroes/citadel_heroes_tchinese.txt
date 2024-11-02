@@ -931,7 +931,7 @@
 
 		"citadel_ability_sticky_bomb"			"黏彈"
 		"citadel_ability_sticky_bomb_quip"		"在敵人身上安放定時爆炸的炸彈"
-		"citadel_ability_sticky_bomb_desc"		"將黏性炸彈附著於附近的目標上，並在短暫的引爆時間後造成<span class=\"highlight\">爆炸傷害</span>。<br>每命中一名敵方英雄即可獲得一層炸彈增益，提升<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%炸彈傷害</span>。<br>每當有敵方英雄在受到炸彈傷害後的{s:KillCheckWindow}秒內被擊殺時，獲得<span class="highlight">+{s:BonusDamagePctPerPlayerKilled}%的炸彈傷害</span>。<br>搭配自我施法組合鍵[{s:key_alt_cast}] 對自身施放。"
+		"citadel_ability_sticky_bomb_desc"		"將黏性炸彈附著於附近的目標上，並在短暫的引爆時間後造成<span class=\"highlight\">爆炸傷害</span>。<br>每命中一名敵方英雄即可獲得一層炸彈增益，提升<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%炸彈傷害</span>。<br>每當有敵方英雄在受到炸彈傷害後的<span class=\"highlight\">{s:KillCheckWindow}秒</span>內被擊殺時，獲得<span class=\"highlight\">+{s:BonusDamagePctPerPlayerKilled}%的炸彈傷害</span>。<br>搭配自我施法組合鍵[{s:key_alt_cast}] 對自身施放。"
 		"modifier_citadel_sticky_bomb_attached"	"炸彈安到你身上了"
 		"citadel_ability_sticky_bomb_t3_desc"	"當目標敵人受到黏彈效果後同時附加<span class=\"highlight\">繳械</span>持續<span class=\"highlight\">{s:DebuffDuration}秒</span>"
 		"StunTargetOnExplode_label"				"持續"
