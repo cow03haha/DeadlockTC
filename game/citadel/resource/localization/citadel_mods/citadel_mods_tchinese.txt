@@ -782,7 +782,7 @@
 		"modifier_citadel_basicdamagereflect" 	"歸還火力"
 
 		//Metal Skin
-		"upgrade_metal_skin_desc"						"使用後在持續時間內<span class=\"highlight\">對近戰傷害和子彈傷害免疫</span>"
+		"upgrade_metal_skin_desc"						"使用後在持續時間內<span class=\"highlight\">對子彈傷害免疫</span>"
 		"AbilityApplyDelay_label"						"持續時間"
 		"AbilityApplyDelay_postfix"						"秒"
 		"modifier_citadel_metal_skin"								"金屬皮膚"

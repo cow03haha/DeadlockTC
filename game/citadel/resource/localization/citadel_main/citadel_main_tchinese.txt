@@ -1120,6 +1120,11 @@
         
         "Citadel_Dashboard_ShowHeroLabHeroes"						"顯示實驗英雄"
 
+		"Citadel_Dashboard_CompilingShaders"						"正在預先加載地圖並編譯著色器，進度:{d:prewarm_progress}/{d:prewarm_progress_total}"
+		"Citadel_Dashboard_CompilingShaders_Title"					"預先加載地圖及著色器"
+		"Citadel_Dashboard_CompilingShaders_Desc"					"進度:{d:prewarm_progress}/{d:prewarm_progress_total}"
+		"Citadel_Dashboard_CompilingShaders_Play_Tooltip"			"等待地圖預載入和著色器編譯完成。"
+
 		"Citadel_Watch_Title"										"觀看比賽"
 		"Citadel_Watch_Featured"									"精選比賽"
 		"Citadel_Watch_Loading"										"載入中..。"
