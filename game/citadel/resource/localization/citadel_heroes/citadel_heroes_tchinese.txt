@@ -267,7 +267,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_chrono_time_wall"		"時光之牆"
 		"citadel_ability_chrono_time_wall_quip"	"創造一面牆，大大減緩敵方單投射物速度"
-		"citadel_ability_chrono_time_wall_desc"	"使用後在自身前方創造一面<span class=\"highlight\">時光之牆</span>，讓所有接觸到它的敵方目標的<span class=\"highlight\">投射物和子彈</span>暫時停滯。 碰到牆壁的敵方目標會受到按<span class=\"highlight\">最大生命值百分比的傷害</span>，並短暫減少移速。"
+		"citadel_ability_chrono_time_wall_desc"	"使用後在自身前方創造一面<span class=\"highlight\">時光之牆</span>，讓所有接觸到它的敵方目標的<span class=\"highlight\">投射物和子彈</span>暫時停滯。 碰到牆壁的敵方目標會短暫減少移速。"
 		"TargetGameplayTimeScale_label"			"尺寸"
 		"TargetGameplayTimeScale_postfix"			"%"
 		"TimeWallWidth_label"						"寬度"
@@ -283,6 +283,7 @@
 		"modifier_citadel_chrono_time_wall_effect"  "時光之牆"
 		//citadel_ability_chrono_time_wall_t1_desc		"牆會增加 <span class=\"highlight\">悖論的移速</span>"
 		"citadel_ability_chrono_time_wall_t1_desc"		"增加<span class=\"highlight\">{s:TimeWallWidth}m 寬度,{s:TimeWallHeight}m高度</span>"
+		"citadel_ability_chrono_time_wall_t2_desc"		"對碰到時光之牆的敵方目標造成最大生命<span class=\"highlight\">{s:DamagePctPerWallHit}%</span>的傷害"
 		"citadel_ability_chrono_time_wall_t3_desc"		"碰到時光之牆的敵方目標會被<span class=\"highlight\">沉默持續</span>{s:DebuffDuration}秒"
 		"modifier_timewall_damageamp"				"傷害增幅"
 
@@ -529,7 +530,7 @@
 		"ability_sleep_dagger_desc"		"使用後丟出一把可以對敵方目標造成<span class=\"highlight\">傷害和施加睡眠效果</span>的匕首。沉睡的目標在受傷後不久就會醒來。投擲匕首不會破壞隱形。"
 		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep"		"睡眠"
 		"ability_sleep_dagger_t1_desc"	"<span class=\"highlight\">移除{s:StaminaReduction}點耐力</span>"
-		"ability_sleep_dagger_t3_desc"	"醒來後目標<span class=\"highlight\">{s:BulletResistReduction}%</span>子彈抗性持續{s:BulletResistReductionDuration}秒"
+		"ability_sleep_dagger_t3_desc"	"醒來後目標獲得<span class=\"highlight\">{s:BulletResistReduction}%</span>子彈抗性以及<span class=\"highlight\">-{s:FireRateSlow}%</span>射速持續{s:BulletResistReductionDuration}秒"
 
 		"modifier_citadel_sleep_dagger_asleep"	"睡眠"
 		//HazeDaggerRadius_label			"命中範圍"
@@ -695,7 +696,7 @@
 
 		"ability_warden_riot_protocol"			"最後防線"
         "ability_warden_riot_protocol_quip"		"發出脈衝來竊取敵人的生命值"
-        "ability_warden_riot_protocol_desc"		"在充能 {s:AbilityCastDelay} 秒後，<span class=\"highlight\">釋放脈衝來傷害敵人並根據造成的傷害治癒你</span>。<br>在引導最後防線期間，你的<span class=\"highlight\">子彈抗性</span>將大幅提升。"
+        "ability_warden_riot_protocol_desc"		"在充能 {s:AbilityCastDelay} 秒後，<span class=\"highlight\">釋放脈衝來傷害敵人並根據造成的傷害治癒你</span>。<br>在引導最後防線期間，你的<span class=\"highlight\">子彈抗性</span>和<span class=\"highlight\">魂力抗性</span>將大幅提升。"
         "ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}秒</span>冷卻時間，並在引導時獲得<span class=\"highlight\">勢不可擋效果</span>。" 
         "modifier_warden_riot_protocol"			"最後防線"
         "modifier_warden_riot_protocol_enemy_debuff"	"減速"
@@ -931,7 +932,7 @@
 
 		"citadel_ability_sticky_bomb"			"黏彈"
 		"citadel_ability_sticky_bomb_quip"		"在敵人身上安放定時爆炸的炸彈"
-		"citadel_ability_sticky_bomb_desc"		"將黏性炸彈附著於附近的目標上，並在短暫的引爆時間後造成<span class=\"highlight\">爆炸傷害</span>。<br>每命中一名敵方英雄即可獲得一層炸彈增益，提升<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%炸彈傷害</span>。<br>每當有敵方英雄在受到炸彈傷害後的<span class=\"highlight\">{s:KillCheckWindow}秒</span>內被擊殺時，獲得<span class=\"highlight\">+{s:BonusDamagePctPerPlayerKilled}%的炸彈傷害</span>。<br>搭配自我施法組合鍵[{s:key_alt_cast}] 對自身施放。"
+		"citadel_ability_sticky_bomb_desc"		"將黏性炸彈附著於附近的目標上，並在短暫的引爆時間後造成<span class=\"highlight\">爆炸傷害</span>。<br>每命中一名敵方英雄即可獲得一層炸彈增益，提升<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%炸彈傷害</span>。<br>每當有敵方英雄在受到炸彈傷害後的{s:KillCheckWindow}秒內被擊殺時，獲得<span class=\"highlight\">+{s:BonusDamagePctPerPlayerKilled}%的炸彈傷害</span>。<br>搭配自我施法組合鍵[{s:key_alt_cast}] 對自身施放。"
 		"modifier_citadel_sticky_bomb_attached"	"炸彈安到你身上了"
 		"citadel_ability_sticky_bomb_t3_desc"	"當目標敵人受到黏彈效果後同時附加<span class=\"highlight\">繳械</span>持續<span class=\"highlight\">{s:DebuffDuration}秒</span>"
 		"StunTargetOnExplode_label"				"持續"
@@ -1710,7 +1711,7 @@
 
 		"citadel_ability_infinity_slash"		"影之道"
 		"citadel_ability_infinity_slash_quip"	"化身為無敵、更加強大的存在。"
-		"citadel_ability_infinity_slash_desc"	"融入 Yamato 的暗影之魂中。初始會進行一次<span class=\"highlight\">無敵</span>變身，你的<span class=\"highlight\">技能冷卻重置且施放速度提升 60%</span>，並獲得<span class=\"highlight\">負面狀態免疫</span>。在此模式下，你無法死亡。" 
+		"citadel_ability_infinity_slash_desc"	"融入 Yamato 的暗影之魂中。初始會進行一次<span class=\"highlight\">無敵</span>變身，你的<span class=\"highlight\">技能冷卻重置且施放速度提升 60%</span>，同時獲得<span class=\"highlight\">負面狀態免疫</span>、<span class=\"highlight\">傷害抗性</span>並<span class=\"highlight\">恢復生命</span>。<br>Yamato 擊殺敵方時將延長持續時間。" 
 		"citadel_ability_infinity_slash_buff_header" "每次英雄命中"	
 		"ShadowDuration_label"					"爆炸延遲"
 		"ShadowDuration_postfix"				"秒"
@@ -1719,6 +1720,9 @@
 		"AbilitySpeedPct_label"					"施法速度加成"
 		"AbilitySpeedPct_prefix"				"+"
 		"AbilitySpeedPct_postfix"				"%"
+		"ShadowFormDurationOnKill_label"		"擊殺增加持續時間"
+		"ShadowFormDurationOnKill_prefix"		"+"
+		"ShadowFormDurationOnKill_postfix"		"秒"
 
 		"citadel_ability_infinity_slash/timer"	"影之道"
 
@@ -1765,6 +1769,8 @@
 		"viscous_goo_bowling_ball_desc"					"使用技能後在持續時間內變形為一個<span class=\"highlight\">巨大的凝膠球，撞擊到敵方目標時會造成傷害並施加眩暈。技能持續時間內提供額外子彈和魂力抗性</span>，<span class=\"highlight\">能從牆壁上反彈，還能二段跳。</span>"
 		"viscous_goo_bowling_ball_quip"					"滾來滾去，製造混亂"
 		"viscous_goo_bowling_ball_t3_desc"				"可在滾動時使用技能和物品"
+		"BallRadius_label"								"球體大小"
+		"BallRadius_postfix"							"m"
 
 		"viscous_telepunch"								"凝膠衝擊"
 		"viscous_telepunch_desc"						"使用技能後在<span class=\"highlight\">選定的位置釋放出一個凝膠拳頭</span>，將周圍的單位擊飛。<span class=\"highlight\">敵方目標會受到傷害，同時衝刺距離會短暫縮短，同時減少移速。</span>"

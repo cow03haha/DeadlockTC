@@ -197,6 +197,8 @@
 		"StatDesc_StaminaRegenIncrease_prefix"			"+"
 		"StatDesc_StaminaRegenIncrease"					"耐力恢復"
 		"StatDesc_StaminaRegenIncrease_postfix"			"%"
+		"StatDesc_MeleeResist"							"近戰抗性"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"子彈速度"
 		"StatDesc_BulletSpeed_postfix"					"m/s"
@@ -538,6 +540,9 @@
 		"PoisonDuration_label"							"持續時間"
 		"PoisonDuration_postfix"							"秒"
 
+		"MeleeResistPercent_prefix"						"{s:sign}"
+		"MeleeResistPercent_label"						"近戰抗性"
+		"MeleeResistPercent_postfix"					"%"
 
 		"DebuffDuration_label"						"減益持續時間"
 		"DebuffDuration_postfix"						"秒"
