@@ -1769,6 +1769,8 @@
 		"viscous_goo_bowling_ball_desc"					"使用技能後在持續時間內變形為一個<span class=\"highlight\">巨大的凝膠球，撞擊到敵方目標時會造成傷害並施加眩暈。技能持續時間內提供額外子彈和魂力抗性</span>，<span class=\"highlight\">能從牆壁上反彈，還能二段跳。</span>"
 		"viscous_goo_bowling_ball_quip"					"滾來滾去，製造混亂"
 		"viscous_goo_bowling_ball_t3_desc"				"可在滾動時使用技能和物品"
+		"BallRadius_label"								"球體大小"
+		"BallRadius_postfix"							"m"
 
 		"viscous_telepunch"								"凝膠衝擊"
 		"viscous_telepunch_desc"						"使用技能後在<span class=\"highlight\">選定的位置釋放出一個凝膠拳頭</span>，將周圍的單位擊飛。<span class=\"highlight\">敵方目標會受到傷害，同時衝刺距離會短暫縮短，同時減少移速。</span>"

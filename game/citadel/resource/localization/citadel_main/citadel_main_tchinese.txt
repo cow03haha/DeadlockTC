@@ -2316,7 +2316,7 @@
 
         "Citadel_FlexSlot_Title"						"額外槽位已解鎖"
 		"Citadel_FlexSlotUnlockedAllTier1"				"你已啟用一個額外槽位，摧毀3名 <span class=\"FlexSlotObjectiveName\">敵方守護者</span>"
-		"Citadel_FlexSlotUnlockedGenerator"				"你已啟用一個額外槽位，首次摧毀 <span class=\"FlexSlotObjectiveName\">神龕</span>"
+		"Citadel_FlexSlotUnlockedGenerator"				"你已啟用一個額外槽位，摧毀全部 <span class=\"FlexSlotObjectiveName\">神龕</span>"
 		"Citadel_FlexSlotUnlockedAllTier2"				"你已啟用一個額外槽位，摧毀全部<span class=\"FlexSlotObjectiveName\">敵方步行者</span>"
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"你已啟用一個額外槽位，摧毀2組<span class=\"FlexSlotObjectiveName\">敵方步行者</span>"
 
@@ -2506,7 +2506,7 @@
 		
         "ModIconTooltip_UnlockTier2"				"摧毀兩組敵方步行者後解鎖"
         "ModIconTooltip_UnlockGuardians"			"摧毀一組敵方基地守護神後解鎖"	
-        "ModIconTooltip_UnlockGenerators"			"首次摧毀敵方神龕後解鎖"	
+        "ModIconTooltip_UnlockGenerators"			"摧毀敵方所有神龕後解鎖"	
         //"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
         "ModIconTooltip_UnlockAllTier1"				"摧毀敵方3名守護者後解鎖"
         "ModIconTooltip_UnlockAllTier2"				"摧毀敵方所有步行者後解鎖"
