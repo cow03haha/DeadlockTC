@@ -697,7 +697,6 @@
 		"ability_warden_riot_protocol"			"最後防線"
         "ability_warden_riot_protocol_quip"		"發出脈衝來竊取敵人的生命值"
         "ability_warden_riot_protocol_desc"		"在充能 {s:AbilityCastDelay} 秒後，<span class=\"highlight\">釋放脈衝來傷害敵人並根據造成的傷害治癒你</span>。<br>在引導最後防線期間，你的<span class=\"highlight\">子彈抗性</span>和<span class=\"highlight\">魂力抗性</span>將大幅提升。"
-        "ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}秒</span>冷卻時間，並在引導時獲得<span class=\"highlight\">勢不可擋效果</span>。" 
         "modifier_warden_riot_protocol"			"最後防線"
         "modifier_warden_riot_protocol_enemy_debuff"	"減速"
         "HealthStealPctHero_label"				"英雄單位吸血"
@@ -934,7 +933,8 @@
 		"citadel_ability_sticky_bomb_quip"		"在敵人身上安放定時爆炸的炸彈"
 		"citadel_ability_sticky_bomb_desc"		"將黏性炸彈附著於附近的目標上，並在短暫的引爆時間後造成<span class=\"highlight\">爆炸傷害</span>。<br>每命中一名敵方英雄即可獲得一層炸彈增益，提升<span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%炸彈傷害</span>。<br>每當有敵方英雄在受到炸彈傷害後的{s:KillCheckWindow}秒內被擊殺時，獲得<span class=\"highlight\">+{s:BonusDamagePctPerPlayerKilled}%的炸彈傷害</span>。<br>搭配自我施法組合鍵[{s:key_alt_cast}] 對自身施放。"
 		"modifier_citadel_sticky_bomb_attached"	"炸彈安到你身上了"
-		"citadel_ability_sticky_bomb_t3_desc"	"當目標敵人受到黏彈效果後同時附加<span class=\"highlight\">繳械</span>持續<span class=\"highlight\">{s:DebuffDuration}秒</span>"
+		"citadel_ability_sticky_bomb_t3_desc"	"當目標敵人受到黏彈效果後造成傷害<span class=\"highlight\">{s:OutgoingDamagePenaltyPercent}%</span>持續<span class=\"highlight\">{s:DebuffDuration}秒</span>"
+
 		"StunTargetOnExplode_label"				"持續"
 		"StunTargetOnExplode_postfix"				"秒"
 
