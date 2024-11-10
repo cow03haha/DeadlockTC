@@ -1296,6 +1296,12 @@
         "HeadshotBonus_prefix"					"+"
         "HeadshotBonus_label"					"爆頭傷害"
         "HeadshotBonus_postfix"					"%"
+        "TimeToFullCharge_label" "完全充能時間"
+        "TimeToFullCharge_postfix" "秒"
+        "MinChargeDamagePercent_label" "無充能傷害"
+        "MinChargeDamagePercent_postfix" "%"
+        "AbilityButtonHint_AssassinateFoVCycle" "切換縮放"
+
 
 
 		//-----------------------------------------------------------------------------
