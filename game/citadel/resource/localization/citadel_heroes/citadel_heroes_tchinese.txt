@@ -2026,6 +2026,63 @@
         "CloneLifetime_label" "分身持續時間"
         "CloneLifetime_postfix" "秒"
         "ability_magician_shadowclone_t3_desc" "分身可以施放他們的<span class=\"highlight\">終極技能</span>。"
+        
+        "ability_magician_bigbolt" "壓軸演出！"
+        "ability_magician_bigbolt_desc" "準備三發奇妙的魔法箭。每支箭都會施加<span class=\"highlight\">漸消減速</span>並造成<span class=\"highlight_spirit\">魂力傷害</span>，隨著<span class=\"highlight\">每次射擊傷害會逐漸增加</span>。"
+        "TotalBolts_label" "魔法箭"
+        "DamagePerShot_label" "每箭傷害增益"
+        "ability_magician_bigbolt_t3_desc" "<span class=\"highlight\">+{s:DamagePerShot}</span> 每箭傷害。擊殺後返還<span class=\"highlight\">{s:BoltRefundPerKill}</span>支箭"
+        "AbilityButtonHint_MagicianBigBoltFire" "發射箭"
+
+		//-----------------------------------------------------------------------------
+		// Hero Trapper
+		//-----------------------------------------------------------------------------
+        "ability_trapper_spiderjar" "恐懼之罐"
+        "ability_trapper_spiderjar_desc" "投擲一個罐子，碰撞時爆炸並造成<span class=\"highlight_spirit\">靈魂傷害</span>。罐子釋放出蜘蛛，追擊附近的敵人，並造成額外的<span class=\"highlight_spirit\">魂力傷害</span>。<br><br><span class=\"diminish\">蜘蛛可被敵人射擊摧毀。</span>"
+        "JarDamage_label" "罐子傷害"
+        
+        "ability_trapper_spiderjar_t3_desc" "蜘蛛<span class=\"highlight\">竊取 +{s:SpiritResStolenPerStack}% 魂力抗性</span>，持續 {s:SpiritStealDuration}s"
+        
+        "ability_trapper_spidershield" "蟲害屏障"
+        "ability_trapper_spidershield_desc" "對目標盟友施加屏障，提供<Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">魂力護盾</span>。屏障維持期間，定期造成<Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">魂力傷害</span>，並<Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">減速</span>敵人。"
+        "ShieldTechArmor_label" "護盾靈魂抗性"
+        "ShieldTechArmor_postfix" "%"
+        
+        "ability_trapper_fear" "幽魅絲"
+        "ability_trapper_fear_desc" "對敵人造成魂力傷害可累積漸增的<span class=\"highlight\">減速</span>效果。一旦累積滿，消耗該效果以施加<span class=\"highlight\">定身</span>並造成一陣<span class=\"highlight_spirit\">魂力傷害</span>。<br><br>此效果對每個目標有冷卻時間。"
+        "ability_trapper_fear/trapper_fear_modifier" "恐懼"
+        "BuildupSpiritDamageThreshold_label" "魂力傷害閾值"
+        "BuildUpProcDamage_label" "觸發傷害"
+        
+        "ability_trapper_webwall" "絲網陷阱"
+        "ability_trapper_webwall_desc" "在兩個表面之間創建一條絲網。碰觸絲網的敵人將受到<Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">傷害</span>並<Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">減速</span>。"
+        "WallToWallDistance_label" "最大絲網距離"
+        "WallToWallDistance_postfix" "公尺"
+        "WebDuration_label" "絲網持續時間"
+        "WebDuration_postfix" "秒"
+        "ability_trapper_webwall/modifier_webwall_debuff" "被網住"
+        "ability_trapper_webwall_t3_desc" "絲網還會<span class=\"highlight\">繳械</span>敵人，持續 <span class=\"highlight\">{s:DisarmDuration}</span> 秒"
+
+
+		"ability_trapper_poisonjar" "幻殺毒瓶"
+        "ability_trapper_poisonjar_desc" "投擲一個罐子，留下毒液池，造成<Panel class=\"AbilityPropertyIcon prop_tech_damage\"></Panel><span class=\"highlight_spirit\">傷害</span>並<Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">減速</span>敵人。毒液池會隨時間擴散並增大範圍。"
+        
+        "ability_trapper_spiderwave" "爬行瘟疫"
+        "ability_trapper_spiderwave_desc" "釋放一波幽靈蜘蛛，<span class=\"highlight\">追擊敵人</span>並爆炸，造成<Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">魂力傷害</span>。<br><br>擊中的敵人會被<span class=\"highlight\">中毒</span>，暫時失去<Panel class=\"AbilityPropertyIcon StatDesc_TechPower\"> <span class=\"highlight_spirit\">魂力</span>和<Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">魂力抗性</span>。此效果可多次疊加。"
+        "SpiderCount_label" "釋放蜘蛛數量"
+        "SpiderLifetime_label" "蜘蛛生命時間"
+        "SpiderLifetime_postfix" "秒"
+        "SpiderDamage_label" "蜘蛛傷害"
+        "SpiderSearchRadius_label" "蜘蛛追擊距離"
+        "SpiderSearchRadius_postfix" "公尺"
+        "SpiritStealDuration_label" "魂力減益持續時間"
+        "SpiritReducedPerStack_label" "魂力減少值"
+        "SpiritResReducedPerStack_label" "魂力抗性降低值"
+        "SpiritResReducedPerStack_postfix" "%"
+        "ability_trapper_spiderwave/trapper_stealspirit_buff" "蛛潮"
+        "ability_trapper_spiderwave/trapper_stealspirit_debuff" "蛛潮"
+        "ability_trapper_spiderwave_t2_desc" "額外<span class=\"highlight\">-{s:SpiritReducedPerStack} 魂力</span>和<span class=\"highlight\">-{s:SpiritResReducedPerStack}% 魂力抗性</span>"
+        "ability_trapper_spiderwave_t3_desc" "召喚<span class=\"highlight\">+{s:SpiderCount} 隻蜘蛛</span>"
 
 
         //-----------------------------------------------------------------------------
@@ -2162,6 +2219,8 @@
         "hero_synth_role"				"滲透並擾亂後排"
         "hero_viper_role"				"潛入並刺殺敵人"
         "hero_magician_role"			"迷惑並詛咒敵人"
+        "hero_trapper_role"				"困住敵人並控制戰場區域"
+
 
 
 
