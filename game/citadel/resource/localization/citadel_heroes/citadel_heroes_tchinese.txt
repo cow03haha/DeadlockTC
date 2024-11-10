@@ -1075,7 +1075,7 @@
 
 
         "ability_nano_proximity_ritual_t1_desc"  "雕像在不攻擊時獲得<span class=\"highlight\">隱身</span>效果。"
-        "ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> 能力充能次數，並提升<span class=\"highlight\">+{s:DPS}</span> 每秒傷害。"
+        "ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityDuration}s</span> 持續時間，並增加 <span class=\"highlight\">+{s:DPS}</span> 每秒傷害。"
         "ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> 傷害減免，並對目標造成 {s:HealAmpReceivePenaltyPercent}% 治療減少效果。"
         "ability_nano_proximity_ritual_trigger"  "召回艾娃"
         
