@@ -2259,6 +2259,7 @@
         "hero_tengu_playstyle"		"Ivy擅長運用干擾戰術，能夠減速並暈眩敵人。當她與隊友連結時，能有效提升雙方的火力並共享治療效果，發揮最大效益。"
 		"hero_viper_playstyle"		"憑藉強大的武器與致命的毒液，Viper 可以潛入敵方後方，並在混亂的彈雨中暗殺高優先級目標。"
         "hero_magician_playstyle"	"在不情願的助手幫助下，Magician 能用曲折的詛咒和迅捷的卡片迷惑敵人。"
+        "hero_trapper_playstyle" "Trapper 可以在戰場上布滿受詛咒的幽靈蜘蛛，將潛在的詛咒留在關鍵區域。如果你讓 Trapper 隨心所欲，你將無法在地圖上自由移動而不觸發某種陷阱。"
 
 
 	
