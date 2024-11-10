@@ -701,6 +701,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"減少治療"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+        "HealAmpRegenPenaltyPercent_label"		"減少治療"
+        "HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"減少治療抗性"
 		"DegenResistance_postfix"					"%"

@@ -1904,14 +1904,15 @@
         "fathom_defer_damage_quip"	"延緩受到的部分傷害"
         
         "fathom_reefdweller_harpoon"		"礁居者魚叉"
-        "fathom_reefdweller_harpoon_quip"	"投擲魚叉拉向一個表面。"
-        "fathom_reefdweller_harpoon_desc"	"投擲魚叉並固定在表面上，將自己拉向該處。掛在魚叉表面時，你會處於<span class=\"highlight\">隱身和無敵</span>狀態。敵人直視Fathom會揭示隱身狀態。"
-        "fathom_reefdweller_harpoon_passive_desc" "被動：脫離戰鬥並在小地圖上隱藏時，每秒<span class=\"highlight\">恢復一部分最大生命值</span>。"
+        "fathom_reefdweller_harpoon_quip"	"投擲魚叉將自己拉向一個表面。"
+        "fathom_reefdweller_harpoon_desc"	"投擲一支魚叉並附著於表面，將你拉向目標。在魚叉附著的表面上懸掛時，你將變得<span class=\"highlight\">隱形並無敵</span>。正面看向 Fathom 的敵人將揭露隱形狀態。"
+        "fathom_reefdweller_harpoon_passive_desc" "被動：當你脫離戰鬥並在小地圖上隱藏時，每秒<span class=\"highlight\">恢復你最大生命值的一部分</span>。"
         "modifier_fathom_reefdweller_harpoon_latched"	"礁居者魚叉"
-        "fathom_reefdweller_harpoon/regen"	"脫戰恢復"
-        "fathom_reefdweller_harpoon/latched"	"附著於牆壁"
-        "OutOfCombatRegen_label"			"最大生命值恢復"
-        "OutOfCombatRegen_postfix"			"%"
+        "fathom_reefdweller_harpoon/regen"	"礁居者魚叉恢復"
+        "fathom_reefdweller_harpoon/latched"	"附著在牆上"
+        "NotSeenByEnemiesRegen_label"		"最大生命值恢復"
+        "NotSeenByEnemiesRegen_postfix"		"%"
+
 
 
 		//"slork_ability_4"		"Torrent"
@@ -1982,6 +1983,10 @@
         "ability_viper_ult/viper_ult_petrify" "石化"
         "ability_viper_ult_quip" "將盟友和敵人都變成石頭"
         "HalfHeight_postfix" "公尺"
+        
+        "ability_viper_debuffdagger" "扭擊匕首"
+        "ability_viper_debuffdagger_desc" "投擲一把匕首，造成<span class=\"highlight_spirit\">魂力傷害</span>並施加一個<span class=\"highlight\">衰退緩速</span>效果。"
+        "ability_viper_debuffdagger_t3_desc" "<span class=\"highlight\">+{s:SlowDuration}s</span> 緩速持續時間，並移除 <span class=\"highlight\">{s:StaminaReduction} 耐力</span>"
 
 
         //-----------------------------------------------------------------------------
