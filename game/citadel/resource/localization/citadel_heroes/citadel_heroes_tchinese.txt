@@ -1991,7 +1991,7 @@
         "ability_magician_magicbolt" "煩擾箭"
         "ability_magician_magicbolt_desc" "發射一支魔法箭，造成<span class=\"highlight_spirit\">魂力傷害</span>並施加<span class=\"highlight\">逐漸減速</span>。<br><br>按<span class=\"highlight\">[{s:in_ability1}]</span>將魔法箭<span class=\"highlight\">重定向</span>至你的準星方向。"
         "ProjectileRedirectCount_label" "最大重定向次數"
-        "ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} 最大重定向次數和 +{s:Damage} 傷害"
+        "ability_magician_magicbolt_t3_desc" "提升魔法箭速度並增加 +{s:Damage} 傷害"
         "ability_magician_magicbolt_quip" "發射一支可控制方向的魔法箭"
         
         "citadel_ability_magewalk" "誤導"
