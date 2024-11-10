@@ -1076,6 +1076,8 @@
         "StatueHealth_postfix"                  "生命"
         "StatueVictimDamageReduction_label"     "傷害減免"
         "StatueVictimDamageReduction_postfix"   "%"
+        "StatueAttackRadius_label"				"攻擊範圍"
+        "StatueAttackRadius_postfix"			"公尺"
 
 
         "ability_nano_proximity_ritual_t1_desc"  "雕像在不攻擊時獲得<span class=\"highlight\">隱身</span>效果。"
@@ -1954,7 +1956,7 @@
         
         "ability_viper_snakedash" "滑行"
         "ability_viper_snakedash_desc" "滑行距離增加，能在坡地上滑行，並能在滑行時轉彎更快。</span>"
-        "ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% 子彈閃避</span>滑行時"
+        "ability_viper_snakedash_t3_desc" "<span class=\"highlight\">+{s:SlideResist}% 魂力與子彈抗性</span>於滑行期間"
         "ability_viper_snakedash_quip" "提升滑行的敏捷性"
 
 
