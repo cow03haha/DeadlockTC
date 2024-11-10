@@ -1317,6 +1317,9 @@
 		"Citadel_HeroPage_FatesTale"							"命運的故事:"
 		"Citadel_HeroPage_EditBuild"							"建立/編輯構築"
 		"Citadel_HeroPage_Complexity"							"複雜程度"
+		
+        "Citadel_HeroPage_HeroLabs_Title"                       "此實驗英雄預計會經常進行更動。"
+        "Citadel_HeroPage_HeroLabs_Button"                      "查看更動"
 
 		"Citadel_MatchDetails_ViewGraphs"						"查看圖表"
 		"Citadel_MatchDetails_Report"							"檢舉"
