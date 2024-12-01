@@ -733,13 +733,17 @@
         "ability_wrecker_salvage"				"吞噬"
         "ability_wrecker_salvage_desc"		"<span class=\"highlight\">擊暈</span>一名敵方士兵或NPC，並在抓取過程中<span class=\"highlight\">對其造成傷害</span>。成功擊殺後會提供<span class=\"highlight\">射速</span>加成，並恢復一發<span class=\"highlight\">生化爆破</span>的使用次數。此加成效果可獨立堆疊。"
         "ability_wrecker_salvage_quip"		"吞噬一名敵方士兵或中立單位"
-        "FireRateBuffDuration_label"			"加成持續時間"
-        "FireRateBuffDuration_postfix"		"秒"
-        "SalvageBonus_FireRate_label"			"每次加成的射速"
-        "SalvageBonus_Health_label"			"治療量"
-        "ability_wrecker_salvage_t1_desc"		"每次擊殺<span class=\"highlight\">恢復 {s:SalvageBonus_Health} 生命值</span>。"
-        "SalvageDuration_label"				"最大持續時間"
-        "SalvageDuration_postfix"				"秒"
+        "FireRateBuffDuration_label" "加成持續時間"
+        "FireRateBuffDuration_postfix" "秒"
+        "SalvageBonus_FireRate_label" "每次加成的射速"
+        "SalvageBonus_Health_label" "治療量"
+        "SalvageDuration_label" "最大持續時間"
+        "SalvageDuration_postfix" "秒"
+        "ability_wrecker_salvage_t3_desc" "<span class=\"highlight\">+{s:AbilityUnitTargetLimit}</span> 額外目標"
+        "ability_wrecker_salvage/modifier_wrecker_salvage" "束縛"
+        "ConsumeHealPercentage_label" "消耗治療百分比"
+        "ConsumeHealPercentage_postfix" "%"
+
 
 
         "modifier_wrecker_salvage_buff"		"射速提升"
@@ -1072,10 +1076,12 @@
         "StatueHealth_postfix"                  "生命"
         "StatueVictimDamageReduction_label"     "傷害減免"
         "StatueVictimDamageReduction_postfix"   "%"
+        "StatueAttackRadius_label"				"攻擊範圍"
+        "StatueAttackRadius_postfix"			"公尺"
 
 
         "ability_nano_proximity_ritual_t1_desc"  "雕像在不攻擊時獲得<span class=\"highlight\">隱身</span>效果。"
-        "ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> 能力充能次數，並提升<span class=\"highlight\">+{s:DPS}</span> 每秒傷害。"
+        "ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityDuration}s</span> 持續時間，並增加 <span class=\"highlight\">+{s:DPS}</span> 每秒傷害。"
         "ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> 傷害減免，並對目標造成 {s:HealAmpReceivePenaltyPercent}% 治療減少效果。"
         "ability_nano_proximity_ritual_trigger"  "召回艾娃"
         
@@ -1290,6 +1296,12 @@
         "HeadshotBonus_prefix"					"+"
         "HeadshotBonus_label"					"爆頭傷害"
         "HeadshotBonus_postfix"					"%"
+        "TimeToFullCharge_label" "完全充能時間"
+        "TimeToFullCharge_postfix" "秒"
+        "MinChargeDamagePercent_label" "無充能傷害"
+        "MinChargeDamagePercent_postfix" "%"
+        "AbilityButtonHint_AssassinateFoVCycle" "切換縮放"
+
 
 
 		//-----------------------------------------------------------------------------
@@ -1517,6 +1529,7 @@
         "mirage_sand_phantom_passive_desc" "被動：你的攻擊<span class=\"highlight\">對目標施加逐步增強的乘數</span>。當目標上的乘數過期或達到最大值時，將消耗並對目標造成<span class=\"highlight\">魂力傷害</span>，並暫時<span class=\"highlight\">在地圖上顯示</span>。最終傷害為基礎傷害乘以乘數。"
         "mirage_sand_phantom_t1_desc"     "每次增強乘數時施加{s:MovementSpeedSlow}%減速，持續{s:SlowDuration}秒"
         "mirage_sand_phantom_t2_desc"     "+{s:VictimStackDuration}秒乘數持續時間及+{s:ProcDamageBase}基礎傷害"
+        "mirage_sand_phantom_t3_desc"      "{s:SandPhantomProcCooldown}秒冷卻時間間隔及 +{s:MirageDjinnsMarkMaxStacks} 最大倍數"
         "mirage_teleport_t3_desc"	"到達時，獲得<span class=\"highlight\">免疫</span>暈眩、沉默、睡眠、定身和繳械效果，持續<span class=\"highlight\">{s:ImmunityDuration}秒</span>。"
         "modifier_mirage_sand_phantom_passive_victim" "沙精印記乘數"
         "ProcDamageBase_label"            "基礎傷害"
@@ -1904,14 +1917,15 @@
         "fathom_defer_damage_quip"	"延緩受到的部分傷害"
         
         "fathom_reefdweller_harpoon"		"礁居者魚叉"
-        "fathom_reefdweller_harpoon_quip"	"投擲魚叉拉向一個表面。"
-        "fathom_reefdweller_harpoon_desc"	"投擲魚叉並固定在表面上，將自己拉向該處。掛在魚叉表面時，你會處於<span class=\"highlight\">隱身和無敵</span>狀態。敵人直視Fathom會揭示隱身狀態。"
-        "fathom_reefdweller_harpoon_passive_desc" "被動：脫離戰鬥並在小地圖上隱藏時，每秒<span class=\"highlight\">恢復一部分最大生命值</span>。"
+        "fathom_reefdweller_harpoon_quip"	"投擲魚叉將自己拉向一個表面。"
+        "fathom_reefdweller_harpoon_desc"	"投擲一支魚叉並附著於表面，將你拉向目標。在魚叉附著的表面上懸掛時，你將變得<span class=\"highlight\">隱形並無敵</span>。正面看向 Fathom 的敵人將揭露隱形狀態。"
+        "fathom_reefdweller_harpoon_passive_desc" "被動：當你脫離戰鬥並在小地圖上隱藏時，每秒<span class=\"highlight\">恢復你最大生命值的一部分</span>。"
         "modifier_fathom_reefdweller_harpoon_latched"	"礁居者魚叉"
-        "fathom_reefdweller_harpoon/regen"	"脫戰恢復"
-        "fathom_reefdweller_harpoon/latched"	"附著於牆壁"
-        "OutOfCombatRegen_label"			"最大生命值恢復"
-        "OutOfCombatRegen_postfix"			"%"
+        "fathom_reefdweller_harpoon/regen"	"礁居者魚叉恢復"
+        "fathom_reefdweller_harpoon/latched"	"附著在牆上"
+        "NotSeenByEnemiesRegen_label"		"最大生命值恢復"
+        "NotSeenByEnemiesRegen_postfix"		"%"
+
 
 
 		//"slork_ability_4"		"Torrent"
@@ -1949,7 +1963,7 @@
         
         "ability_viper_snakedash" "滑行"
         "ability_viper_snakedash_desc" "滑行距離增加，能在坡地上滑行，並能在滑行時轉彎更快。</span>"
-        "ability_viper_snakedash_t3_desc"	"<span class=\"highlight\">+{s:SlideBulletEvasion}% 子彈閃避</span>滑行時"
+        "ability_viper_snakedash_t3_desc" "<span class=\"highlight\">+{s:SlideResist}% 魂力與子彈抗性</span>於滑行期間"
         "ability_viper_snakedash_quip" "提升滑行的敏捷性"
 
 
@@ -1982,6 +1996,10 @@
         "ability_viper_ult/viper_ult_petrify" "石化"
         "ability_viper_ult_quip" "將盟友和敵人都變成石頭"
         "HalfHeight_postfix" "公尺"
+        
+        "ability_viper_debuffdagger" "扭擊匕首"
+        "ability_viper_debuffdagger_desc" "投擲一把匕首，造成<span class=\"highlight_spirit\">魂力傷害</span>並施加一個<span class=\"highlight\">衰退緩速</span>效果。"
+        "ability_viper_debuffdagger_t3_desc" "<span class=\"highlight\">+{s:SlowDuration}s</span> 緩速持續時間，並移除 <span class=\"highlight\">{s:StaminaReduction} 耐力</span>"
 
 
         //-----------------------------------------------------------------------------
@@ -1991,7 +2009,7 @@
         "ability_magician_magicbolt" "煩擾箭"
         "ability_magician_magicbolt_desc" "發射一支魔法箭，造成<span class=\"highlight_spirit\">魂力傷害</span>並施加<span class=\"highlight\">逐漸減速</span>。<br><br>按<span class=\"highlight\">[{s:in_ability1}]</span>將魔法箭<span class=\"highlight\">重定向</span>至你的準星方向。"
         "ProjectileRedirectCount_label" "最大重定向次數"
-        "ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} 最大重定向次數和 +{s:Damage} 傷害"
+        "ability_magician_magicbolt_t3_desc" "提升魔法箭速度並增加 +{s:Damage} 傷害"
         "ability_magician_magicbolt_quip" "發射一支可控制方向的魔法箭"
         
         "citadel_ability_magewalk" "誤導"
@@ -2026,6 +2044,63 @@
         "CloneLifetime_label" "分身持續時間"
         "CloneLifetime_postfix" "秒"
         "ability_magician_shadowclone_t3_desc" "分身可以施放他們的<span class=\"highlight\">終極技能</span>。"
+        
+        "ability_magician_bigbolt" "壓軸演出！"
+        "ability_magician_bigbolt_desc" "準備三發奇妙的魔法箭。每支箭都會施加<span class=\"highlight\">漸消減速</span>並造成<span class=\"highlight_spirit\">魂力傷害</span>，隨著<span class=\"highlight\">每次射擊傷害會逐漸增加</span>。"
+        "TotalBolts_label" "魔法箭"
+        "DamagePerShot_label" "每箭傷害增益"
+        "ability_magician_bigbolt_t3_desc" "<span class=\"highlight\">+{s:DamagePerShot}</span> 每箭傷害。擊殺後返還<span class=\"highlight\">{s:BoltRefundPerKill}</span>支箭"
+        "AbilityButtonHint_MagicianBigBoltFire" "發射箭"
+
+		//-----------------------------------------------------------------------------
+		// Hero Trapper
+		//-----------------------------------------------------------------------------
+        "ability_trapper_spiderjar" "恐懼之罐"
+        "ability_trapper_spiderjar_desc" "投擲一個罐子，碰撞時爆炸並造成<span class=\"highlight_spirit\">靈魂傷害</span>。罐子釋放出蜘蛛，追擊附近的敵人，並造成額外的<span class=\"highlight_spirit\">魂力傷害</span>。<br><br><span class=\"diminish\">蜘蛛可被敵人射擊摧毀。</span>"
+        "JarDamage_label" "罐子傷害"
+        
+        "ability_trapper_spiderjar_t3_desc" "蜘蛛<span class=\"highlight\">竊取 +{s:SpiritResStolenPerStack}% 魂力抗性</span>，持續 {s:SpiritStealDuration}s"
+        
+        "ability_trapper_spidershield" "蟲害屏障"
+        "ability_trapper_spidershield_desc" "對目標盟友施加屏障，提供<Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">魂力護盾</span>。屏障維持期間，定期造成<Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">魂力傷害</span>，並<Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">減速</span>敵人。"
+        "ShieldTechArmor_label" "護盾靈魂抗性"
+        "ShieldTechArmor_postfix" "%"
+        
+        "ability_trapper_fear" "幽魅絲"
+        "ability_trapper_fear_desc" "對敵人造成魂力傷害可累積漸增的<span class=\"highlight\">減速</span>效果。一旦累積滿，消耗該效果以施加<span class=\"highlight\">定身</span>並造成一陣<span class=\"highlight_spirit\">魂力傷害</span>。<br><br>此效果對每個目標有冷卻時間。"
+        "ability_trapper_fear/trapper_fear_modifier" "恐懼"
+        "BuildupSpiritDamageThreshold_label" "魂力傷害閾值"
+        "BuildUpProcDamage_label" "觸發傷害"
+        
+        "ability_trapper_webwall" "絲網陷阱"
+        "ability_trapper_webwall_desc" "在兩個表面之間創建一條絲網。碰觸絲網的敵人將受到<Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">傷害</span>並<Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">減速</span>。"
+        "WallToWallDistance_label" "最大絲網距離"
+        "WallToWallDistance_postfix" "公尺"
+        "WebDuration_label" "絲網持續時間"
+        "WebDuration_postfix" "秒"
+        "ability_trapper_webwall/modifier_webwall_debuff" "被網住"
+        "ability_trapper_webwall_t3_desc" "絲網還會<span class=\"highlight\">繳械</span>敵人，持續 <span class=\"highlight\">{s:DisarmDuration}</span> 秒"
+
+
+		"ability_trapper_poisonjar" "幻殺毒瓶"
+        "ability_trapper_poisonjar_desc" "投擲一個罐子，留下毒液池，造成<Panel class=\"AbilityPropertyIcon prop_tech_damage\"></Panel><span class=\"highlight_spirit\">傷害</span>並<Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">減速</span>敵人。毒液池會隨時間擴散並增大範圍。"
+        
+        "ability_trapper_spiderwave" "爬行瘟疫"
+        "ability_trapper_spiderwave_desc" "釋放一波幽靈蜘蛛，<span class=\"highlight\">追擊敵人</span>並爆炸，造成<Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">魂力傷害</span>。<br><br>擊中的敵人會被<span class=\"highlight\">中毒</span>，暫時失去<Panel class=\"AbilityPropertyIcon StatDesc_TechPower\"> <span class=\"highlight_spirit\">魂力</span>和<Panel class=\"AbilityPropertyIcon prop_tech_armor_up\"> <span class=\"highlight_spirit\">魂力抗性</span>。此效果可多次疊加。"
+        "SpiderCount_label" "釋放蜘蛛數量"
+        "SpiderLifetime_label" "蜘蛛生命時間"
+        "SpiderLifetime_postfix" "秒"
+        "SpiderDamage_label" "蜘蛛傷害"
+        "SpiderSearchRadius_label" "蜘蛛追擊距離"
+        "SpiderSearchRadius_postfix" "公尺"
+        "SpiritStealDuration_label" "魂力減益持續時間"
+        "SpiritReducedPerStack_label" "魂力減少值"
+        "SpiritResReducedPerStack_label" "魂力抗性降低值"
+        "SpiritResReducedPerStack_postfix" "%"
+        "ability_trapper_spiderwave/trapper_stealspirit_buff" "蛛潮"
+        "ability_trapper_spiderwave/trapper_stealspirit_debuff" "蛛潮"
+        "ability_trapper_spiderwave_t2_desc" "額外<span class=\"highlight\">-{s:SpiritReducedPerStack} 魂力</span>和<span class=\"highlight\">-{s:SpiritResReducedPerStack}% 魂力抗性</span>"
+        "ability_trapper_spiderwave_t3_desc" "召喚<span class=\"highlight\">+{s:SpiderCount} 隻蜘蛛</span>"
 
 
         //-----------------------------------------------------------------------------
@@ -2162,6 +2237,8 @@
         "hero_synth_role"				"滲透並擾亂後排"
         "hero_viper_role"				"潛入並刺殺敵人"
         "hero_magician_role"			"迷惑並詛咒敵人"
+        "hero_trapper_role"				"困住敵人並控制戰場區域"
+
 
 
 
@@ -2200,6 +2277,7 @@
         "hero_tengu_playstyle"		"Ivy擅長運用干擾戰術，能夠減速並暈眩敵人。當她與隊友連結時，能有效提升雙方的火力並共享治療效果，發揮最大效益。"
 		"hero_viper_playstyle"		"憑藉強大的武器與致命的毒液，Viper 可以潛入敵方後方，並在混亂的彈雨中暗殺高優先級目標。"
         "hero_magician_playstyle"	"在不情願的助手幫助下，Magician 能用曲折的詛咒和迅捷的卡片迷惑敵人。"
+        "hero_trapper_playstyle" "Trapper 可以在戰場上布滿受詛咒的幽靈蜘蛛，將潛在的詛咒留在關鍵區域。如果你讓 Trapper 隨心所欲，你將無法在地圖上自由移動而不觸發某種陷阱。"
 
 
 	
